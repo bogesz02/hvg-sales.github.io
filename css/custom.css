@@ -209,23 +209,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
 .user-profile-page .interest-page-header + div > h3 {
   margin-top: 10px;
 }
-body.read-mode button.accordion-mobile-aszf {
-  background: #2f2f2f !important;
-}
-body.read-mode button.accordion-mobile-aszf.active {
-  background: #e25900 !important;
-}
-body.read-mode .aszf-container {
-  background: transparent;
-  padding: 20px;
-  box-shadow: none;
-}
-body.read-mode .aszf-container .panel-content {
-  background-color: #222;
-}
-body.read-mode .aszf-container .scroll-to-top-aszf-mobile {
-  background-color: transparent;
-}
 .adsense-dfp {
   margin: 20px 0 5px;
 }
