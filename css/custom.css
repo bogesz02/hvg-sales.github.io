@@ -79,32 +79,6 @@ input[type=button].accordion-mobile-aszf {
     max-width: 690px;
   }
 }
-body {
-  /* &.chrome.android {
-        &.article-page {
-            .main-tag-container .main-tag {
-                .main-tag-link {
-                    margin: -1px;
-                }
-                &.tag-active .main-tag-link {
-                    border-radius: 2px;
-                }
-            }
-        }
-    }*/
-}
-body.article-page {
-  /*@media screen and (min-resolution: 192dpi) {
-            .main-tag-container .main-tag {
-                .main-tag-link {
-                    margin: -1px;
-                }
-                &.tag-active .main-tag-link {
-                    border-radius: 2px;
-                }
-            }
-        }*/
-}
 body.article-page .main-tag-container {
   padding-bottom: 20px;
   padding-top: 15px;
