@@ -168,10 +168,10 @@ body.font-size .font-settings .info {
   margin: 20px 0 10px 0 !important;
 }
 .article-content div.social-fb-panel .fb_iframe_widget_fluid span {
-  min-height: 50px;
+  min-height: 60px;
 }
 .article-content div.social-fb-panel iframe {
-  min-height: 50px !important;
+  min-height: 60px !important;
 }
 .grid-view .grid-article-blog .image-holder a {
   background-position: 50% 50%;
