@@ -1,7 +1,6 @@
 button,
 .button,
 input[type=button] {
-  background: #e25900;
   /* aszf */
 }
 button.accordion-mobile-aszf,
@@ -243,9 +242,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
     padding: 6px;
   }
 }
-.sidebar.user-profile-sidebar {
-  height: 100%;
-}
 .user-profile-page .interest-page-header + div > h3 {
   margin-top: 10px;
 }
@@ -268,9 +264,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
 .aszf-container .accordion-mobile-aszf {
   color: #222;
   background: #ebebeb;
-}
-body.read-mode .user-profile-page .author-page-header {
-  border-bottom: 0;
 }
 body.read-mode button.accordion-mobile-aszf {
   background: #2f2f2f !important;
