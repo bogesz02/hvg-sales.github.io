@@ -1,14 +1,8 @@
-button,
-.button,
-input[type=button] {
-  /* aszf */
-}
 button.accordion-mobile-aszf,
 .button.accordion-mobile-aszf,
 input[type=button].accordion-mobile-aszf {
   background: transparent;
 }
-/* dark mode sponsor */
 .site-header-sponsor {
   display: none;
 }
@@ -170,7 +164,6 @@ body.font-size .font-settings .info {
   width: 27px;
   height: 30px;
 }
-/* blog no image */
 .grid-view .grid-article-blog .image-holder a {
   background-position: 50% 50%;
   background-size: 120%;
@@ -178,7 +171,6 @@ body.font-size .font-settings .info {
 body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   background-color: #313131;
 }
-/* tag follow */
 .main-tag-container .main-tag {
   display: flex;
 }
@@ -199,7 +191,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   top: 50%;
   transform: translateY(-50%);
 }
-/* nyüzsi fejléc */
 @media screen and (min-width: 320px) {
   .boxheader-nyuzsi header.boxheader {
     width: calc(100% - 40px);
@@ -210,7 +201,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
     width: calc(100% - 60px);
   }
 }
-/* user profile page */
 @media screen and (max-width: 360px) {
   .sidebar label.button-filter {
     padding: 6px;
@@ -219,7 +209,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
 .user-profile-page .interest-page-header + div > h3 {
   margin-top: 10px;
 }
-/* aszf */
 .aszf-container {
   background: transparent;
   padding: 20px;
@@ -256,7 +245,6 @@ body.read-mode .aszf-container .panel-content {
 body.read-mode .aszf-container .scroll-to-top-aszf-mobile {
   background-color: transparent;
 }
-/* google adSense */
 .adsense-dfp {
   margin: 20px 0 5px;
 }
@@ -270,7 +258,6 @@ body.read-mode .aszf-container .scroll-to-top-aszf-mobile {
     width: 100vw !important;
   }
 }
-/* parallax FPA */
 body.parallax-ad:before {
   content: "";
   position: fixed;
