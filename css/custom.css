@@ -165,6 +165,9 @@ body.font-size .font-settings .info {
   height: 30px;
 }
 @media screen and (max-width: 767px) {
+  .article-content div.social-fb-panel .fb_iframe_widget_fluid span {
+    min-height: 50px;
+  }
   .article-content div.social-fb-panel iframe {
     min-height: 50px !important;
   }
