@@ -160,10 +160,6 @@ body.font-size .font-settings .info {
 .article-content .mobile-pr-article a.caption {
   color: #888;
 }
-.footer .icon-huawei {
-  width: 27px;
-  height: 30px;
-}
 .article-content div.social-fb-panel {
   margin: 20px 0 10px 0 !important;
 }
@@ -172,10 +168,6 @@ body.font-size .font-settings .info {
 }
 .article-content div.social-fb-panel iframe {
   min-height: 60px;
-}
-.grid-view .grid-article-blog .image-holder a {
-  background-position: 50% 50%;
-  background-size: 120%;
 }
 body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   background-color: #313131;
