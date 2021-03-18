@@ -209,25 +209,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
 .user-profile-page .interest-page-header + div > h3 {
   margin-top: 10px;
 }
-.aszf-container {
-  background: transparent;
-  padding: 20px;
-  box-shadow: none;
-}
-.aszf-container .scroll-to-top-aszf-mobile {
-  background-color: #222;
-  width: 40px;
-  padding: 10px;
-  border-radius: 2px;
-  display: none;
-}
-.aszf-container hr {
-  height: 1px;
-}
-.aszf-container .accordion-mobile-aszf {
-  color: #222;
-  background: #ebebeb;
-}
 body.read-mode button.accordion-mobile-aszf {
   background: #2f2f2f !important;
 }
