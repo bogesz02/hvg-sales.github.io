@@ -18,49 +18,49 @@ button, .button, input[type=button] {
 .adtype-tagbox {
 	.articlebox {
 		.articlebox {
-            .articleitem {
-                @media screen and (min-width: 768px) {
-                    padding: 20px;
-                    &:first-of-type {
-                        padding: 0;
-                    }
-                }
-            }
+            // .articleitem {
+            //     @media screen and (min-width: 768px) {
+            //         padding: 20px;
+            //         &:first-of-type {
+            //             padding: 0;
+            //         }
+            //     }
+            // }
 
             &:first-of-type {
                 .more {
-                    margin: 20px auto !important;
+                    margin: 20px auto !important; //master > no important?
                 }
             }
-            //.column-page & {
-            &.tag-box {
-                .articleitem {
-                    .text-holder {
-                        p, .article-lead {
-                            padding-bottom: 0;
-                        }
-                    }
-                    &:first-of-type {
-                        padding: 0;
-                        .text-holder {
-                            padding: 0 20px 20px;
-                        }
-                    }
-                }
-            }
-            //}
+
+            // &.tag-box {
+            //     .articleitem {
+            //         .text-holder {
+            //             p, .article-lead {
+            //                 padding-bottom: 0;
+            //             }
+            //         }
+            //         &:first-of-type {
+            //             padding: 0;
+            //             .text-holder {
+            //                 padding: 0 20px 20px;
+            //             }
+            //         }
+            //     }
+            // }
+
         }
     }
-    @media screen and (min-width: 992px) {
-        max-width: 690px;
-        margin: 0 auto;
-    }
+    // @media screen and (min-width: 992px) {
+    //     max-width: 690px;
+    //     margin: 0 auto;
+    // }
 }
-.adtype-tagbox, .adtype-tematic {
-	.caption {
-        border: 0;
-    }
-}
+// .adtype-tagbox, .adtype-tematic { 
+// 	.caption {
+//         border: 0;
+//     }
+// }
 
 .author-page-header .text-holder a {
     display: block; //master
@@ -73,7 +73,7 @@ button, .button, input[type=button] {
 }
 
 // boxheader home first of type
-.placeholder-ad, .article-page .article-view-wrap {
+.placeholder-ad, .article-page .article-view-wrap { // master
     + .boxheader {
         &:nth-of-type(2) {
             width: calc(~'100% - 40px');
@@ -84,21 +84,21 @@ button, .button, input[type=button] {
     }
 }
 
-.article-page .article-view-wrap + .boxheader:first-of-type {
-    margin-bottom: 20px;
-    @media screen and (min-width: 768px) {
-        width: calc(~'100% - 60px');
-    }
-    @media screen and (min-width: 992px) {
-        width: 100%;
-        padding: 20px 0;
-        max-width: 690px;
-    }
-}
+// .article-page .article-view-wrap + .boxheader:first-of-type {
+//     margin-bottom: 20px;
+//     @media screen and (min-width: 768px) {
+//         width: calc(~'100% - 60px');
+//     }
+//     @media screen and (min-width: 992px) {
+//         width: 100%;
+//         padding: 20px 0;
+//         max-width: 690px;
+//     }
+// }
 
 body {
     &.article-page {
-        .main-tag-container {
+        .main-tag-container { // master
             padding-bottom: 20px;
             padding-top: 15px;
             @media screen and (min-width: 768px) {
@@ -109,7 +109,7 @@ body {
                 padding: 15px 0 0 0;
             }
         }
-        .article-content {
+        .article-content { //master
             p {
                 clear: both;
             }
@@ -145,7 +145,7 @@ body {
     //     }
     // }
 
-    &:not(.article-page) .main-tag-container {
+    &:not(.article-page) .main-tag-container { // master
         margin: 0;
         padding-bottom: 0;
 
