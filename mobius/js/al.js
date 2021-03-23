@@ -147,7 +147,8 @@ window.onGoa3Event = function (jQueryEvent, goa3Event) {
         });
     };
     $.fn.adPerspective = function (options) {
-
+		//hack for csstransforms3d support - modernzr bug
+		$('html').removeClass('no-csstransforms3d');
         $('body').on('click', '.ad-perspective-container .link', function () {
             console.log('Nagy kép CT');
         });
