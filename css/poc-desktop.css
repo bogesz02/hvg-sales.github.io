@@ -8,6 +8,9 @@
   display: flex;
   flex-direction: column;
 }
+body.latest-page .ad-poc {
+  height: 523px;
+}
 .ad-poc-content {
   position: relative;
   padding: 20px;
@@ -40,6 +43,9 @@
   position: relative;
   z-index: 4;
   margin-top: 10px;
+}
+body.latest-page .ad-poc-video {
+  width: 410px;
 }
 .ad-poc-bg {
   position: absolute;
