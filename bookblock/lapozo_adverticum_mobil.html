@@ -265,7 +265,45 @@ function initFlickity() {
 
     $carouselAd.on('ready.flickity', function () {
     //console.log('Flickity ready');
-    zoom();
+    //zoom();
+
+	var image = $( ".carousel-cell .zoom img" );
+
+image.each().on('gesturechange',function(e){
+	//$.each(image, function (e) {
+
+    if(e.scale>1){
+		zoom();
+        //zoom in 
+        //increase the size of image according to the e.scale
+    }
+
+    else if(e.scale<1){
+        //zoom out 
+        //decrease the size of image according to the e.scale
+    }
+});
+
+	// function onScale(el, callback) {
+	// 	let hypo = undefined;
+
+	// 	el.addEventListener('touchmove', function(event) {
+	// 		if (event.targetTouches.length === 2) {
+	// 			let hypo1 = Math.hypot((event.targetTouches[0].pageX - event.targetTouches[1].pageX),
+	// 				(event.targetTouches[0].pageY - event.targetTouches[1].pageY));
+	// 			if (hypo === undefined) {
+	// 				hypo = hypo1;
+	// 			}
+	// 			callback(hypo1/hypo);
+	// 		}
+	// 	}, false);
+
+
+	// 	el.addEventListener('touchend', function(event) {
+	// 		hypo = undefined;
+	// 	}, false);
+	// }
+
     //initPagerAds();
     });
     
