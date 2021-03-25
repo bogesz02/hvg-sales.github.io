@@ -269,7 +269,7 @@ function initFlickity() {
 
 	var image = $( ".carousel-cell .zoom img" );
 
-image.each().on('gesturechange',function(e){
+image.on('gesturechange',function(e){
 	//$.each(image, function (e) {
 
     if(e.scale>1){
