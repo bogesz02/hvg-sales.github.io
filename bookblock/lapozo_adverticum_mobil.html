@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2.0, user-scalable=yes">
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 		<title>BookBlock</title>
         
 
@@ -253,9 +253,11 @@
 <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
-<script src="https://static.hvgrt.hu/bookblock/js/directive.js?"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<!-- <script src="https://static.hvgrt.hu/bookblock/js/directive.js?"></script> -->
 
 <script type="text/javascript">
+
 
 function initFlickity() {
     
@@ -264,6 +266,41 @@ function initFlickity() {
     $carouselAd.on('ready.flickity', function () {
     //console.log('Flickity ready');
     //zoom();
+
+	//(function() {
+
+var el = document.querySelector(".zoom");
+var ham = new Hammer( el, {
+  domEvents: true
+} );
+var width = 1900;
+var height = 400;
+var left = 950;
+var top = 220;
+
+ham.get('pinch').set({ enable: true });
+
+ham.on( "pinch", function( e ) {
+  console.log( "pinch" );
+  if ( width * e.scale >= 300 ) {
+	var img = el.childNodes[1];
+	img.style.width = (width * e.scale) + 'px';
+	img.style.marginLeft = (-left * e.scale) + 'px';
+	img.style.height = (height * e.scale) + 'px';
+	img.style.marginTop = (-top * e.scale) + 'px';
+   }
+   console.log( e.scale );
+} );
+
+ham.on( "pinchend", function( e ) {
+  width = width * e.scale;
+  height = height * e.scale;
+  left = left * e.scale;
+  top = top * e.scale;
+  console.log( width );
+} );
+
+//} )();
 
     //initPagerAds();
     });
@@ -369,6 +406,7 @@ $carouselAd.on( 'select.flickity', function( event, index ) {
 });
 
 }
+
     
 var prev_handler = window.onload;
 window.onload = function() {
