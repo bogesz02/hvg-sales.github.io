@@ -322,28 +322,28 @@ $('.carousel-cell .zoom').on('zoom.zoomout', function() {
   console.log('zoom.zoomout');
 });
 
-$carouselAd.on( 'dragStart.flickity', function( event, pointer ) {
-if ( $('.carousel-cell .zoom').hasClass('active') ) {
-flkty.unbindDrag();
-console.log('dragStart: ' + flkty.options.draggable)
-} else {
-  flkty.bindDrag();
-console.log('dragStart: ' + flkty.options.draggable)
-}
-});
+// $carouselAd.on( 'dragStart.flickity', function( event, pointer ) {
+// if ( $('.carousel-cell .zoom').hasClass('active') ) {
+// flkty.unbindDrag();
+// console.log('dragStart: ' + flkty.options.draggable)
+// } else {
+//   flkty.bindDrag();
+// console.log('dragStart: ' + flkty.options.draggable)
+// }
+// });
 
 
 //iOS bug - page scrolls while dragging
-$carouselAd.on( 'dragStart.flickity', function( event, pointer ) {
-    document.ontouchmove = function (e) {
-        e.preventDefault();
-    }
-});
-$carouselAd.on( 'dragEnd.flickity', function( event, pointer ) {
-    document.ontouchmove = function (e) {
-        return true;
-    }
-});
+// $carouselAd.on( 'dragStart.flickity', function( event, pointer ) {
+//     document.ontouchmove = function (e) {
+//         e.preventDefault();
+//     }
+// });
+// $carouselAd.on( 'dragEnd.flickity', function( event, pointer ) {
+//     document.ontouchmove = function (e) {
+//         return true;
+//     }
+// });
 
 $carouselAd.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
   // dismiss if cell was not clicked
