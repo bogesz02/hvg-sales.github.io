@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>BookBlock</title>
+        
+
+<!-- Lapozós hirdetés -->
+<!-- flickity css-->
+<!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css" integrity="sha512-dkyK8lbp4CJ12r0jh9CPS/Cx7OBRRXRNgWnOCxLFt5Vd0oFKhqbWyTNuQitVdI4VqXARVR+kqQuSwc1E73fbbg==" crossorigin="anonymous" />
+</head>
+<body>
+<style>
+	.ad-frames {
+		height: 0px;
+		margin: 0;
+		padding: 0;
+	}
+	.carousel-cell {
+		backface-visibility: hidden;
+	}
+	.carousel-cell img {
+		backface-visibility: hidden; 
+	}
+	
+	.main-carousel .carousel-cell {
+		position: relative;
+		/*width: 360px;*/
+		min-width: 280px;
+		margin: 0 30px;
+		transform: translate3d(0,0,0);
+		
+		/*width: 100%;  full width 
+		height: 500px;*/
+	
+		/* center images in cells with flexbox 
+		display: flex;
+		align-items: center;
+		justify-content: center;*/
+	
+	}
+	.carousel-cell.is-selected {
+		z-index: 2;
+	}
+	.main-carousel .carousel-cell a.carousel-link {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index: 1;
+	}
+	/*.main-carousel .carousel-cell:nth-child(2n) {
+		margin-right: 300px;
+	}*/
+	.main-carousel img {
+        display: block;
+        min-width: 280px;
+        height: auto;
+        max-width: 100%;
+        max-height: 450px;
+        margin: 0 auto;
+	}
+	.flickity-button-icon {
+	    fill: #e25900;
+	}
+	.flickity-enabled.is-fullscreen {
+		z-index: 26;
+	}
+	
+	.main-carousel.is-fullscreen .carousel-cell {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        /*display: block;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+	}
+	
+	.main-carousel.is-fullscreen .carousel-cell img {
+        height: auto;
+        width: auto;
+        max-height: none;
+        margin: 0 auto;
+        max-width: 100%;
+	}
+	.flickity-fullscreen-button {
+	    padding: 0;
+	}
+	
+	.main-carousel .flickity-button a {
+		display: block;
+		width: 44px;
+		height: 44px;
+		margin: -22px;
+		position: absolute;
+		z-index: 1;
+	}
+	.main-carousel .flickity-fullscreen-button a {
+		width: 24px;
+		height: 24px;
+		margin: 0;
+		top: 0;
+		left: 0;
+	}
+	.catalog a.caption {
+        color: #888;
+        display: inline-block;
+        font-size: 11px;
+        font-weight: bold;
+        margin: 15px 0 0 0;
+        padding-left: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 15px;
+        padding-top: 1px;
+        width: 100%;
+        font-family: 'Arial', sans-serif;
+        text-decoration: none;
+	}
+	.zoom {
+		touch-action: pan-y;
+	}
+	.flickity-enabled {
+		margin-bottom: 60px;
+	}
+	.flickity-prev-next-button {
+		transform: translateY(55px) translateX(0);
+		bottom: 0;
+		left: 50% !important;
+		right: auto !important;
+		top: auto;
+	}
+	.flickity-prev-next-button.next {
+		transform: translateY(55px) translateX(0px);
+	}
+	.flickity-prev-next-button.previous {
+		transform: translateY(55px) translateX(-55px);
+	}
+
+	.flickity-viewport {
+		touch-action: pan-y !important;
+	}
+	body.read-mode button.flickity-button svg.flickity-button-icon {
+		fill: #fff !important;
+	}
+	
+	@media screen and (max-width: 320px) {
+		.main-carousel img {
+			display: block;
+			min-width: auto;
+			height: auto;
+			max-width: 100%;
+			max-height: 360px;
+			margin: 0 auto;
+		}
+		.main-carousel .carousel-cell {
+			min-width: 216px;
+			max-width: 216px;
+		}
+	}
+</style>
+
+<div class="ad-frames">
+	<iframe data-adurl="https://ad.adverticum.net/C/76500/6433646/643351000?" id="btn-prev-iframe" style="width:0px;height:0px;border: 0;"></iframe>
+	<br>
+	<iframe data-adurl="https://ad.adverticum.net/C/76500/6433646/643351100?" id="btn-next-iframe" style="width:0px;height:0px;border: 0;"></iframe>
+</div>
+
+<div class="catalog">
+	<div class="main-carousel">
+
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362000?">
+<div id="zone0" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img3.hvg.hu/image.aspx?id=bf1ffa07-4e71-4822-bac9-f695704d1d44&view=00000000-0000-0000-0000-000000000000">
+			</div>
+		</div>
+		
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362100?">
+<div id="zone1" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img2.hvg.hu/image.aspx?id=2e8fc9fa-ae0e-4659-b82d-76a7f2912a6c&view=00000000-0000-0000-0000-000000000000">
+		   </div>
+		</div>
+		
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362200?">
+<div id="zone2" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img2.hvg.hu/image.aspx?id=514f457c-1a9e-4bff-8283-4f0c782c812b&view=00000000-0000-0000-0000-000000000000">
+			</div>
+		</div>
+		
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362300?">
+<div id="zone3" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img3.hvg.hu/image.aspx?id=4ca7c462-3a43-4acb-b0af-113f9cd071b9&view=00000000-0000-0000-0000-000000000000">
+		   </div>
+		</div>
+		
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362400?">
+<div id="zone4" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img4.hvg.hu/image.aspx?id=94315c75-ed5c-4e2b-8ebf-1c4727ef5420&view=00000000-0000-0000-0000-000000000000">
+		   </div>
+		</div>
+		
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362500?">
+<div id="zone5" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img1.hvg.hu/image.aspx?id=c54098cb-c6d4-4458-b45d-e471426d1229&view=00000000-0000-0000-0000-000000000000">
+		   </div>
+		</div>
+		
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362600?">
+<div id="zone6" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img0.hvg.hu/image.aspx?id=ecd63bd1-16be-4557-b97c-1f9c19707148&view=00000000-0000-0000-0000-000000000000">
+		   </div>
+		</div>
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362700?">
+<div id="zone7" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img1.hvg.hu/image.aspx?id=647b8279-9717-4ab5-b87d-2c83cc88c3d4&view=00000000-0000-0000-0000-000000000000">
+		   </div>
+		</div>
+		
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362800?">
+<div id="zone8" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img3.hvg.hu/image.aspx?id=55c0713a-34f0-484f-946c-addfbe5373ee&view=00000000-0000-0000-0000-000000000000">
+		   </div>
+		</div>
+		
+		<div class="carousel-cell" data-href="https://ad.adverticum.net/C/76776/6433616/643362900?">
+<div id="zone9" class="goAdverticum"></div>
+			<div class="zoom">
+				<img src="https://img2.hvg.hu/image.aspx?id=52c6caf9-1187-4412-bbcd-594cc1bbf33f&view=00000000-0000-0000-0000-000000000000">
+		   </div>
+		</div>
+		
+	</div>
+</div>
+
+<!-- scripts -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script> 
+<!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js" integrity="sha512-VlWxu21MZn1d4qGYYNnm9ZyAdczfKE40U9GWtiAmjlhqJFr2833eBVbbABmUAjBAqwpPXVpEhmKO3Ve+LLT1Sg==" crossorigin="anonymous"></script>
+<script src="https://static.hvgrt.hu/bookblock/js/directive.js?"></script>
+
+<script type="text/javascript">
+
+function initFlickity() {
+    
+    var $carouselAd = $('.main-carousel');
+
+    $carouselAd.on('ready.flickity', function () {
+    //console.log('Flickity ready');
+    zoom();
+
+    //initPagerAds();
+    });
+    
+    $carouselAd.flickity({
+        initialIndex: 0,
+        freeScroll: false,
+        //contain: true,
+        pageDots: false,
+        prevNextButtons: true,
+        //draggable: '>2',
+        draggable: true,
+        touchVerticalScroll: false,
+        //dragThreshold: 10,
+        //freeScrollFriction: 0.03,
+        wrapAround: false,
+        //selectedAttraction: 0.2,
+        //friction: 1,
+        groupCells: 1,
+        fullscreen: false,
+        cellAlign: 'center'
+        //lazyLoad: 2
+    });
+    
+    var flkty = $carouselAd.data('flickity');
+    var previousIndex = flkty.selectedIndex; 
+    var carouselCell = document.querySelector('.carousel-cell');
+
+function updateStatus() {
+    var slideNumber = flkty.selectedIndex + 1;
+    carouselCells = flkty.slides.length;
+    $( ".carousel-cell" ).addClass('cell' + slideNumber);
+}
+
+$carouselAd.on('ready.flickity', updateStatus );
+
+$carouselAd.on( 'change.flickity', function( event, index ) {
+      // get changed index
+      var delta = index - previousIndex;
+      var lastIndex = flkty.slides.length - 1;
+      if ( previousIndex == lastIndex && index === 0 ) {
+        console.log('wrapped forward');
+      } else if ( previousIndex === 0 && index == lastIndex ) {
+        console.log('wrapped back')
+      } else if ( delta > 0 ) {
+          document.getElementById('btn-next-iframe').src = document.getElementById('btn-next-iframe').getAttribute('data-adurl');
+        console.log( 'moved forward', delta );
+      } else {
+          document.getElementById('btn-prev-iframe').src = document.getElementById('btn-prev-iframe').getAttribute('data-adurl');
+        console.log( 'moved back', delta );
+      }
+      previousIndex = index;
+      console.log('index: ' + index)
+});
+
+$('.carousel-cell .zoom').on('zoom.zoomout', function() {
+  flkty.bindDrag();
+  console.log('zoom.zoomout');
+});
+
+$carouselAd.on( 'dragStart.flickity', function( event, pointer ) {
+if ( $('.carousel-cell .zoom').hasClass('active') ) {
+flkty.unbindDrag();
+console.log('dragStart: ' + flkty.options.draggable)
+} else {
+  flkty.bindDrag();
+console.log('dragStart: ' + flkty.options.draggable)
+}
+});
+
+
+//iOS bug - page scrolls while dragging
+$carouselAd.on( 'dragStart.flickity', function( event, pointer ) {
+    document.ontouchmove = function (e) {
+        e.preventDefault();
+    }
+});
+$carouselAd.on( 'dragEnd.flickity', function( event, pointer ) {
+    document.ontouchmove = function (e) {
+        return true;
+    }
+});
+
+$carouselAd.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+  // dismiss if cell was not clicked
+  if ( !cellElement ) {
+    return;
+  }
+
+  if ( cellIndex == flkty.selectedIndex ) {
+    var selectedSlide = flkty.selectedIndex;
+    var currentSlide = $( ".carousel-cell.is-selected" )[0];
+    var AdUrl = $( currentSlide ).data("href");
+    window.open( AdUrl , '_blank');
+    console.log('data-href: ' + AdUrl + ' / cell: ' + selectedSlide + ' / cellindex: ' + cellIndex );
+  } else {
+    $carouselAd.flickity( 'select', cellIndex );
+  }
+});
+
+$carouselAd.on( 'select.flickity', function( event, index ) {
+    var selectedCell = flkty.selectedIndex;
+    //console.log( 'Flickity select ' + selectedCell )
+});
+
+}
+    
+var prev_handler = window.onload;
+window.onload = function() {
+    if (prev_handler) {
+        prev_handler();
+    }
+
+
+    initFlickity();
+    
+}
+</script>
+</body>
+</html>
