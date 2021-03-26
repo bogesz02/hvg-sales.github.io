@@ -154,12 +154,13 @@ function zoom(classNames, settings) {
     /* EVENT - touchstart - document ********************************************/
     /****************************************************************************/
     document.addEventListener("touchstart", function() {
-        touchable = true;
+        touchable = false;
     });
 
     /* EVENT - touchstart - $zoom ***********************************************/
     /* **************************************************************************/
     if (touchCount === 2) /* Pinch */ {
+        touchable = true;
         massAddEventListener($zoom, "touchstart", touchStart);
         }
     //massAddEventListener($zoom, "touchstart", touchStart);
