@@ -255,8 +255,8 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script> -->
-<script src="https://static.hvgrt.hu/bookblock/js/fingers.min.js"></script>
-<script src="https://static.hvgrt.hu/bookblock/js/directive_scroll.js"></script>
+<!-- <script src="https://static.hvgrt.hu/bookblock/js/fingers.min.js"></script>
+<script src="https://static.hvgrt.hu/bookblock/js/directive_scroll.js"></script> -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.panzoom/3.2.2/jquery.panzoom.js"></script> -->
 
 <script type="text/javascript">
@@ -267,6 +267,7 @@ function initFlickity() {
     var $carouselAd = $('.main-carousel');
 
     $carouselAd.on('ready.flickity', function () {
+		Flickity.prototype._touchActionValue = 'pan-y pinch-zoom';
     //console.log('Flickity ready');
     //zoom();
 	//$(".carousel-cell .zoom").panzoom();
@@ -278,13 +279,13 @@ function initFlickity() {
 	// });
 
 	//var element = document.getElementById('el_id');
-	var element = document.querySelector('.zoom');
+// 	var element = document.querySelector('.zoom');
 	
-var fingers = new Fingers(element);
-var gesture1 = fingers.addGesture(Fingers.gesture.Pinch);
-gesture1.addHandler(function(eventType, data, fingerList) {
-    zoom();
-});
+// var fingers = new Fingers(element);
+// var gesture1 = fingers.addGesture(Fingers.gesture.Pinch);
+// gesture1.addHandler(function(eventType, data, fingerList) {
+//     zoom();
+// });
 
 
 	//$(".zoom").panzoom();
