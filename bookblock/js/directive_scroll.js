@@ -159,7 +159,10 @@ function zoom(classNames, settings) {
 
     /* EVENT - touchstart - $zoom ***********************************************/
     /* **************************************************************************/
-    massAddEventListener($zoom, "touchstart", touchStart);
+    if (touchCount === 2) /* Pinch */ {
+        massAddEventListener($zoom, "touchstart", touchStart);
+        }
+    //massAddEventListener($zoom, "touchstart", touchStart);
 
     /* EVENT - touchmove - document *********************************************/
     /****************************************************************************/
