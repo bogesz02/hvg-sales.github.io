@@ -255,6 +255,7 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script> -->
+<script src="https://static.hvgrt.hu/bookblock/js/fingers.min.js"></script>
 <script src="https://static.hvgrt.hu/bookblock/js/directive_scroll.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.panzoom/3.2.2/jquery.panzoom.js"></script> -->
 
@@ -270,11 +271,21 @@ function initFlickity() {
     //zoom();
 	//$(".carousel-cell .zoom").panzoom();
 
-	$(".carousel-cell .zoom").on('touchstart', function (e) {
-		if (e.targetTouches.length == 2) {
-			zoom();
-		}
-	});
+	// $(".carousel-cell .zoom").on('touchstart', function (e) {
+	// 	if (e.targetTouches.length == 2) {
+	// 		zoom();
+	// 	}
+	// });
+
+	//var element = document.getElementById('el_id');
+	var element = document.querySelector('.zoom');
+	
+var fingers = new Fingers(element);
+var gesture1 = fingers.addGesture(Fingers.gesture.Tap);
+gesture1.addHandler(function(eventType, data, fingerList) {
+    zoom();
+});
+
 
 	//$(".zoom").panzoom();
 
