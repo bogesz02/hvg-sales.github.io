@@ -580,7 +580,7 @@ function disableScroll() {
 
     window.onwheel = preventDefault; // modern standard
     window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
-    window.ontouchmove = preventDefault; // mobile
+    //window.ontouchmove = preventDefault; // mobile
     document.onkeydown = preventDefaultForScrollKeys;
 }
 
@@ -593,7 +593,7 @@ function enableScroll() {
 
     window.onmousewheel = document.onmousewheel = null;
     window.onwheel = null;
-    window.ontouchmove = null;
+    //window.ontouchmove = null;
     document.onkeydown = null;
 }
 
