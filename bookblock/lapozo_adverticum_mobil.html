@@ -270,14 +270,12 @@ function initFlickity() {
     //zoom();
 	//$(".carousel-cell .zoom").panzoom();
 
-(function(e) {
-	if (e.targetTouches.length < 2) {
-		//$(".zoom").panzoom();
-		zoom();
-		//e.preventDefault();
-
-	}
+	$(".carousel-cell .zoom").on('touchstart', function (e) {
+		if (e.targetTouches.length == 2) {
+			zoom();
+		}
 	});
+
 	//$(".zoom").panzoom();
 
 	// function onScale(el, callback) {
