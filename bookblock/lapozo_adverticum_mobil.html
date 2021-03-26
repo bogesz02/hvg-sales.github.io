@@ -281,7 +281,7 @@ function initFlickity() {
 	var element = document.querySelector('.zoom');
 	
 var fingers = new Fingers(element);
-var gesture1 = fingers.addGesture(Fingers.gesture.Tap);
+var gesture1 = fingers.addGesture(Fingers.gesture.Pinch);
 gesture1.addHandler(function(eventType, data, fingerList) {
     zoom();
 });
