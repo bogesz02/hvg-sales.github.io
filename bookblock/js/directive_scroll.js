@@ -336,54 +336,7 @@ function zoom(classNames, settings) {
         initialScale = minMax(parseFloat($element.getAttribute(_dataScale)), C_scaleMin, C_scaleMax);
         touchCount = e.touches.length;
 
-        if (touchCount === 1) /* Single touch */ {
-            /* Doubletap */
-            if (doubleTapMonitor[0] === null) {
-                doubleTapMonitor[0] = e.target;
-                doubleTapMonitor[1] = initialPointerOffsetX;
-                doubleTapMonitor[2] = initialPointerOffsetY;
-
-                setTimeout(function() {
-                    doubleTapMonitor = [null];
-                }, 300);
-            } else if (doubleTapMonitor[0] === e.target && touchmoveCount <= 1 && isWithinRange(initialPointerOffsetX, doubleTapMonitor[1] - 10, doubleTapMonitor[1] + 10) === true && isWithinRange(initialPointerOffsetY, doubleTapMonitor[2] - 10, doubleTapMonitor[2] + 10) === true) {
-                addClass($element, _transition);
-                
-                if (hasClass($container, _active) === true) {
-                    /* Set attributes */
-                    $element.setAttribute(_dataScale, 1);
-                    $element.setAttribute(_dataTranslateX, 0);
-                    $element.setAttribute(_dataTranslateY, 0);
-
-                    removeActive($container, _active);
-
-                    /* @->moveScaleElement */
-                    moveScaleElement($element, 0, 0, 1);
-                } else {
-                    /* Set attributes */
-                    $element.setAttribute(_dataScale, C_scaleDefault);
-                    $element.setAttribute(_dataTranslateX, 0);
-                    $element.setAttribute(_dataTranslateY, 0);
-
-                    addClass($container, _active);
-
-                    /* @->moveScaleElement */
-                    moveScaleElement($element, 0, 0, C_scaleDefault);
-                }
-
-                setTimeout(function()
-                {
-                    removeClass($element, _transition);
-                }, 200);
-
-                doubleTapMonitor = [null];
-                return false;
-            }
-
-            /* Initialize helpers */
-            initialOffsetX = parseFloat($element.getAttribute(_dataTranslateX));
-            initialOffsetY = parseFloat($element.getAttribute(_dataTranslateY));
-        } else if (touchCount === 2) /* Pinch */ {
+        if (touchCount === 2) /* Pinch */ {
             /* Initialize helpers */
             initialOffsetX = parseFloat($element.getAttribute(_dataTranslateX));
             initialOffsetY = parseFloat($element.getAttribute(_dataTranslateY));
@@ -448,32 +401,7 @@ function zoom(classNames, settings) {
                 initialOffsetX = targetOffsetX;
                 initialOffsetY = targetOffsetY;
             }
-        } else /* Single touch */ {
-            /* Initialize helpers */
-            targetScale = initialScale;
-            limitOffsetX = ((elementWidth * targetScale) - containerWidth) / 2;
-            limitOffsetY = ((elementHeight * targetScale) - containerHeight) / 2;
-            targetOffsetX = (elementWidth * targetScale) <= containerWidth ? 0 : minMax(pointerOffsetX - (initialPointerOffsetX - initialOffsetX), limitOffsetX * (-1), limitOffsetX);
-            targetOffsetY = (elementHeight * targetScale) <= containerHeight ? 0 : minMax(pointerOffsetY - (initialPointerOffsetY - initialOffsetY), limitOffsetY * (-1), limitOffsetY);
-
-            if (Math.abs(targetOffsetX) === Math.abs(limitOffsetX)) {
-                initialOffsetX = targetOffsetX;
-                initialPointerOffsetX = pointerOffsetX;
-            }
-
-            if (Math.abs(targetOffsetY) === Math.abs(limitOffsetY)) {
-                initialOffsetY = targetOffsetY;
-                initialPointerOffsetY = pointerOffsetY;
-            }
-
-            /* Set attributes */
-            $element.setAttribute(_dataScale, initialScale);
-            $element.setAttribute(_dataTranslateX, targetOffsetX);
-            $element.setAttribute(_dataTranslateY, targetOffsetY);
-
-            /* @->moveScaleElement */
-            moveScaleElement($element, targetOffsetX + "px", targetOffsetY + "px", targetScale);
-        }
+        } 
     }
 
     /* @-<touchEnd **************************************************************/
@@ -493,10 +421,8 @@ function zoom(classNames, settings) {
 
             initialPinchDistance = null;
             capture = false;
-        } else if (touchCount === 1) /* Single touch */ {
-            initialPointerOffsetX = e.touches[0].clientX;
-            initialPointerOffsetY = e.touches[0].clientY;
-        } else if (touchCount > 1) /* Pinch */ {
+        } 
+        else if (touchCount > 1) /* Pinch */ {
             initialPinchDistance = null;
         }
     }
