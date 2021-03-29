@@ -74,8 +74,14 @@ body.read-mode .adtype-tagbox .articlebox {
   border-bottom: 0;
   padding: 0;
 }
+body.font-size .font-settings {
+  font-size: 18px !important;
+}
 body.font-size .font-settings .info {
   font-size: 12px;
+}
+.font-settings .info {
+  margin: 10px 0;
 }
 .article-content .adtype-tematic a {
   color: #222;
