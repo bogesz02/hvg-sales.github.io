@@ -99,20 +99,14 @@ button, .button, input[type=button] {
 body {
     &.article-page {
         .main-tag-container { // master
-            padding-bottom: 20px;
-            padding-top: 15px;
-            @media screen and (min-width: 768px) {
-                padding: 20px 0;
-            }
             @media screen and (min-width: 992px) {
-                margin: 0;
-                padding: 15px 0 0 0;
+                padding: 20px 0;
             }
         }
         .article-content { //master
-            p {
-                clear: both;
-            }
+            // p {
+            //     clear: both;
+            // }
         
             p.extract, h6.extract {
                 padding-top: 0;
@@ -187,33 +181,33 @@ body {
                 padding: 0;
             }
         }
-        .m-breadcrumb {
-            padding: 0 !important; //master
-        }
-        .boxheader-nyuzsi header.boxheader { //master
-            &:before {
-            width: 20px;
-            height: 20px;
-            background: #1a1a1a;
-            }
-            &:after {
-                bottom: 6px;
-                right: 6px;
-            }
-        }
+        // .m-breadcrumb {
+        //     padding: 0 !important; //master
+        // }
+        // .boxheader-nyuzsi header.boxheader { //master
+        //     &:before {
+        //     width: 20px;
+        //     height: 20px;
+        //     background: #1a1a1a;
+        //     }
+        //     &:after {
+        //         bottom: 6px;
+        //         right: 6px;
+        //     }
+        // }
 
     }
 
-    &.font-size {
+    &.font-size { //master
         .font-settings .info {
         font-size: 12px;
         }
     }
 
 }
-.font-settings { //master
-    width: 100%;
-}
+// .font-settings { //master
+//     width: 100%;
+// }
 .article-content .adtype-tematic a {
     color: #222;
 }
