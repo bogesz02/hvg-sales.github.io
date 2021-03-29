@@ -18,53 +18,14 @@ button, .button, input[type=button] {
 .adtype-tagbox {
 	.articlebox {
 		.articlebox {
-            // .articleitem {
-            //     @media screen and (min-width: 768px) {
-            //         padding: 20px;
-            //         &:first-of-type {
-            //             padding: 0;
-            //         }
-            //     }
-            // }
-
             &:first-of-type {
                 .more {
                     margin: 20px auto !important; //master > no important?
                 }
             }
-
-            // &.tag-box {
-            //     .articleitem {
-            //         .text-holder {
-            //             p, .article-lead {
-            //                 padding-bottom: 0;
-            //             }
-            //         }
-            //         &:first-of-type {
-            //             padding: 0;
-            //             .text-holder {
-            //                 padding: 0 20px 20px;
-            //             }
-            //         }
-            //     }
-            // }
-
         }
     }
-    // @media screen and (min-width: 992px) {
-    //     max-width: 690px;
-    //     margin: 0 auto;
-    // }
 }
-// .adtype-tagbox, .adtype-tematic { 
-// 	.caption {
-//         border: 0;
-//     }
-// }
-
-// .author-page-header .text-holder a {
-//     display: block; //master
-// }
 
 .grid-view-latest-news-list .list-article .avatar { //master
     @media screen and (min-width: 768px) {
@@ -84,18 +45,6 @@ button, .button, input[type=button] {
     }
 }
 
-// .article-page .article-view-wrap + .boxheader:first-of-type {
-//     margin-bottom: 20px;
-//     @media screen and (min-width: 768px) {
-//         width: calc(~'100% - 60px');
-//     }
-//     @media screen and (min-width: 992px) {
-//         width: 100%;
-//         padding: 20px 0;
-//         max-width: 690px;
-//     }
-// }
-
 body {
     &.article-page {
         .main-tag-container { // master
@@ -104,40 +53,11 @@ body {
             }
         }
         .article-content { //master
-            // p {
-            //     clear: both;
-            // }
-        
             p.extract, h6.extract {
                 padding-top: 0;
             }
         }
-
-        //android
-        // @media screen and (min-resolution: 192dpi) {
-        //     .main-tag-container .main-tag {
-        //         .main-tag-link {
-        //             margin: -1px;
-        //         }
-        //         &.tag-active .main-tag-link {
-        //             border-radius: 2px;
-        //         }
-        //     }
-        // }
     }
-    //android
-    // &.chrome.android {
-    //     &.article-page {
-    //         .main-tag-container .main-tag {
-    //             .main-tag-link {
-    //                 margin: -1px;
-    //             }
-    //             &.tag-active .main-tag-link {
-    //                 border-radius: 2px;
-    //             }
-    //         }
-    //     }
-    // }
 
     &:not(.article-page) .main-tag-container { // master
         margin: 0;
@@ -181,20 +101,6 @@ body {
                 padding: 0;
             }
         }
-        // .m-breadcrumb {
-        //     padding: 0 !important; //master
-        // }
-        // .boxheader-nyuzsi header.boxheader { //master
-        //     &:before {
-        //     width: 20px;
-        //     height: 20px;
-        //     background: #1a1a1a;
-        //     }
-        //     &:after {
-        //         bottom: 6px;
-        //         right: 6px;
-        //     }
-        // }
 
     }
 
@@ -205,9 +111,7 @@ body {
     }
 
 }
-// .font-settings { //master
-//     width: 100%;
-// }
+
 .article-content .adtype-tematic a {
     color: #222;
 }
@@ -247,43 +151,6 @@ body {
     }
 }
 
-// tag follow
-// .main-tag-container {
-//     .main-tag {
-//         .main-tag-follow { //master
-//             padding: 0 10px 0 11px;
-//             height: 100%;
-//             line-height: 18px;
-//         }
-//         .interest {
-//             text-align: left;
-//             line-height: normal;
-//             &::before {
-//                 top: 50%;
-//                 transform: translateY(-50%);
-//             }
-//         }
-//     }
-// }
-
-// nyüzsi fejléc
-// .boxheader-nyuzsi header.boxheader {
-//     @media screen and (min-width: 320px) {
-//         width: calc(~"100% - 40px");
-//     }
-//     @media screen and (min-width: 768px) and (max-width: 991px) {
-//         width: calc(~"100% - 60px");
-//     }
-// }
-
-// user profile page
-.sidebar {
-    label.button-filter { //master
-        @media screen and (max-width: 360px) {
-            padding: 6px;
-        }
-    }
-}
 .user-profile-page {
     .interest-page-header + div > h3 {
         margin-top: 10px;

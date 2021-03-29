@@ -98,11 +98,6 @@ body.font-size .font-settings .info {
 body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   background-color: #313131;
 }
-@media screen and (max-width: 360px) {
-  .sidebar label.button-filter {
-    padding: 6px;
-  }
-}
 .user-profile-page .interest-page-header + div > h3 {
   margin-top: 10px;
 }
