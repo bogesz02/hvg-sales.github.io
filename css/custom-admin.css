@@ -161,6 +161,10 @@ body.cmsadmin:not(.hvg-360) .hvg .body .blog-icon:before {
   font-weight: normal;
   font-family: 'PT sans';
 }
+body.cmsadmin:not(.hvg-360) .hvg .body .bc-box img {
+  max-width: 100%;
+  height: auto;
+}
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view {
   margin: 0;
   max-width: 100%;
