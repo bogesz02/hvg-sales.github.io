@@ -540,7 +540,8 @@ body.settings-sepia .article-content .article-vote {
 body.settings-sepia .article-content .embed-container {
   background-color: transparent;
 }
-body.settings-sepia .article-content .embed-container .fb_iframe_widget iframe {
+body.settings-sepia .article-content .embed-container .fb_iframe_widget iframe,
+body.settings-sepia .article-content .embed-container iframe {
   background: #f4f4f4;
 }
 body.settings-sepia .article-content .embed-container .embedly-card {
