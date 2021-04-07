@@ -45,6 +45,9 @@
 .article-content blockquote {
   margin-top: 30px;
 }
+.article-content p + .embed-container {
+  margin-top: 30px;
+}
 body:not(.main-page) section.cimlap-dhvg {
   display: none !important;
 }
