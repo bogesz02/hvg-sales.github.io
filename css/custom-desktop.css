@@ -1,3 +1,9 @@
+.stretch-tv-wrapper {
+  z-index: 11;
+}
+.stretch-tv-wrapper.expand {
+  z-index: 11;
+}
 .scarab_banner_category {
   width: auto !important;
   height: auto !important;
