@@ -5,10 +5,12 @@
   a.adcaption {
     color: #888 !important;
     text-transform: uppercase;
+    text-align: center;
   }
   a.caption {
     color: #888 !important;
     text-transform: uppercase;
+    text-align: center;
   }
   .read-mode .article-vote .vote-title {
     color: #eaeaea;
