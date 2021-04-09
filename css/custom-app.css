@@ -12,6 +12,12 @@
     text-transform: uppercase;
     text-align: center;
   }
+  .main-tag-container {
+    margin-bottom: 20px;
+  }
+  .main-tag-container .main-tag .main-tag-link {
+    font-family: 'Roboto', sans-serif;
+  }
   .read-mode .article-vote .vote-title {
     color: #eaeaea;
   }
