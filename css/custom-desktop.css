@@ -390,10 +390,12 @@ body:not(.main-page) .random-article-box-container .article-box-widget {
   top: 8px;
   position: absolute;
 }
-.article-page.article-brandchannel .article-content .article-menu .author-img {
+.article-page.article-brandchannel .article-content .article-menu .author-img,
+.article-page.article-brandcontent .article-content .article-menu .author-img {
   border-radius: 0;
 }
-.article-page.article-brandchannel .article-content .article-menu .author-img img {
+.article-page.article-brandchannel .article-content .article-menu .author-img img,
+.article-page.article-brandcontent .article-content .article-menu .author-img img {
   border-radius: 0;
 }
 .grid-item.articlebox .articlebox article.articleitem.emphasized.featured {
