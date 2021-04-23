@@ -682,4 +682,15 @@
 <Photo></Photo>
 <IsActive>1</IsActive>
 </Expert>
+    <Expert>
+<Id>db58a28b-c727-469a-af80-260c7dbdeb47</Id>
+<Sid>F7F8FBE1</Sid>
+<Name>dr Juhász Péter</Name>
+<Title>jogász-adószakértő</Title>
+<ArticleId>9e47a565-aece-402a-95de-7879edb4ef85</ArticleId>
+<Company>HÍD Adószakértő és Pénzügyi Tanácsadó Zrt.</Company>
+<Description></Description>
+<Photo></Photo>
+<IsActive>1</IsActive>
+</Expert>
 </root>
