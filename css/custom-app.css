@@ -1,4 +1,8 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  div[id^="zone"] div[id^="div-gpt-ad"] div[id*="google_ads_iframe"] {
+    display: block !important;
+    margin: 0 auto !important;
+  }
   .share-widget-container .info {
     text-align: left;
   }
