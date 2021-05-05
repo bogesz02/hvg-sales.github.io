@@ -48,6 +48,12 @@
   /* 16:9 */
   height: 0;
 }
+@media screen and (min-width: 992px) {
+  .live-video-wrapper.yt-stream {
+    padding-bottom: 442px;
+    max-width: 690px;
+  }
+}
 .live-video-wrapper.yt-stream iframe {
   position: absolute;
   top: 0;
