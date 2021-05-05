@@ -3,6 +3,12 @@
   padding: 13px 20px 12px 15px;
   display: flex;
 }
+@media screen and (min-width: 992px) {
+  .live-video {
+    margin: 0 auto;
+    max-width: 690px;
+  }
+}
 .live-video img {
   width: 70px;
 }
@@ -29,6 +35,12 @@
 }
 .live-video-wrapper {
   background: #1f1f1f;
+}
+@media screen and (min-width: 992px) {
+  .live-video-wrapper {
+    margin: 0 auto;
+    max-width: 690px;
+  }
 }
 .live-video-wrapper.yt-stream {
   position: relative;
