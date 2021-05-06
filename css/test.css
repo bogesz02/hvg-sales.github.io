@@ -1,0 +1,82 @@
+.pp-box {
+  border: 1px solid #ccc;
+  padding: 0;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+}
+@media screen and (max-width: 767px) {
+  .pp-box {
+    width: calc(100% - 20px);
+  }
+}
+.pp-box:after {
+  content: '';
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+}
+.read-mode .pp-box:after {
+  background: -moz-linear-gradient(top, rgba(26, 26, 26, 0) 0%, #1a1a1a 100%);
+  background: -webkit-linear-gradient(top, rgba(26, 26, 26, 0) 0%, #1a1a1a 100%);
+  background: linear-gradient(to bottom, rgba(26, 26, 26, 0) 0%, #1a1a1a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001a1a1a', endColorstr='#1a1a1a', GradientType=0);
+}
+.pp-box h3 {
+  font-size: 20px;
+  background: #cccccc;
+  margin: 0;
+  font-family: 'PT Sans', Arial, sans-serif;
+  padding: 10px;
+}
+.pp-box .reports-wrap {
+  padding: 0;
+  height: 360px;
+  overflow: auto;
+}
+.pp-box .reports-wrap .list-article {
+  padding: 20px 10px;
+}
+.pp-box .reports-wrap .list-article time {
+  left: 10px;
+}
+.pp-box .reports-wrap .list-article h2 {
+  margin: 4px 0 10px 0;
+  line-height: 22px;
+  font-size: 16px;
+}
+.pp-box .reports-wrap .list-article p {
+  font-size: 15px;
+}
+@media screen and (max-width: 767px) {
+  .pp-box .reports-wrap .list-article time {
+    height: 26px;
+    line-height: 26px;
+  }
+  .pp-box .reports-wrap .list-article time span {
+    width: 26px;
+  }
+  .pp-box .reports-wrap .list-article h2 {
+    margin: 2px 0 10px 0;
+    padding-left: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pp-box .reports-wrap {
+    max-width: 100%;
+  }
+}
+.pp-box .sorter-panel {
+  margin: 0;
+}
+.pp-box .sorter a {
+  margin: 0;
+  padding: 0;
+}
