@@ -33,6 +33,12 @@
   height: 22px;
   line-height: 24px;
 }
+.live-video.live-video-text .text-holder .heading-3 {
+  margin: 0;
+}
+.live-video.live-video-text .text-holder .heading-3 a {
+  color: #fff;
+}
 .live-video-wrapper {
   background: #1f1f1f;
 }
