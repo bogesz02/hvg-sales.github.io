@@ -33,6 +33,9 @@
   height: 22px;
   line-height: 24px;
 }
+.live-video.live-video-text .text-holder {
+  padding: 0;
+}
 .live-video.live-video-text .text-holder .heading-3 {
   margin: 0;
 }
