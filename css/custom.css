@@ -32,10 +32,6 @@ input[type=button].accordion-mobile-aszf {
     padding: 20px 0;
   }
 }
-body.article-page .article-content p.extract,
-body.article-page .article-content h6.extract {
-  padding-top: 0;
-}
 body:not(.article-page) .main-tag-container {
   margin: 0;
   padding-bottom: 0;

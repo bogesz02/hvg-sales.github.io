@@ -83,6 +83,10 @@ body:not(.main-page) .container .cimlap-grid .h500 {
 .column-page .cimlap-grid .cimlap-grid-elem.elem-505 .boxheader {
   padding: 20px 20px 20px 0;
 }
+.cimlap-grid .cimlap-grid-elem.elem-805 .live-video,
+.cimlap-grid .cimlap-grid-elem.elem-675 .live-video {
+  margin-top: 0;
+}
 .cimlap-grid .cimlap-grid-elem.elem-805 .articlelist-element,
 .cimlap-grid .cimlap-grid-elem.elem-675 .articlelist-element {
   padding-left: 20px;
