@@ -189,8 +189,14 @@ body {
     }
 }
 
-.list-article img:not(.avatar) {
-    margin: 20px 0 0;
+.list-article {
+    figure {
+        img {
+            &:not(.avatar) {
+                margin: 20px 0 0;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 359px) {
