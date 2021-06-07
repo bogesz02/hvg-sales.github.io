@@ -32,6 +32,9 @@ input[type=button].accordion-mobile-aszf {
     padding: 20px 0;
   }
 }
+body.article-page .reports-wrap .list-article figure {
+  display: block;
+}
 body:not(.article-page) .main-tag-container {
   margin: 0;
   padding-bottom: 0;
