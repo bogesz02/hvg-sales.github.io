@@ -100,6 +100,10 @@ body.font-size .font-settings .info {
 .article-content div.social-fb-panel iframe {
   min-height: 60px;
 }
+.article-content figcaption {
+  padding: 10px;
+  background: #222;
+}
 body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   background-color: #313131;
 }
@@ -117,6 +121,9 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
 .reports-wrap .article-pp-featured h2 {
   padding-left: 0;
   margin-top: 5px;
+}
+.list-article img:not(.avatar) {
+  margin: 20px 0 0;
 }
 @media screen and (max-width: 359px) {
   .adsense-dfp {
