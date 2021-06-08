@@ -435,6 +435,9 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
   padding-left: 30px;
   width: 800px;
 }
+.page_menu_container .page_menu ul li:before {
+  display: none;
+}
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
 }
