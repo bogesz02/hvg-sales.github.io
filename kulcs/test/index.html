@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Kulcs</title>
+	
+	<!-- Kulcs CSS -->
+	<link rel="stylesheet" href="https://kulcs.hvg.hu/Style/css/style.css" />
+
+    <style>
+        .content_wrapper .content_targets .content_target h2 {
+            margin-left: 0;
+        }
+        .content_wrapper .content_targets .content_target.content-success h2 {
+            border-left: 5px solid #41bd54;
+        }
+        .content_wrapper .content_targets .content_target.content-error h2 {
+            border-left: 5px solid #e60b0b;
+        }
+        .content_wrapper .content_targets p {
+            line-height: 20px;
+        }
+        .content_wrapper .content_targets .content_target h3 {
+            margin-bottom: 20px;
+            margin-top: 20px;
+            line-height: 24px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="head">
+        <div class="head-wrap">
+            <div class="hh">
+                <a href="https://kulcs.hvg.hu" title="(powered by nginx)" class="fl">kulcs.hvg.hu</a>
+            </div>
+            <div class="cl"></div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="content_wrapper">
+            <div class="content_targets">
+                <!-- Sikeres -->
+                <div class="content_target content-success active">
+                    <h2>Sikeres Kártyacsere!</h2>
+                    <div class="content_target_form-block">
+                        <div class="form-row">
+                            <div class="form-group col-xs-12">
+                                <p>Köszönjük, hogy frissítette rendszerünkben a regisztrált kártyáját, a folyamat során tényleges fizetés nem történik, csak átmeneti beterhelés, melyet rendszerünk automatikusan felszabadít. </p>
+                                <h3>A folyamathoz tartozó SimplePay azonosító: <span class="orange">XXX-XXX-XXXX</span></h3>
+                                <p>Rendszerünk kétlépcsős fizetés segítségével biztosítja a kártya cseréjét, ilyen esetben nem történik meg a teljes fizetés, hanem csak a megadott összeg befoglalása. Ez annyit jelent, hogy az adott összeg zárolva van a vásárló számláján, de nincs beterhelve.
+<br>
+Amennyiben további kérdése lenne, kérem, vegye fel a kapcsolatot az ügyfélszolgálatunkkal!</p>
+                            </div>
+                            
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+
+                <!-- Sikertelen -->
+                <div class="content_target content-error">
+                    <h2>Sikertelen Kártyacsere!</h2>
+                    <div class="content_target_form-block">
+                        <div class="form-row">
+                            <div class="form-group col-xs-12">
+                                <p>Kérjük, próbálja meg újra.<br><br>Köszönjük, hogy megpróbálta rendszerünkben a regisztrált kártyáját cserélni, de ez most sikertelen volt.</p>
+                                <h3>A folyamathoz tartozó SimplePay azonosító: <span class="orange">XXX-XXX-XXXX</span></h3>
+                                <p>Rendszerünk kétlépcsős fizetés segítségével biztosítja a kártya cseréjét, ilyen esetben nem történik meg a teljes fizetés, hanem csak a megadott összeg befoglalása.
+                                    <br>Ez annyit jelent, hogy az adott összeg zárolva van a vásárló számláján, de nincs beterhelve.
+                                    <br><br>
+                                    Amennyiben további kérdése lenne, vagy segítségre van szüksége kérem, vegye fel a kapcsolatot az ügyfélszolgálatunkkal!</p>
+                            </div>
+                            
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="default-footer">
+        <div class="wrap">
+            <a href="https://hvg.hu/adatvedelem" target="_blank">Adatvédelmi tájékoztató</a>
+        </div>
+    </footer>
+
+</body>
+</html>
