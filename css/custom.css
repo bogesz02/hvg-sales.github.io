@@ -104,6 +104,9 @@ body.font-size .font-settings .info {
   padding: 10px;
   background: #222;
 }
+.article-content figure figcaption p {
+  color: #fff;
+}
 body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   background-color: #313131;
 }
