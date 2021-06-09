@@ -1,47 +1,45 @@
 // euro 2021 widgets
 
 .tlds_euro_widget {
-        background: transparent !important;
-        padding: 0 20px;
-    }
+    background: transparent !important;
+    padding: 0 20px;
+    
     @media screen and (min-width: 768px){
-        .tlds_euro_widget {
-            padding: 0 30px;
-        }
+        padding: 0 30px;
     }
     @media screen and (min-width: 992px){
-        .tlds_euro_widget {
-            padding: 0;
-        }
-        .tlds_euro_widget[data-widget=scoreboard] {
+        padding: 0;
+        &[data-widget=scoreboard] {
             max-width: 690px;
             margin: 0 auto;
         }
     }
     
-    .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
+    &[data-widget=scoreboard].s1 h6 {
         font-size: 0;
         line-height: 22px;
         display: flex;
         align-items: center;
         padding: 15px 0 5px 0;
         border-bottom: solid 1px #d8d8d8;
-    }
-    .tlds_euro_widget[data-widget=scoreboard].s1 h6:after {
-        content: 'foci eb';
-        color: #e25900;
-        font-size: 14px;
-        line-height: 19px;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-family: 'PT Sans', Arial, sans-serif;
-        padding: 0;
+    
+        &:after {
+            content: 'foci eb';
+            color: #e25900;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'PT Sans', Arial, sans-serif;
+            padding: 0;
+        }
     }
 
-// app styles
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
+    // app styles
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
 
+    }
 }
