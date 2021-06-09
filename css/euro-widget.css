@@ -46,7 +46,7 @@ body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
 body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span,
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span {
-  color: inherit;
+  color: #e0e0e0;
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard] span,
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard] span {
