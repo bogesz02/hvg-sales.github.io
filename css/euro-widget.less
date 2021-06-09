@@ -22,6 +22,10 @@
         align-items: center;
         padding: 15px 0 5px 0;
         border-bottom: solid 1px #d8d8d8;
+        // desktop hide
+        @media screen and (min-width: 1200px){
+            display: none;
+        }
     
         &:after {
             content: 'foci eb';
@@ -35,6 +39,11 @@
         }
     }
 
+    .boxheader.widget-header {
+        margin-bottom: 0 !important;
+        padding: 20px 0 10px 0 !important;
+        border-bottom: 0 !important;
+    }
 
     // app styles
     @media only screen and (-webkit-min-device-pixel-ratio: 2),

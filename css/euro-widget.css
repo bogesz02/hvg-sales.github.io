@@ -23,6 +23,11 @@
   padding: 15px 0 5px 0;
   border-bottom: solid 1px #d8d8d8;
 }
+@media screen and (min-width: 1200px) {
+  .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
+    display: none;
+  }
+}
 .tlds_euro_widget[data-widget=scoreboard].s1 h6:after {
   content: 'foci eb';
   color: #e25900;
@@ -32,6 +37,11 @@
   font-weight: bold;
   font-family: 'PT Sans', Arial, sans-serif;
   padding: 0;
+}
+.tlds_euro_widget .boxheader.widget-header {
+  margin-bottom: 0 !important;
+  padding: 20px 0 10px 0 !important;
+  border-bottom: 0 !important;
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard],
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard] {
