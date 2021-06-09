@@ -14,9 +14,6 @@
   .tlds_euro_widget[data-widget=scoreboard] {
     margin: 0 auto;
   }
-  .tlds_euro_widget body:not(.main-page)[data-widget=scoreboard] {
-    width: 690px;
-  }
 }
 .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
   font-size: 0;
@@ -49,6 +46,11 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .tlds_euro_widget {
     padding: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  body:not(.main-page) .tlds_euro_widget[data-widget=scoreboard] {
+    width: 690px;
   }
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard],

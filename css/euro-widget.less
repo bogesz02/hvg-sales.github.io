@@ -12,11 +12,7 @@
         &[data-widget=scoreboard] {
             margin: 0 auto;
         }
-        body:not(.main-page) {
-            &[data-widget=scoreboard] {
-                width: 690px;
-            }
-        }
+
     }
     
     &[data-widget=scoreboard].s1 h6 {
@@ -58,6 +54,16 @@
     }
 }
 
+//not desktop cimlap
+body:not(.main-page) {
+    @media screen and (min-width: 992px){
+        .tlds_euro_widget[data-widget=scoreboard] {
+            width: 690px;
+        }
+    }
+}
+
+// dark modes
 body.read-mode, body.settings-sepia {
     .tlds_euro_widget {
         &[data-widget=scoreboard] {
