@@ -34,3 +34,16 @@
   font-family: 'PT Sans', Arial, sans-serif;
   padding: 0;
 }
+.body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
+  border-bottom: solid 1px #464545;
+}
+.body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .match {
+  border-bottom: solid 1px #464545;
+}
+.body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
+.body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span {
+  color: inherit;
+}
+.body.read-mode .tlds_euro_widget[data-widget=scoreboard] span {
+  color: #e0e0e0;
+}

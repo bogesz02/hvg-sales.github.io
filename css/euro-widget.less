@@ -35,6 +35,25 @@
         }
     }
 
+    .body.read-mode & {
+        &[data-widget=scoreboard].s1 {
+            h6 {
+                border-bottom: solid 1px #464545;
+            }
+        
+            .match {
+                border-bottom: solid 1px #464545;
+            }
+            .m_status, .m_status span {
+                color: inherit;
+            }
+        }
+        &[data-widget=scoreboard] span {
+            color: #e0e0e0;
+        }
+
+    }
+
     // app styles
     @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min-device-pixel-ratio: 2),
