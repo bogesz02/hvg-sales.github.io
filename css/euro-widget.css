@@ -34,16 +34,21 @@
   font-family: 'PT Sans', Arial, sans-serif;
   padding: 0;
 }
-.body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
+body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 h6,
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
   border-bottom: solid 1px #464545;
 }
-.body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .match {
+body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .match,
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .match {
   border-bottom: solid 1px #464545;
 }
-.body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
-.body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span {
+body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
+body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span,
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span {
   color: inherit;
 }
-.body.read-mode .tlds_euro_widget[data-widget=scoreboard] span {
+body.read-mode .tlds_euro_widget[data-widget=scoreboard] span,
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard] span {
   color: #e0e0e0;
 }
