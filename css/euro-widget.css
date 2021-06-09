@@ -182,7 +182,8 @@ body.settings-sepia #tl_cplus video {
 }
 body.read-mode #tl_cplus,
 body.settings-sepia #tl_cplus {
-  background: transparent;
+  background: #111;
+  padding: 0 20px;
 }
 body.read-mode #tl_cplus.s1 #content_title,
 body.settings-sepia #tl_cplus.s1 #content_title {
