@@ -107,6 +107,9 @@ body.font-size .font-settings .info {
 .article-content figure figcaption p {
   color: #fff;
 }
+.article-series-box-basic .article-series-box-content {
+  padding: 0 0 65px 0;
+}
 .article-series-box-basic .article-series-box-content .boxheader {
   padding: 15px 15px 0;
 }
