@@ -47,6 +47,9 @@
   .tlds_euro_widget {
     padding: 0;
   }
+  .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
+    padding: 10px 0 5px 5px;
+  }
 }
 @media screen and (min-width: 992px) {
   body:not(.main-page) .tlds_euro_widget[data-widget=scoreboard] {
