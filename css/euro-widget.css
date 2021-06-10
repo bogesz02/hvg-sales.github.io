@@ -38,17 +38,24 @@
   font-family: 'PT Sans', Arial, sans-serif;
   padding: 0;
 }
-.tlds_euro_widget .boxheader.widget-header {
-  margin-bottom: 0 !important;
-  padding: 20px 0 10px 0 !important;
-  border-bottom: 0 !important;
-}
 @media screen and (max-width: 340px) {
   .tlds_euro_widget {
     padding: 0;
   }
   .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
     padding: 10px 0 5px 5px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .boxheader.widget-header {
+    padding-bottom: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .boxheader.widget-header {
+    margin-bottom: 0 !important;
+    padding: 20px 0 10px 0 !important;
+    border-bottom: 0 !important;
   }
 }
 @media screen and (min-width: 992px) {

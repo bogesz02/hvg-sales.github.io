@@ -39,12 +39,6 @@
         }
     }
 
-    .boxheader.widget-header {
-        margin-bottom: 0 !important;
-        padding: 20px 0 10px 0 !important;
-        border-bottom: 0 !important;
-    }
-
     // app styles
     @media screen and (max-width: 340px){
         padding: 0;
@@ -59,6 +53,17 @@
     only screen and (min-resolution: 2dppx) {
 
 
+    }
+}
+
+.boxheader.widget-header {
+    @media screen and (max-width: 1199px){
+        padding-bottom: 5px;
+    }
+    @media screen and (min-width: 1200px){
+        margin-bottom: 0 !important;
+        padding: 20px 0 10px 0 !important;
+        border-bottom: 0 !important;
     }
 }
 
