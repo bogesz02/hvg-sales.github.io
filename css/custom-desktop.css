@@ -438,6 +438,9 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 .page_menu_container .page_menu ul li:before {
   display: none;
 }
+.bb-box {
+  background-color: transparent !important;
+}
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
 }
