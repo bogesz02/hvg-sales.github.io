@@ -205,6 +205,9 @@ body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .lead-article .te
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .article-view .article-content .content {
   width: 100%;
 }
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .adtype-tematic section.articlebox .content {
+  float: left;
+}
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .adtype-tagbox,
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .adtype-tematic {
   margin: 0;
