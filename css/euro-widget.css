@@ -99,7 +99,7 @@ body.settings-sepia .tlds_euro_widget[data-widget=scoreboard] {
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 h6,
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
-  border-bottom: solid 1px #464545;
+  border-bottom: 0;
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .match,
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .match {
