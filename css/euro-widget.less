@@ -14,6 +14,13 @@
         }
 
     }
+
+    @media screen and (max-width: 1199px){
+        .scoreboard {
+            border-top: solid 1px #d8d8d8;
+            margin-top: -1px;
+        }
+    }
     
     &[data-widget=scoreboard].s1 h6 {
         font-size: 0;
@@ -22,6 +29,27 @@
         align-items: center;
         padding: 15px 0 5px 0;
         border-bottom: solid 1px #d8d8d8;
+
+        @media screen and (max-width: 1199px){
+            display: inline-block;
+            padding: 7px 0 5px 0;
+            border-bottom: 0;
+            border-top: 0;
+            margin-top: 0;
+            position: relative;
+            overflow: unset;
+
+            &:before {
+                content: '';
+                border-top: 2px solid #e25900;
+                position: absolute;
+                width: 100%;
+                top: -1px;
+                z-index: 1;
+                left: 0;
+            }
+        }
+
         // desktop hide
         @media screen and (min-width: 1200px){
             display: none;
@@ -37,6 +65,7 @@
             font-family: 'PT Sans', Arial, sans-serif;
             padding: 0;
         }
+
     }
 
     // app styles
