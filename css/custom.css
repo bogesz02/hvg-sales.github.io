@@ -18,6 +18,10 @@ input[type=button].accordion-mobile-aszf {
 .adtype-tagbox .articlebox .articlebox:first-of-type .more {
   margin: 20px auto !important;
 }
+.article-series-box-basic .article-series-sponsor-content > a {
+  display: block;
+  width: 100%;
+}
 @media screen and (min-width: 768px) {
   .grid-view-latest-news-list .list-article .avatar {
     margin-right: 20px;
