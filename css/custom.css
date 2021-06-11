@@ -12,6 +12,9 @@ input[type=button].accordion-mobile-aszf {
 .adtype-tagbox .articlebox .goAdverticum a {
   padding-bottom: 0;
 }
+.adtype-tagbox .articlebox .articlebox.tag-box .articleitem:after {
+  display: none;
+}
 .adtype-tagbox .articlebox .articlebox:first-of-type .more {
   margin: 20px auto !important;
 }
