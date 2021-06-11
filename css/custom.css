@@ -116,8 +116,7 @@ body.font-size .font-settings .info {
 .article-series-box-basic .article-series-box-content {
   padding: 0 0 65px 0;
 }
-.article-series-box-basic .article-series-box-content a:not(.more-article-button),
-.article-series-box-basic .article-series-box-content a:not(.caption) {
+.article-series-box-basic .article-series-box-content .article-series-sponsor-content a {
   display: block;
   width: 100%;
 }
