@@ -124,7 +124,7 @@ body.font-size .font-settings .info {
   padding: 15px 15px 0;
 }
 .article-series-box-basic .article-series-box-content .article-series-links {
-  padding: 10px !important;
+  padding: 10px 10px 15px !important;
   border-top: 0 !important;
 }
 @media screen and (max-width: 360px) {
