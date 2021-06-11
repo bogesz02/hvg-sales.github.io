@@ -33,18 +33,6 @@ button, .button, input[type=button] {
     }
 }
 
-.article-series-box-basic {
-    .article-series-sponsor-content {
-        > a {
-            display: block;
-            width: 100%;
-        }
-    }
-    .article-series-links {
-        border-top: 0 !important;
-    }
-}
-
 .grid-view-latest-news-list .list-article .avatar { //master
     @media screen and (min-width: 768px) {
         margin-right: 20px;
@@ -179,13 +167,17 @@ body {
 .article-series-box-basic {
     .article-series-box-content {
         padding: 0 0 65px 0;
-        
+        > a {
+            display: block;
+            width: 100%;
+        }
         .boxheader {
             padding: 15px 15px 0;
         }
     }
     .article-series-links {
-        padding: 10px 10px 0 10px;
+        padding: 10px;
+        border-top: 0 !important;
     }
 }
 
