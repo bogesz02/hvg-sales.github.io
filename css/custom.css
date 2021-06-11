@@ -220,6 +220,13 @@ body.font-size .font-settings .info {
     width: calc(100% - 60px);
   }
 }
+.ad-stripe {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-family: 'Arial', sans-serif;
+  background-position: right center !important;
+}
 body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   background-color: #313131;
 }
