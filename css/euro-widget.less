@@ -31,29 +31,38 @@
             .m_score span {
                 font-weight: bold;
             }
-            .m_home_img {
-                margin-right: 4px;
-            }
             .m_away_img {
                 margin-left: 4px;
             }
             .match {
                 border-bottom: 0;
             }
-    
+
             &.s2 {
+                .m_home_img {
+                    margin-right: 4px;
+                }
                 .m_away, .m_away span, .m_home, .m_home span {
                     font-size: 14px;
+                    text-transform: uppercase;
                 }
             }
             &.s3 {
+                .m_home_img {
+                    margin-right: 4px;
+                }
                 .m_away, .m_away span, .m_home, .m_home span {
                     font-size: 14px;
+                    text-transform: uppercase;
                 }
             }
             &.s4 {
+                .m_home_img {
+                    margin-right: 4px;
+                }
                 .m_away, .m_away span, .m_home, .m_home span {
                     font-size: 20px;
+                    text-transform: uppercase;
                 }
             }
         }
@@ -113,11 +122,18 @@
     }
 
     // app styles
-    @media screen and (max-width: 355px){
+    @media screen and (max-width: 359px){
         padding: 0;
 
-        &[data-widget=scoreboard].s1 h6 {
-            padding: 10px 0 5px 5px;
+        &[data-widget=scoreboard]{
+            &.s1 {
+                .m_away, .m_away span, .m_home, .m_home span {
+                    text-transform: none;
+                }
+                h6 {
+                    padding: 10px 0 5px 5px;
+                }
+            }
         }
     }
     @media only screen and (-webkit-min-device-pixel-ratio: 2),
