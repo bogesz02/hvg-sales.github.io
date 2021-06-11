@@ -441,6 +441,9 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 .bb-box {
   background-color: transparent !important;
 }
+.panelgap.leaderboard-1a {
+  overflow: hidden;
+}
 .boxheader-tipp .boxheader {
   background: #e1e1e1;
   border-top: none;
