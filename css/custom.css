@@ -123,9 +123,14 @@ body.font-size .font-settings .info {
 .article-series-box-basic .article-series-box-content .boxheader {
   padding: 15px 15px 0;
 }
-.article-series-box-basic .article-series-links {
-  padding: 10px;
+.article-series-box-basic .article-series-box-content .article-series-links {
+  padding: 10px !important;
   border-top: 0 !important;
+}
+@media screen and (max-width: 360px) {
+  .article-series-box-basic.article-series-box .more-article-button {
+    left: 15px;
+  }
 }
 .boxheader-tipp .boxheader {
   background: #e1e1e1;

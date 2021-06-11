@@ -177,10 +177,18 @@ body {
         .boxheader {
             padding: 15px 15px 0;
         }
+    
+        .article-series-links {
+            padding: 10px !important;
+            border-top: 0 !important;
+        }
     }
-    .article-series-links {
-        padding: 10px;
-        border-top: 0 !important;
+    &.article-series-box {
+        .more-article-button {
+            @media screen and (max-width: 360px) {
+                left: 15px;
+            }
+        }
     }
 }
 
