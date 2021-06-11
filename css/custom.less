@@ -171,6 +171,114 @@ body {
     }
 }
 
+// boxheader tipp
+.boxheader-tipp .boxheader {
+    background: #e1e1e1;
+    border-top: none;
+    position: relative;
+    margin-bottom: 0;
+}
+.boxheader-tipp .boxheader .topborder {
+    border-left: 6px solid #e25900;
+    border-top: none!important;
+}
+.boxheader-tipp .boxheader .emp {
+	border-top: none!important;
+    margin-top: 0!important;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.boxheader-tipp .boxheader .topborder:after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: -14px;
+    width: 104px;
+    height: 60px;
+    background: url(https://static.hvgrt.hu/img/tipp_01.png) center center no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+.boxheader-tipp .boxheader .info {
+    font-size: 17px!important;
+    padding: 5px 0 5px 10px;
+    position: relative;
+    z-index: 2;
+}
+.boxheader-tipp .boxheader:before {
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 38px;
+    background: #fff;
+    right: 0;
+    bottom: 0;
+}
+.boxheader-tipp .boxheader:after {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .boxheader-tipp .boxheader .info {
+        padding: 8px 0 8px 10px;
+        position: relative;
+        z-index: 2;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .boxheader-tipp .boxheader:before {
+        height: 43px;
+    }
+    .boxheader-tipp .boxheader .topborder:after {
+        top: -10px;
+    }
+}
+@media screen and (max-width: 767px) {
+	.boxheader-tipp .boxheader .info {
+		font-size: 16px;
+		padding: 5px;
+		color: #e25900;
+		margin: 2px 0 0 0;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 1199px){
+	.boxheader-tipp {
+		padding: 0;
+		width: 100%;
+		margin: 40px 0 0;
+	}
+	.boxheader-tipp .boxheader .topborder {
+		border-top: none;
+		border-left: 4px solid #e25900;
+		background: #e1e1e1;
+	}
+	.boxheader-tipp .boxheader {
+		background: transparent;
+		padding: 0;
+		width: calc(100% - 40px);
+		margin: 0 auto;
+	}
+	.boxheader-tipp .boxheader:before {
+		width: 35px;
+		height: 38px;
+		right: -3px;
+		bottom: 0;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.boxheader-tipp .boxheader .topborder:after {
+		background-size: 87%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .boxheader-tipp .boxheader {
+        width: calc(100% - 60px);
+    }
+}
+
 
 // blog no image 
 .grid-view {
