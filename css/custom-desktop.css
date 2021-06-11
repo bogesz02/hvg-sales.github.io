@@ -521,6 +521,13 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
     top: -10px;
   }
 }
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_away,
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_away span,
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_home,
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_home span {
+  font-weight: bold;
+  font-family: 'aleo', serif;
+}
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
 }
