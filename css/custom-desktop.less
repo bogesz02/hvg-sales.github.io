@@ -635,6 +635,64 @@ body:not(.main-page) {
     background-color: transparent !important;
 }
 
+// boxheader tipp
+.boxheader-tipp .boxheader {
+    background: #e1e1e1;
+    border-top: none;
+    position: relative;
+    margin-bottom: 0;
+}
+.boxheader-tipp .boxheader .topborder {
+    border-left: 6px solid #e25900;
+    border-top: none!important;
+}
+.boxheader-tipp .boxheader .emp {
+	border-top: none!important;
+    margin-top: 0!important;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.boxheader-tipp .boxheader .topborder:after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: -14px;
+    width: 104px;
+    height: 60px;
+    background: url(https://static.hvgrt.hu/img/tipp_01.png) center center no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+.boxheader-tipp .boxheader .info {
+    font-size: 17px!important;
+    padding: 8px 0 8px 10px;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+}
+.boxheader-tipp .boxheader:before {
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 38px;
+    background: #fff;
+    right: 0;
+    bottom: 0;
+}
+.boxheader-tipp .boxheader:after {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+.boxheader-tipp .boxheader:before {
+    height: 43px;
+}
+.boxheader-tipp .boxheader .topborder:after {
+    top: -10px;
+}
+}
+
 // dark mode
 body.settings-sepia {
     .site-header-nav .nav-categories {
