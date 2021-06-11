@@ -1,3 +1,70 @@
+@media screen and (max-width: 1199px) {
+  .tlds_euro_widget[data-widget=scoreboard] a,
+  .tlds_euro_widget[data-widget=scoreboard] address,
+  .tlds_euro_widget[data-widget=scoreboard] article,
+  .tlds_euro_widget[data-widget=scoreboard] aside,
+  .tlds_euro_widget[data-widget=scoreboard] audio,
+  .tlds_euro_widget[data-widget=scoreboard] b,
+  .tlds_euro_widget[data-widget=scoreboard] blockquote,
+  .tlds_euro_widget[data-widget=scoreboard] canvas,
+  .tlds_euro_widget[data-widget=scoreboard] caption,
+  .tlds_euro_widget[data-widget=scoreboard] center,
+  .tlds_euro_widget[data-widget=scoreboard] code,
+  .tlds_euro_widget[data-widget=scoreboard] dd,
+  .tlds_euro_widget[data-widget=scoreboard] details,
+  .tlds_euro_widget[data-widget=scoreboard] div,
+  .tlds_euro_widget[data-widget=scoreboard] dl,
+  .tlds_euro_widget[data-widget=scoreboard] dt,
+  .tlds_euro_widget[data-widget=scoreboard] em,
+  .tlds_euro_widget[data-widget=scoreboard] embed,
+  .tlds_euro_widget[data-widget=scoreboard] fieldset,
+  .tlds_euro_widget[data-widget=scoreboard] figcaption,
+  .tlds_euro_widget[data-widget=scoreboard] figure,
+  .tlds_euro_widget[data-widget=scoreboard] footer,
+  .tlds_euro_widget[data-widget=scoreboard] form,
+  .tlds_euro_widget[data-widget=scoreboard] h1,
+  .tlds_euro_widget[data-widget=scoreboard] h2,
+  .tlds_euro_widget[data-widget=scoreboard] h3,
+  .tlds_euro_widget[data-widget=scoreboard] h4,
+  .tlds_euro_widget[data-widget=scoreboard] h5,
+  .tlds_euro_widget[data-widget=scoreboard] h6,
+  .tlds_euro_widget[data-widget=scoreboard] header,
+  .tlds_euro_widget[data-widget=scoreboard] hgroup,
+  .tlds_euro_widget[data-widget=scoreboard] i,
+  .tlds_euro_widget[data-widget=scoreboard] img,
+  .tlds_euro_widget[data-widget=scoreboard] ins,
+  .tlds_euro_widget[data-widget=scoreboard] label,
+  .tlds_euro_widget[data-widget=scoreboard] legend,
+  .tlds_euro_widget[data-widget=scoreboard] li,
+  .tlds_euro_widget[data-widget=scoreboard] mark,
+  .tlds_euro_widget[data-widget=scoreboard] menu,
+  .tlds_euro_widget[data-widget=scoreboard] nav,
+  .tlds_euro_widget[data-widget=scoreboard] ol,
+  .tlds_euro_widget[data-widget=scoreboard] output,
+  .tlds_euro_widget[data-widget=scoreboard] p,
+  .tlds_euro_widget[data-widget=scoreboard] pre,
+  .tlds_euro_widget[data-widget=scoreboard] q,
+  .tlds_euro_widget[data-widget=scoreboard] ruby,
+  .tlds_euro_widget[data-widget=scoreboard] section,
+  .tlds_euro_widget[data-widget=scoreboard] small,
+  .tlds_euro_widget[data-widget=scoreboard] span,
+  .tlds_euro_widget[data-widget=scoreboard] strike,
+  .tlds_euro_widget[data-widget=scoreboard] strong,
+  .tlds_euro_widget[data-widget=scoreboard] summary,
+  .tlds_euro_widget[data-widget=scoreboard] table,
+  .tlds_euro_widget[data-widget=scoreboard] tbody,
+  .tlds_euro_widget[data-widget=scoreboard] td,
+  .tlds_euro_widget[data-widget=scoreboard] tfoot,
+  .tlds_euro_widget[data-widget=scoreboard] th,
+  .tlds_euro_widget[data-widget=scoreboard] thead,
+  .tlds_euro_widget[data-widget=scoreboard] time,
+  .tlds_euro_widget[data-widget=scoreboard] tr,
+  .tlds_euro_widget[data-widget=scoreboard] u,
+  .tlds_euro_widget[data-widget=scoreboard] ul,
+  .tlds_euro_widget[data-widget=scoreboard] video {
+    font: bold 14px 'PT Sans', Arial, sans-serif;
+  }
+}
 .tlds_euro_widget {
   background: transparent !important;
   padding: 0 20px;
@@ -20,6 +87,36 @@
     border-top: solid 1px #d8d8d8;
     margin-top: -1px;
   }
+  .tlds_euro_widget[data-widget=scoreboard] .m_score span {
+    font-weight: bold;
+  }
+  .tlds_euro_widget[data-widget=scoreboard] .m_home_img {
+    margin-right: 4px;
+  }
+  .tlds_euro_widget[data-widget=scoreboard] .m_away_img {
+    margin-left: 4px;
+  }
+  .tlds_euro_widget[data-widget=scoreboard] .match {
+    border-bottom: 0;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_away,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home span {
+    font-size: 14px;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s3 .m_away,
+  .tlds_euro_widget[data-widget=scoreboard].s3 .m_away span,
+  .tlds_euro_widget[data-widget=scoreboard].s3 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s3 .m_home span {
+    font-size: 16px;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s4 .m_away,
+  .tlds_euro_widget[data-widget=scoreboard].s4 .m_away span,
+  .tlds_euro_widget[data-widget=scoreboard].s4 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s4 .m_home span {
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .tlds_euro_widget .scoreboard {
@@ -36,12 +133,6 @@
 }
 @media screen and (max-width: 1199px) {
   .tlds_euro_widget h6 {
-    padding: 7px 0 5px 0;
-    border-bottom: 0;
-    border-top: 0;
-    margin-top: 0;
-    position: relative;
-    overflow: unset;
     display: none;
   }
   .tlds_euro_widget h6:before {
@@ -69,7 +160,7 @@
   font-family: 'PT Sans', Arial, sans-serif;
   padding: 0;
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 355px) {
   .tlds_euro_widget {
     padding: 0;
   }
