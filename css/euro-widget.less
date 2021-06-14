@@ -27,7 +27,7 @@
         }
 
         // custom design styles
-        &[data-widget=scoreboard] {
+        &[data-widget=scoreboard], &[data-widget=match_stats] {
             .m_score span {
                 font-weight: bold;
             }
@@ -125,7 +125,7 @@
     @media screen and (max-width: 359px){
         padding: 0;
 
-        &[data-widget=scoreboard]{
+        &[data-widget=scoreboard], &[data-widget=match_stats] {
             &.s1 {
                 .m_away, .m_away span, .m_home, .m_home span {
                     text-transform: none;
@@ -181,34 +181,42 @@
 //not desktop cimlap
 body:not(.main-page) {
     @media screen and (min-width: 992px){
-        .tlds_euro_widget[data-widget=scoreboard] {
-            width: 690px;
+        .tlds_euro_widget {
+            &[data-widget=scoreboard], &[data-widget=match_stats] {
+                width: 690px;
+            }
         }
     }
 
     @media screen and (min-width: 1200px){
         .cimlap-grid {
             &.articlelist-element-wrap {
-                .tlds_euro_widget[data-widget=scoreboard] {
-                    width: 100%;
+                .tlds_euro_widget {
+                    &[data-widget=scoreboard], &[data-widget=match_stats] {
+                        width: 100%;
+                    }
                 }
             }
         }
     }
 }
-body.column-page .tlds_euro_widget[data-widget=scoreboard] {
-    @media screen and (min-width: 992px){
-        width: 380px;
+body.column-page {
+    .tlds_euro_widget {
+        &[data-widget=scoreboard], &[data-widget=match_stats] {
+            @media screen and (min-width: 992px){
+                width: 380px;
+            }
+        }
     }
 }
 
 // dark modes
 body.read-mode, body.settings-sepia {
     .tlds_euro_widget {
-        &[data-widget=scoreboard] {
+        &[data-widget=scoreboard], &[data-widget=match_stats] {
             background: transparent;
         }
-        &[data-widget=scoreboard].s1 {
+        &[data-widget=scoreboard].s1, &[data-widget=match_stats].s1 {
             h6 {
                 border-bottom: 0;//solid 1px #464545;
             }
@@ -220,7 +228,7 @@ body.read-mode, body.settings-sepia {
                 color: #e0e0e0;
             }
         }
-        &[data-widget=scoreboard] span {
+        &[data-widget=scoreboard] span, &[data-widget=match_stats] span {
             color: #e0e0e0;
         }
     }

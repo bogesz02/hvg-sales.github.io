@@ -87,42 +87,60 @@
     border-top: solid 1px #d8d8d8;
     margin-top: -1px;
   }
-  .tlds_euro_widget[data-widget=scoreboard] .m_score span {
+  .tlds_euro_widget[data-widget=scoreboard] .m_score span,
+  .tlds_euro_widget[data-widget=match_stats] .m_score span {
     font-weight: bold;
   }
-  .tlds_euro_widget[data-widget=scoreboard] .m_away_img {
+  .tlds_euro_widget[data-widget=scoreboard] .m_away_img,
+  .tlds_euro_widget[data-widget=match_stats] .m_away_img {
     margin-left: 4px;
   }
-  .tlds_euro_widget[data-widget=scoreboard] .match {
+  .tlds_euro_widget[data-widget=scoreboard] .match,
+  .tlds_euro_widget[data-widget=match_stats] .match {
     border-bottom: 0;
   }
-  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home_img {
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home_img,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_home_img {
     margin-right: 4px;
   }
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_away,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_away,
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_away span,
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_home,
-  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home span {
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home span,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_home span {
     font-size: 14px;
     text-transform: uppercase;
   }
-  .tlds_euro_widget[data-widget=scoreboard].s3 .m_home_img {
+  .tlds_euro_widget[data-widget=scoreboard].s3 .m_home_img,
+  .tlds_euro_widget[data-widget=match_stats].s3 .m_home_img {
     margin-right: 4px;
   }
   .tlds_euro_widget[data-widget=scoreboard].s3 .m_away,
+  .tlds_euro_widget[data-widget=match_stats].s3 .m_away,
   .tlds_euro_widget[data-widget=scoreboard].s3 .m_away span,
+  .tlds_euro_widget[data-widget=match_stats].s3 .m_away span,
   .tlds_euro_widget[data-widget=scoreboard].s3 .m_home,
-  .tlds_euro_widget[data-widget=scoreboard].s3 .m_home span {
+  .tlds_euro_widget[data-widget=match_stats].s3 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s3 .m_home span,
+  .tlds_euro_widget[data-widget=match_stats].s3 .m_home span {
     font-size: 14px;
     text-transform: uppercase;
   }
-  .tlds_euro_widget[data-widget=scoreboard].s4 .m_home_img {
+  .tlds_euro_widget[data-widget=scoreboard].s4 .m_home_img,
+  .tlds_euro_widget[data-widget=match_stats].s4 .m_home_img {
     margin-right: 4px;
   }
   .tlds_euro_widget[data-widget=scoreboard].s4 .m_away,
+  .tlds_euro_widget[data-widget=match_stats].s4 .m_away,
   .tlds_euro_widget[data-widget=scoreboard].s4 .m_away span,
+  .tlds_euro_widget[data-widget=match_stats].s4 .m_away span,
   .tlds_euro_widget[data-widget=scoreboard].s4 .m_home,
-  .tlds_euro_widget[data-widget=scoreboard].s4 .m_home span {
+  .tlds_euro_widget[data-widget=match_stats].s4 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s4 .m_home span,
+  .tlds_euro_widget[data-widget=match_stats].s4 .m_home span {
     font-size: 20px;
     text-transform: uppercase;
   }
@@ -174,12 +192,17 @@
     padding: 0;
   }
   .tlds_euro_widget[data-widget=scoreboard].s1 .m_away,
+  .tlds_euro_widget[data-widget=match_stats].s1 .m_away,
   .tlds_euro_widget[data-widget=scoreboard].s1 .m_away span,
+  .tlds_euro_widget[data-widget=match_stats].s1 .m_away span,
   .tlds_euro_widget[data-widget=scoreboard].s1 .m_home,
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_home span {
+  .tlds_euro_widget[data-widget=match_stats].s1 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s1 .m_home span,
+  .tlds_euro_widget[data-widget=match_stats].s1 .m_home span {
     text-transform: none;
   }
-  .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
+  .tlds_euro_widget[data-widget=scoreboard].s1 h6,
+  .tlds_euro_widget[data-widget=match_stats].s1 h6 {
     padding: 10px 0 5px 5px;
   }
 }
@@ -201,40 +224,55 @@
   width: auto;
 }
 @media screen and (min-width: 992px) {
-  body:not(.main-page) .tlds_euro_widget[data-widget=scoreboard] {
+  body:not(.main-page) .tlds_euro_widget[data-widget=scoreboard],
+  body:not(.main-page) .tlds_euro_widget[data-widget=match_stats] {
     width: 690px;
   }
 }
 @media screen and (min-width: 1200px) {
-  body:not(.main-page) .cimlap-grid.articlelist-element-wrap .tlds_euro_widget[data-widget=scoreboard] {
+  body:not(.main-page) .cimlap-grid.articlelist-element-wrap .tlds_euro_widget[data-widget=scoreboard],
+  body:not(.main-page) .cimlap-grid.articlelist-element-wrap .tlds_euro_widget[data-widget=match_stats] {
     width: 100%;
   }
 }
 @media screen and (min-width: 992px) {
-  body.column-page .tlds_euro_widget[data-widget=scoreboard] {
+  body.column-page .tlds_euro_widget[data-widget=scoreboard],
+  body.column-page .tlds_euro_widget[data-widget=match_stats] {
     width: 380px;
   }
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard],
-body.settings-sepia .tlds_euro_widget[data-widget=scoreboard] {
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard],
+body.read-mode .tlds_euro_widget[data-widget=match_stats],
+body.settings-sepia .tlds_euro_widget[data-widget=match_stats] {
   background: transparent;
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 h6,
-body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 h6 {
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 h6,
+body.read-mode .tlds_euro_widget[data-widget=match_stats].s1 h6,
+body.settings-sepia .tlds_euro_widget[data-widget=match_stats].s1 h6 {
   border-bottom: 0;
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .match,
-body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .match {
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .match,
+body.read-mode .tlds_euro_widget[data-widget=match_stats].s1 .match,
+body.settings-sepia .tlds_euro_widget[data-widget=match_stats].s1 .match {
   border-bottom: solid 1px #464545;
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
+body.read-mode .tlds_euro_widget[data-widget=match_stats].s1 .m_status,
+body.settings-sepia .tlds_euro_widget[data-widget=match_stats].s1 .m_status,
 body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span,
-body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span {
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 .m_status span,
+body.read-mode .tlds_euro_widget[data-widget=match_stats].s1 .m_status span,
+body.settings-sepia .tlds_euro_widget[data-widget=match_stats].s1 .m_status span {
   color: #e0e0e0;
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard] span,
-body.settings-sepia .tlds_euro_widget[data-widget=scoreboard] span {
+body.settings-sepia .tlds_euro_widget[data-widget=scoreboard] span,
+body.read-mode .tlds_euro_widget[data-widget=match_stats] span,
+body.settings-sepia .tlds_euro_widget[data-widget=match_stats] span {
   color: #e0e0e0;
 }
 body.read-mode #tl_cplus a,
