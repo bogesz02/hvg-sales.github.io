@@ -357,11 +357,29 @@ body {
     padding: 0;
     margin: 20px 0;
 }
+//pp dinamikus hack
+.article-view-wrap .reports-wrap.latest-reports-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    h3 {
+        width: 100%;
+        order: 1;
+    }
+}
 .article-view-wrap .reports-wrap.latest-reports-wrap .list-article, 
 .article-page .reports-wrap.latest-reports-wrap .list-article {
     padding-bottom: 0;
     margin-bottom: 0;
+    order: 2;
+    p {
+        padding: 15px 0;
+    }
+    button.button.button-link {
+        order: 3;
+    }
 }
+
 
 
 
