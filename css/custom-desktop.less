@@ -649,12 +649,12 @@ body:not(.main-page) {
 }
 
 @media screen and (min-width: 1200px) {
-.boxheader-tipp .boxheader:before {
-    height: 43px;
-}
-.boxheader-tipp .boxheader .topborder:after {
-    top: -10px;
-}
+    .boxheader-tipp .boxheader:before {
+        height: 43px;
+    }
+    .boxheader-tipp .boxheader .topborder:after {
+        top: -10px;
+    }
 }
 
 // euro widget
@@ -665,6 +665,14 @@ body:not(.main-page) {
                 font-weight: bold;
                 font-family: 'aleo',serif;
             }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body:not(.main-page) {
+        .tlds_euro_widget[data-widget=scoreboard] {
+            width: 100%;
         }
     }
 }
