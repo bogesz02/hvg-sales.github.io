@@ -527,12 +527,12 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 .tlds_euro_widget[data-widget=scoreboard].s4 .m_home span {
   font-weight: bold;
   font-family: 'aleo', serif;
-  font-size: 20px;
+  font-size: 20px !important;
 }
 .tlds_euro_widget[data-widget=scoreboard].s4 .m_score span {
-  line-height: 36px;
-  font-size: 26px;
-  width: 36px;
+  line-height: 36px !important;
+  font-size: 26px !important;
+  width: 36px !important;
 }
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
