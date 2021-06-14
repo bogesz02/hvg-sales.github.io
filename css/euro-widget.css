@@ -152,7 +152,7 @@
   .tlds_euro_widget[data-widget=match_stats].s4 .m_home,
   .tlds_euro_widget[data-widget=scoreboard].s4 .m_home span,
   .tlds_euro_widget[data-widget=match_stats].s4 .m_home span {
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
   }
 }
