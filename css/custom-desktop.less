@@ -323,6 +323,32 @@ body:not(.main-page) {
 
 }
 
+// tematikus blokk
+.cimlap-grid-elem.articlelist-element-wrap.articlebox {
+    &.cimlap-tematikus-blokk-right {
+        article {
+            &.articlelist-element:last-of-type {
+                padding-bottom: 0;
+            }
+            &.articleitem:last-of-type {
+                padding-bottom: 15px;
+            }
+        }
+        .cimlap-tematikus-jobb {
+            position: relative;
+            bottom: -15px;
+            z-index: 1;
+        }
+        .cimlap-tematikus-jobb-button {
+            position: relative;
+            bottom: unset;
+            right: unset;
+            margin-bottom: 0px;
+            z-index: 2;
+        }
+    }
+}
+
 .cimlap-big_square_article .content {
     bottom: 0;
 }
@@ -433,7 +459,7 @@ body:not(.main-page) {
         }
     
     }
-    
+
     &.article-brandchannel, &.article-brandcontent {
         .article-content .article-menu .author-img {
             border-radius: 0;

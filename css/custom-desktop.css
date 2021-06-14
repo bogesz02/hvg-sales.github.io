@@ -252,6 +252,24 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .b
 .cimlap-grid.cimlap-grid-blog .cimlap-grid-elem.elem-580 .cimlap-big_square_article:hover a.img {
   transform: scale(1.1);
 }
+.cimlap-grid-elem.articlelist-element-wrap.articlebox.cimlap-tematikus-blokk-right article.articlelist-element:last-of-type {
+  padding-bottom: 0;
+}
+.cimlap-grid-elem.articlelist-element-wrap.articlebox.cimlap-tematikus-blokk-right article.articleitem:last-of-type {
+  padding-bottom: 15px;
+}
+.cimlap-grid-elem.articlelist-element-wrap.articlebox.cimlap-tematikus-blokk-right .cimlap-tematikus-jobb {
+  position: relative;
+  bottom: -15px;
+  z-index: 1;
+}
+.cimlap-grid-elem.articlelist-element-wrap.articlebox.cimlap-tematikus-blokk-right .cimlap-tematikus-jobb-button {
+  position: relative;
+  bottom: unset;
+  right: unset;
+  margin-bottom: 0px;
+  z-index: 2;
+}
 .cimlap-big_square_article .content {
   bottom: 0;
 }
