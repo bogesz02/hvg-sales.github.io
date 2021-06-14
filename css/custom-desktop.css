@@ -529,6 +529,10 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
   font-family: 'aleo', serif;
   font-size: 20px;
 }
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_score span {
+  line-height: 36px;
+  width: 36px;
+}
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
 }
