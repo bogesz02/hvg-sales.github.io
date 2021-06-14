@@ -277,6 +277,9 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   width: 100%;
   order: 1;
 }
+.article-view-wrap .reports-wrap.latest-reports-wrap button.button.button-link {
+  order: 3;
+}
 .article-view-wrap .reports-wrap.latest-reports-wrap .list-article,
 .article-page .reports-wrap.latest-reports-wrap .list-article {
   padding-bottom: 0;
@@ -286,10 +289,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
 .article-view-wrap .reports-wrap.latest-reports-wrap .list-article p,
 .article-page .reports-wrap.latest-reports-wrap .list-article p {
   padding: 15px 0;
-}
-.article-view-wrap .reports-wrap.latest-reports-wrap .list-article button.button.button-link,
-.article-page .reports-wrap.latest-reports-wrap .list-article button.button.button-link {
-  order: 3;
 }
 .list-article figure img:not(.avatar) {
   margin: 10px 0 0;
