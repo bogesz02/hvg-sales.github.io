@@ -78,7 +78,8 @@
   .tlds_euro_widget {
     padding: 0;
   }
-  .tlds_euro_widget[data-widget=scoreboard] {
+  .tlds_euro_widget[data-widget=scoreboard],
+  .tlds_euro_widget[data-widget=match_stats] {
     margin: 0 auto;
   }
 }
