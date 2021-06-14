@@ -527,6 +527,7 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 .tlds_euro_widget[data-widget=scoreboard].s4 .m_home span {
   font-weight: bold;
   font-family: 'aleo', serif;
+  font-size: 20px;
 }
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
