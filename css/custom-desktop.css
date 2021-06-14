@@ -531,6 +531,7 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 }
 .tlds_euro_widget[data-widget=scoreboard].s4 .m_score span {
   line-height: 36px;
+  font-size: 26px;
   width: 36px;
 }
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
