@@ -100,6 +100,16 @@
   .tlds_euro_widget[data-widget=match_stats] .match {
     border-bottom: 0;
   }
+  .tlds_euro_widget[data-widget=scoreboard] .m_away,
+  .tlds_euro_widget[data-widget=match_stats] .m_away,
+  .tlds_euro_widget[data-widget=scoreboard] .m_away span,
+  .tlds_euro_widget[data-widget=match_stats] .m_away span,
+  .tlds_euro_widget[data-widget=scoreboard] .m_home,
+  .tlds_euro_widget[data-widget=match_stats] .m_home,
+  .tlds_euro_widget[data-widget=scoreboard] .m_home span,
+  .tlds_euro_widget[data-widget=match_stats] .m_home span {
+    font-family: 'PT Sans', Arial, sans-serif;
+  }
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_home_img,
   .tlds_euro_widget[data-widget=match_stats].s2 .m_home_img {
     margin-right: 4px;
