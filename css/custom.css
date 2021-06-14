@@ -269,6 +269,20 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   padding: 0 0 15px 0;
   margin: 20px 0;
 }
+.article-view-wrap .reports-wrap .list-article a h2,
+.article-page .reports-wrap .list-article a h2 {
+  line-height: 26px;
+}
+@media screen and (min-width: 768px) {
+  .article-view-wrap .reports-wrap .list-article a,
+  .article-page .reports-wrap .list-article a {
+    padding: 0;
+  }
+  .article-view-wrap .reports-wrap .list-article a h2,
+  .article-page .reports-wrap .list-article a h2 {
+    line-height: 30px;
+  }
+}
 .article-view-wrap .reports-wrap.latest-reports-wrap {
   display: flex;
   flex-wrap: wrap;
