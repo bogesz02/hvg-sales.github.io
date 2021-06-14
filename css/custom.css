@@ -286,10 +286,6 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   margin-bottom: 0;
   order: 2;
 }
-.article-view-wrap .reports-wrap.latest-reports-wrap .list-article a h2,
-.article-page .reports-wrap.latest-reports-wrap .list-article a h2 {
-  margin-bottom: 15px;
-}
 .list-article figure img:not(.avatar) {
   margin: 10px 0 0;
 }
