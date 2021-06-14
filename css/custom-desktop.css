@@ -528,11 +528,6 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
   font-weight: bold;
   font-family: 'aleo', serif;
 }
-@media screen and (min-width: 1200px) {
-  body:not(.main-page) .tlds_euro_widget[data-widget=scoreboard] {
-    width: 100%;
-  }
-}
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
 }

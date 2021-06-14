@@ -205,6 +205,11 @@
     width: 690px;
   }
 }
+@media screen and (min-width: 1200px) {
+  body:not(.main-page) .cimlap-grid.articlelist-element-wrap .tlds_euro_widget[data-widget=scoreboard] {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 992px) {
   body.column-page .tlds_euro_widget[data-widget=scoreboard] {
     width: 380px;
