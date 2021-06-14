@@ -109,6 +109,7 @@
   .tlds_euro_widget[data-widget=scoreboard] .m_home span,
   .tlds_euro_widget[data-widget=match_stats] .m_home span {
     font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
   }
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_home_img,
   .tlds_euro_widget[data-widget=match_stats].s2 .m_home_img {
