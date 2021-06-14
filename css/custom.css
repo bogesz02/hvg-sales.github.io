@@ -42,7 +42,7 @@ body.article-page .reports-wrap .list-article figure {
   display: block;
 }
 body.article-page .tlds_euro_widget {
-  padding: 0;
+  padding: 0 !important;
 }
 body:not(.article-page) .main-tag-container {
   margin: 0;
