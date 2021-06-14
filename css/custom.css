@@ -264,6 +264,16 @@ body.read-mode .grid-view .grid-article-blog .image-holder a.no-image {
   padding-left: 0;
   margin-top: 5px;
 }
+.article-view-wrap .reports-wrap .list-article,
+.article-page .reports-wrap .list-article {
+  padding: 0;
+  margin: 20px 0;
+}
+.article-view-wrap .reports-wrap.latest-reports-wrap .list-article,
+.article-page .reports-wrap.latest-reports-wrap .list-article {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 .list-article figure img:not(.avatar) {
   margin: 10px 0 0;
 }
