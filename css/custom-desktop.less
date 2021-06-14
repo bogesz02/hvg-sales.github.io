@@ -411,7 +411,29 @@ body:not(.main-page) {
                 }
             }
         }
+
+        // cikksorozat 
+        .article-series-box {
+            .article-series__header {
+                .text {
+                    padding-right: 0;
+                    max-width: 70%;
+                    background: none;
+                    position: relative;
+                    z-index: 2;
+                    padding-left: 45px;
+
+                    &:before {
+                        position: absolute;
+                        top: 6px;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    
     }
+    
     &.article-brandchannel, &.article-brandcontent {
         .article-content .article-menu .author-img {
             border-radius: 0;
