@@ -123,6 +123,10 @@
   .tlds_euro_widget[data-widget=match_stats].s2 .m_home_img {
     margin-right: 4px;
   }
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_away_img,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_away_img {
+    margin-left: 4px;
+  }
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_away,
   .tlds_euro_widget[data-widget=match_stats].s2 .m_away,
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
@@ -138,6 +142,10 @@
   .tlds_euro_widget[data-widget=match_stats].s3 .m_home_img {
     margin-right: 4px;
   }
+  .tlds_euro_widget[data-widget=scoreboard].s3 .m_away_img,
+  .tlds_euro_widget[data-widget=match_stats].s3 .m_away_img {
+    margin-left: 4px;
+  }
   .tlds_euro_widget[data-widget=scoreboard].s3 .m_away,
   .tlds_euro_widget[data-widget=match_stats].s3 .m_away,
   .tlds_euro_widget[data-widget=scoreboard].s3 .m_away span,
@@ -152,6 +160,10 @@
   .tlds_euro_widget[data-widget=scoreboard].s4 .m_home_img,
   .tlds_euro_widget[data-widget=match_stats].s4 .m_home_img {
     margin-right: 4px;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s4 .m_away_img,
+  .tlds_euro_widget[data-widget=match_stats].s4 .m_away_img {
+    margin-left: 4px;
   }
   .tlds_euro_widget[data-widget=scoreboard].s4 .m_away,
   .tlds_euro_widget[data-widget=match_stats].s4 .m_away,
