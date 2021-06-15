@@ -222,28 +222,6 @@
     text-transform: none;
     font-size: 13px;
   }
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_away,
-  .tlds_euro_widget[data-widget=match_stats].s1 .m_away,
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_away span,
-  .tlds_euro_widget[data-widget=match_stats].s1 .m_away span,
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_home,
-  .tlds_euro_widget[data-widget=match_stats].s1 .m_home,
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_home span,
-  .tlds_euro_widget[data-widget=match_stats].s1 .m_home span {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_home,
-  .tlds_euro_widget[data-widget=match_stats].s1 .m_home,
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_away,
-  .tlds_euro_widget[data-widget=match_stats].s1 .m_away {
-    width: 38%;
-  }
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_away span,
-  .tlds_euro_widget[data-widget=match_stats].s1 .m_away span {
-    order: 2;
-  }
   .tlds_euro_widget[data-widget=scoreboard].s1 h6,
   .tlds_euro_widget[data-widget=match_stats].s1 h6 {
     padding: 10px 0 5px 5px;
