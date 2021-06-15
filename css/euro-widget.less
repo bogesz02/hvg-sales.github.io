@@ -137,6 +137,14 @@
         padding: 0;
 
         &[data-widget=scoreboard], &[data-widget=match_stats] {
+            &.s1 {
+                .m_line {
+                    padding: 28px 0 0;
+                }
+                .m_status {
+                    padding: 4px 0 3px 0;
+                }
+            }
             &.s2 {
                 //long name setting
                 .m_away, .m_away span, .m_home, .m_home span {
@@ -155,7 +163,11 @@
                         order: 2;
                     }
                 }
+                .m_line {
+                    padding: 5px 0 0;
+                }
             }
+
         }
     }
 

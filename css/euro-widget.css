@@ -211,6 +211,14 @@
   .tlds_euro_widget {
     padding: 0;
   }
+  .tlds_euro_widget[data-widget=scoreboard].s1 .m_line,
+  .tlds_euro_widget[data-widget=match_stats].s1 .m_line {
+    padding: 28px 0 0;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s1 .m_status,
+  .tlds_euro_widget[data-widget=match_stats].s1 .m_status {
+    padding: 4px 0 3px 0;
+  }
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_away,
   .tlds_euro_widget[data-widget=match_stats].s2 .m_away,
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
@@ -238,6 +246,10 @@
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
   .tlds_euro_widget[data-widget=match_stats].s2 .m_away span {
     order: 2;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_line,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_line {
+    padding: 5px 0 0;
   }
 }
 @media screen and (max-width: 359px) {
