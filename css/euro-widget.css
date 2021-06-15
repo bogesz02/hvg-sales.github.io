@@ -249,7 +249,7 @@
   }
   .tlds_euro_widget[data-widget=scoreboard].s2 .m_line,
   .tlds_euro_widget[data-widget=match_stats].s2 .m_line {
-    padding: 5px 0 0;
+    padding: 28px 0 0;
   }
 }
 @media screen and (max-width: 359px) {
