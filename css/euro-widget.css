@@ -238,7 +238,7 @@
   .tlds_euro_widget[data-widget=match_stats].s1 .m_home,
   .tlds_euro_widget[data-widget=scoreboard].s1 .m_away,
   .tlds_euro_widget[data-widget=match_stats].s1 .m_away {
-    width: 38%;
+    width: 35%;
   }
   .tlds_euro_widget[data-widget=scoreboard].s1 .m_home span,
   .tlds_euro_widget[data-widget=match_stats].s1 .m_home span,
