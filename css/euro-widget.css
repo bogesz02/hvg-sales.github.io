@@ -207,6 +207,39 @@
   font-family: 'PT Sans', Arial, sans-serif;
   padding: 0;
 }
+@media screen and (max-width: 390px) {
+  .tlds_euro_widget {
+    padding: 0;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_away,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_away,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_away span,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home span,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_home span {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_home,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_away,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_away {
+    width: 38%;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_home span,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_home span,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_away span {
+    display: none;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
+  .tlds_euro_widget[data-widget=match_stats].s2 .m_away span {
+    order: 2;
+  }
+}
 @media screen and (max-width: 359px) {
   .tlds_euro_widget {
     padding: 0;

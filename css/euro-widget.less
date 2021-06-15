@@ -133,6 +133,32 @@
     }
 
     // app styles + small device
+    @media screen and (max-width: 390px){
+        padding: 0;
+
+        &[data-widget=scoreboard], &[data-widget=match_stats] {
+            &.s2 {
+                //long name setting
+                .m_away, .m_away span, .m_home, .m_home span {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                .m_home, .m_away {
+                    width: 38%;
+                    span {
+                        display: none;
+                    }
+                }
+                .m_away {
+                    span {
+                        order: 2;
+                    }
+                }
+            }
+        }
+    }
+
     @media screen and (max-width: 359px){
         padding: 0;
 
