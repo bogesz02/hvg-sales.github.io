@@ -640,6 +640,10 @@ body.settings-sepia .boxheader-tipp .boxheader {
 body.settings-sepia .boxheader-tipp .boxheader:before {
   background: #1a1a1a;
 }
+body.settings-sepia .cimlap-tematikus-szalag {
+  height: 59px;
+  overflow: hidden;
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (orientation: portrait) {
   .site-header-nav .nav-categories .category-button {
     padding: 5px 4px;
