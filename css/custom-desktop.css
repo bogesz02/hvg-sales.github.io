@@ -622,6 +622,9 @@ body.settings-sepia .article-content .embed-container .blockquote.embedly-card {
 body.settings-sepia .article-content .article-otherelements-container .articlelist-element.switch-article {
   background: #1a1a1a;
 }
+body.settings-sepia .article-content .article-pp-featured time.info span {
+  color: #fff;
+}
 body.settings-sepia ::selection {
   background: #e6e6e6;
   color: #000;
