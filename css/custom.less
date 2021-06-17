@@ -210,9 +210,38 @@ body {
 
         .grid-view .grid-article & {
             padding-right: 20px;
+            a {
+                margin-right: 0;
+                &[href*="/360/"]:before {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 15px 0 0 0;
+                    background: #75d1b7;
+                    position: relative;
+                    display: inline-block;
+                    margin: 0px 4px 0 0;
+                    content: '';
+                }
+            }
         }
     }
 }
+// .grid-view .grid-article .author-page-header .text-holder a {
+//     margin-right: 0;
+//     &[href*="/360/"]:before {
+//         width: 15px;
+//         height: 15px;
+//         border-radius: 15px 0 0 0;
+//         background: #75d1b7;
+//         position: relative;
+//         display: inline-block;
+//         margin: 0px 4px 0 0;
+//         content: '';
+//     }
+// }
+
+
+
 
 // boxheader tipp
 .boxheader-tipp .boxheader {
