@@ -143,6 +143,13 @@ body.font-size .font-settings .info {
     max-height: 60px;
   }
 }
+.author-page-header .text-holder {
+  padding-right: 20px;
+  width: 100%;
+}
+.grid-view .grid-article .author-page-header .text-holder {
+  padding-right: 20px;
+}
 .boxheader-tipp .boxheader {
   background: #e1e1e1;
   border-top: none;

@@ -197,10 +197,20 @@ body {
 }
 
 // rounded author image >> masterben
-.author-page-header .image-holder img {
-    max-height: 80px;
-    @media screen and (max-width: 767px){
-        max-height: 60px;
+.author-page-header {
+    .image-holder img {
+        max-height: 80px;
+        @media screen and (max-width: 767px){
+            max-height: 60px;
+        }
+    }
+    .text-holder {
+        padding-right: 20px;
+        width: 100%;
+
+        .grid-view .grid-article & {
+            padding-right: 20px;
+        }
     }
 }
 
