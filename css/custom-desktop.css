@@ -625,6 +625,18 @@ body.settings-sepia .article-content .article-otherelements-container .articleli
 body.settings-sepia .article-content .article-pp-featured time.info span {
   color: #fff;
 }
+body.settings-sepia .article-content .article-series-box .article-series__box--2:before {
+  border-top: 1px solid #444444;
+}
+body.settings-sepia .article-content .article-series-box .article-series__box--2 .caption {
+  border-top: 1px solid #444444;
+}
+body.settings-sepia .article-content .article-series-box .article-series__box--3 .boxheader .topborder .emp {
+  border-top: 2px solid #848484;
+}
+body.settings-sepia .article-content .article-series-box .article-series__box--3 .boxheader .topborder .emp .info {
+  color: #7b7b7b;
+}
 body.settings-sepia ::selection {
   background: #e6e6e6;
   color: #000;
