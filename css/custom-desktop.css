@@ -613,7 +613,7 @@ body.settings-sepia .article-content .embed-container iframe {
   background: #f4f4f4;
 }
 body.settings-sepia .article-content .embed-container .twitter-tweet iframe[src*="twitter.com"] {
-  border-radius: 10px;
+  border-radius: 12px;
 }
 body.settings-sepia .article-content .embed-container .embedly-card {
   background-color: #f4f4f4;
