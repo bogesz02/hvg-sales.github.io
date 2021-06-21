@@ -28,7 +28,6 @@ body:before {
 }
 .m-breadcrumb {
   margin: 0;
-  background: #fff !important;
 }
 .scroller {
   overflow-x: hidden;
