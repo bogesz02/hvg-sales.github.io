@@ -1,40 +1,19 @@
 // mobile fullpage ad styles
-
 body {
     height: 0;
 }
 html {
 background: unset;
 }
-body:before {
-    content: "";
-    position: fixed;
-    left: 0;
-    top: 50px;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    display: block;
-background: url(https://img3.hvg.hu/image.aspx?id=5dd34e36-8483-4f0f-9fa4-8e078e2add74&view=00000000-0000-0000-0000-000000000000) no-repeat center top;
-}
-
 .parallax_top, .parallax_bottom {
     margin: 0;
     width:100%;
-}
-
-.parallax_top a {
-    height: 480px;
-    max-height: calc(100vh - 50px);
-    width: 100%;
-    display: block;
-}
-
-.parallax_bottom a {
-    height: 480px;
-    max-height: calc(100vh - 50px);
-    width: 100%;
-    display: block;
+    a {
+        height: 480px;
+        max-height: calc(100vh - 50px);
+        width: 100%;
+        display: block;
+    }
 }
 
 .m-breadcrumb {
@@ -82,7 +61,7 @@ background: url(https://img3.hvg.hu/image.aspx?id=5dd34e36-8483-4f0f-9fa4-8e078e
     padding-left: 20px;
     padding-top: 5px;
 }
-.column-page .adcaption{
+.column-page .adcaption {
     left: 0;
 }
 .article-page .article-content .adcaption {
