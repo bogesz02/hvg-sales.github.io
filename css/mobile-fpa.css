@@ -172,6 +172,9 @@ body.read-mode .grid-view .grid-article {
 body.read-mode.column-page .grid-view {
   background: transparent;
 }
+body.read-mode.article-page .grid-view {
+  background: #1a1a1a;
+}
 body.read-mode .grid-view {
   background: transparent;
 }
