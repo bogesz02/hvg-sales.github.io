@@ -263,10 +263,12 @@ body:not(.main-page) {
 }
 
 body.column-page, body.article-page {
-    .tlds_euro_widget {
-        &[data-widget=scoreboard], &[data-widget=match_stats] {
-            @media screen and (min-width: 992px){
-                width: 380px;
+    .sidebar {
+        .tlds_euro_widget {
+            &[data-widget=scoreboard], &[data-widget=match_stats] {
+                @media screen and (min-width: 992px){
+                    width: 380px;
+                }
             }
         }
     }
