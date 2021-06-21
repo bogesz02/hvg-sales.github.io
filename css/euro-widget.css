@@ -342,7 +342,9 @@
 }
 @media screen and (min-width: 992px) {
   body.column-page .tlds_euro_widget[data-widget=scoreboard],
-  body.column-page .tlds_euro_widget[data-widget=match_stats] {
+  body.article-page .tlds_euro_widget[data-widget=scoreboard],
+  body.column-page .tlds_euro_widget[data-widget=match_stats],
+  body.article-page .tlds_euro_widget[data-widget=match_stats] {
     width: 380px;
   }
 }

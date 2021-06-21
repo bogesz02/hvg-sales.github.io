@@ -7,7 +7,6 @@
     }
 }
 .tlds_euro_widget {
-    //background: transparent !important;
     padding: 0 15px;
 
     @media screen and (min-width: 768px){
@@ -262,7 +261,8 @@ body:not(.main-page) {
         }
     }
 }
-body.column-page {
+
+body.column-page, body.article-page {
     .tlds_euro_widget {
         &[data-widget=scoreboard], &[data-widget=match_stats] {
             @media screen and (min-width: 992px){
