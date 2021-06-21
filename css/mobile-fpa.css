@@ -139,6 +139,12 @@ article.lead-video {
 body.read-mode .pager {
   background: #1a1a1a;
 }
+.grid-view-latest-news-list {
+  background: #fff;
+}
+body.read-mode .grid-view-latest-news-list {
+  background: #1a1a1a;
+}
 body.read-mode.article-page .article-view-wrap + .boxheader:first-of-type {
   background: #1a1a1a;
 }
@@ -167,9 +173,6 @@ body.read-mode .grid-view {
   background: transparent;
 }
 body.read-mode .adtype-tagbox {
-  background: #1a1a1a;
-}
-body.read-mode .grid-view-latest-news-list {
   background: #1a1a1a;
 }
 .grid-article.home-video-article {
@@ -208,9 +211,6 @@ body.read-mode .grid-article.home-video-article {
     margin: 0;
   }
   .adtype-tagbox {
-    background: #fff;
-  }
-  .grid-view-latest-news-list {
     background: #fff;
   }
   .list-article {
