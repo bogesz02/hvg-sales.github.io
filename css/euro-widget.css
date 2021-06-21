@@ -350,7 +350,7 @@ body.read-mode .tlds_euro_widget[data-widget=scoreboard],
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard],
 body.read-mode .tlds_euro_widget[data-widget=match_stats],
 body.settings-sepia .tlds_euro_widget[data-widget=match_stats] {
-  background: transparent;
+  background: #111;
 }
 body.read-mode .tlds_euro_widget[data-widget=scoreboard].s1 h6,
 body.settings-sepia .tlds_euro_widget[data-widget=scoreboard].s1 h6,
