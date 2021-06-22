@@ -228,18 +228,17 @@ body.read-mode .grid-article.home-video-article {
         padding: 20px;
         margin: 0;
     }
+    //rovatoldal
     .column-page {
         .lead-article {
             padding: 0;
             .text:after {
                 display: none;
             }
-            // .bookmark {
-            //     right: 0;
-            // }
         }
     }
-    .article-view-wrap {
+    //cikkoldal
+    .article-view-wrap, .article-page {
         .lead-article {
             padding: 0;
         }
@@ -276,6 +275,7 @@ body.read-mode .grid-article.home-video-article {
     .boxheader-nyuzsi header.boxheader {
         width: 100%;
     }
+    //home
     .scroller-home {
         .lead-article {
             &:first-of-type .text {
@@ -289,9 +289,10 @@ body.read-mode .grid-article.home-video-article {
                 border: 0;
                 padding: 0;
             }
-
             .text-holder {
-                padding: 0 20px 20px;
+                .text {
+                    padding: 0 20px 20px;
+                }
             }
         }
     }

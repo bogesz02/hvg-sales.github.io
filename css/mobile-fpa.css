@@ -218,7 +218,8 @@ body.read-mode .grid-article.home-video-article {
   .column-page .lead-article .text:after {
     display: none;
   }
-  .article-view-wrap .lead-article {
+  .article-view-wrap .lead-article,
+  .article-page .lead-article {
     padding: 0;
   }
   .adtype-tagbox {
@@ -262,7 +263,7 @@ body.read-mode .grid-article.home-video-article {
     border: 0;
     padding: 0;
   }
-  .scroller-home .lead-article .text-holder {
+  .scroller-home .lead-article .text-holder .text {
     padding: 0 20px 20px;
   }
 }
