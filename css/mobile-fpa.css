@@ -278,6 +278,9 @@ body.read-mode .grid-article.home-video-article {
   .boxheader-nyuzsi header.boxheader {
     width: 100%;
   }
+  .scroller-home .lead-article {
+    padding: 0;
+  }
   .scroller-home .lead-article:first-of-type .text {
     border: 0;
     padding: 0;
