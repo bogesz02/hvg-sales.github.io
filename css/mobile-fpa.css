@@ -152,6 +152,9 @@ body.read-mode .grid-view-latest-news-list {
 .live-video {
   margin-top: 0;
 }
+.grid-article.home-video-article {
+  background: #fff;
+}
 body.read-mode.article-page .article-view-wrap + .boxheader:first-of-type {
   background: #1a1a1a;
 }
@@ -165,9 +168,12 @@ body.read-mode .adcaption {
 body.read-mode .adcaption {
   left: 0;
 }
-.read-mode .mobile-pr-article {
+body.read-mode .mobile-pr-article {
   background: #333;
   margin: 0 0 20px 0;
+}
+body.read-mode .grid-view {
+  background: transparent;
 }
 body.read-mode .grid-view .grid-article {
   border-bottom: 1px solid #464545;
@@ -179,14 +185,8 @@ body.read-mode.column-page .grid-view {
 body.read-mode.article-page .grid-view {
   background: #1a1a1a;
 }
-body.read-mode .grid-view {
-  background: transparent;
-}
 body.read-mode .adtype-tagbox {
   background: #1a1a1a;
-}
-.grid-article.home-video-article {
-  background: #fff;
 }
 body.read-mode .grid-article.home-video-article {
   background: #1a1a1a;
@@ -200,12 +200,6 @@ body.read-mode .grid-article.home-video-article {
   }
   .article-page .grid-view {
     background: #fff;
-  }
-  body.read-mode.article-page .white__bg {
-    padding: 20px;
-  }
-  body.read-mode.article-page .article-view {
-    padding: 0;
   }
   .lead-article,
   .grid-article,
@@ -270,6 +264,12 @@ body.read-mode .grid-article.home-video-article {
   }
   .scroller-home .lead-article .text-holder .text {
     padding: 0 20px 20px;
+  }
+  body.read-mode.article-page .white__bg {
+    padding: 20px;
+  }
+  body.read-mode.article-page .article-view {
+    padding: 0;
   }
 }
 /*end 767*/
@@ -368,4 +368,10 @@ body.read-mode .grid-article.home-video-article {
 /* oldal legalján a mérőkód ne látszódjon mert átlátszik az fpa */
 .scroller + div[id^="zone"].goAdverticum.goa-embedded {
   display: none;
+}
+div[id^="zone"].goAdverticum.goa-embedded {
+  background: #fff;
+}
+body.read-mode div[id^="zone"].goAdverticum.goa-embedded {
+  background: #1a1a1a;
 }

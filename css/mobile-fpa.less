@@ -170,51 +170,56 @@ article.lead-video{
 .live-video {
     margin-top: 0;
 }
-
-body.read-mode.article-page .article-view-wrap+.boxheader:first-of-type {
-    background: #1a1a1a;
-}
-
-body.read-mode .wrap {
-    background: transparent;
-}
-body.read-mode .grid-article, 
-body.read-mode .adcaption {
-    background-color: transparent;
-}
-body.read-mode .adcaption {
-    left:0;
-}
-.read-mode .mobile-pr-article {
-    background: #333;
-    margin: 0 0 20px 0;
-}
-
-body.read-mode .grid-view .grid-article {
-    border-bottom: 1px solid #464545;
-    background: #1a1a1a;
-}
-
-body.read-mode.column-page  .grid-view {
-    background: transparent;
-}
-body.read-mode.article-page .grid-view {
-    background: #1a1a1a;
-}
-body.read-mode .grid-view {
-    background: transparent;
-}
-
-body.read-mode .adtype-tagbox {
-    background: #1a1a1a;
-}
-
 .grid-article.home-video-article {
     background: #fff;
 }
-body.read-mode .grid-article.home-video-article {
-    background: #1a1a1a;
+
+// read mode
+body.read-mode {
+    &.article-page {
+        .article-view-wrap+.boxheader:first-of-type {
+            background: #1a1a1a;
+        }
+    }
+    .wrap {
+        background: transparent;
+    }
+    .grid-article, 
+    .adcaption {
+        background-color: transparent;
+    }
+    .adcaption {
+        left:0;
+    }
+    .mobile-pr-article {
+        background: #333;
+        margin: 0 0 20px 0;
+    }
+
+    .grid-view {
+        background: transparent;
+        .grid-article {
+            border-bottom: 1px solid #464545;
+            background: #1a1a1a;
+        }
+    }
+
+    &.column-page  .grid-view {
+        background: transparent;
+    }
+    &.article-page .grid-view {
+        background: #1a1a1a;
+    }
+
+    .adtype-tagbox {
+        background: #1a1a1a;
+    }
+    .grid-article.home-video-article {
+        background: #1a1a1a;
+    }
 }
+
+
 @media screen and (max-width: 767px) {
     .article-view {
         padding: 0;
@@ -225,12 +230,7 @@ body.read-mode .grid-article.home-video-article {
     .article-page .grid-view {
         background: #fff;
     }
-    body.read-mode.article-page .white__bg {
-        padding: 20px;
-    }
-    body.read-mode.article-page .article-view {
-        padding: 0;
-    }
+
     .lead-article, .grid-article, .placeholder-ad, .adcaption, .footer {
         background-color: #fff;
         width: 100%;
@@ -306,6 +306,16 @@ body.read-mode .grid-article.home-video-article {
         }
     }
 
+    body.read-mode {
+        &.article-page {
+            .white__bg {
+                padding: 20px;
+            }
+            .article-view {
+                padding: 0;
+            }
+        }
+    }
 
 }/*end 767*/
 
@@ -409,4 +419,10 @@ body.read-mode .grid-article.home-video-article {
 /* oldal legalján a mérőkód ne látszódjon mert átlátszik az fpa */
 .scroller + div[id^="zone"].goAdverticum.goa-embedded {
     display: none;
+}
+div[id^="zone"].goAdverticum.goa-embedded {
+    background: #fff;
+    body.read-mode & {
+        background: #1a1a1a;
+    }
 }
