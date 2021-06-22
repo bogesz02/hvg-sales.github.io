@@ -290,7 +290,7 @@ body.read-mode .grid-article.home-video-article {
   }
   .scroller-home .lead-article:last-of-type .text-holder .text {
     border: 0;
-    padding: 0;
+    padding: 0 20px 20px;
   }
   .scroller-home .lead-article .text-holder .text {
     padding: 0 20px 20px;
