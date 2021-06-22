@@ -222,14 +222,27 @@ body.read-mode .grid-article.home-video-article {
     body.read-mode.article-page .article-view {
         padding: 0;
     }
-    .column-page .lead-article .text:after {
-        display: none;
-    }
     .lead-article, .grid-article, .placeholder-ad, .adcaption, .footer {
         background-color: #fff;
         width: 100%;
         padding: 20px;
         margin: 0;
+    }
+    .column-page {
+        .lead-article {
+            padding: 0;
+            .text:after {
+                display: none;
+            }
+            // .bookmark {
+            //     right: 0;
+            // }
+        }
+    }
+    .article-view-wrap {
+        .lead-article {
+            padding: 0;
+        }
     }
     .adtype-tagbox {
         background: #fff;
@@ -264,7 +277,7 @@ body.read-mode .grid-article.home-video-article {
         width: 100%;
     }
     .scroller-home {
-        .lead-article{
+        .lead-article {
             &:first-of-type .text {
                 border: 0;
                 padding: 0;
@@ -276,11 +289,13 @@ body.read-mode .grid-article.home-video-article {
                 border: 0;
                 padding: 0;
             }
+
+            .text-holder {
+                padding: 0 20px 20px;
+            }
         }
     }
-    .lead-article .bookmark {
-        right: 0;
-    }
+
 
 }/*end 767*/
 

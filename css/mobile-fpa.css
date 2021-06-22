@@ -202,9 +202,6 @@ body.read-mode .grid-article.home-video-article {
   body.read-mode.article-page .article-view {
     padding: 0;
   }
-  .column-page .lead-article .text:after {
-    display: none;
-  }
   .lead-article,
   .grid-article,
   .placeholder-ad,
@@ -214,6 +211,15 @@ body.read-mode .grid-article.home-video-article {
     width: 100%;
     padding: 20px;
     margin: 0;
+  }
+  .column-page .lead-article {
+    padding: 0;
+  }
+  .column-page .lead-article .text:after {
+    display: none;
+  }
+  .article-view-wrap .lead-article {
+    padding: 0;
   }
   .adtype-tagbox {
     background: #fff;
@@ -256,8 +262,8 @@ body.read-mode .grid-article.home-video-article {
     border: 0;
     padding: 0;
   }
-  .lead-article .bookmark {
-    right: 0;
+  .scroller-home .lead-article .text-holder {
+    padding: 0 20px 20px;
   }
 }
 /*end 767*/
