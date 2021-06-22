@@ -95,6 +95,9 @@ body.read-mode .content {
   content: "hirdetés";
   display: block;
 }
+.adcaption.m-info:before {
+  display: none;
+}
 .white__bg {
   background-color: #fff;
 }

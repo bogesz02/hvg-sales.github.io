@@ -97,9 +97,16 @@ body:before {
     left: 0;
 }
 
-.adcaption:before {
-    content: "hirdetés";
-    display: block;
+.adcaption {
+    &:before {
+        content: "hirdetés";
+        display: block;
+    }
+    &.m-info {
+        &:before {
+            display: none;
+        }
+    }
 }
 
 .white__bg {
