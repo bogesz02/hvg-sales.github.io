@@ -56,9 +56,6 @@ body:before {
 .m-breadcrumb {
   margin: 0;
 }
-.scroller {
-  overflow-x: hidden;
-}
 .lead-article,
 .grid-article,
 .placeholder-ad,
