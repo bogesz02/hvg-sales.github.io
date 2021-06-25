@@ -53,6 +53,11 @@ body:before {
     padding-top: 640px;
   }
 }
+@media screen and (max-width: 480px) {
+  .parallax_bottom {
+    padding-top: 480px;
+  }
+}
 .m-breadcrumb {
   margin: 0;
 }
