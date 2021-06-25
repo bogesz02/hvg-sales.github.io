@@ -377,6 +377,11 @@ body.read-mode .grid-article.home-video-article {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 992px) {
+  .support-stripe {
+    box-shadow: none !important;
+  }
+}
 /* oldal legalján a mérőkód ne látszódjon mert átlátszik az fpa */
 .scroller + div[id^="zone"].goAdverticum.goa-embedded {
   display: none;

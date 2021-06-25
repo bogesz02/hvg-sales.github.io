@@ -23,6 +23,9 @@ input[type=button].accordion-mobile-aszf {
     margin-right: 20px;
   }
 }
+.support-stripe + .boxheader {
+  padding-bottom: 10px;
+}
 .placeholder-ad + .boxheader:nth-of-type(2),
 .article-page .article-view-wrap + .boxheader:nth-of-type(2) {
   width: calc(100% - 40px);
