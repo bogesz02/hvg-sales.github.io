@@ -70,7 +70,9 @@
 }
 @media screen and (max-width: 359px) {
   .tlds_euro_widget[data-widget=scoreboard].s1 .m_stage:after {
-    right: 20px;
+    right: 15px;
+    content: 'Nyolcaddöntő';
+    position: absolute;
   }
 }
 .tlds_euro_widget[data-widget=scoreboard].s1 .m_stage span {
