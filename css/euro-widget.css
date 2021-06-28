@@ -68,8 +68,10 @@
 .tlds_euro_widget {
   padding: 0 15px;
 }
-.tlds_euro_widget[data-widget=scoreboard].s1 .m_stage:after {
-  display: none;
+@media screen and (max-width: 359px) {
+  .tlds_euro_widget[data-widget=scoreboard].s1 .m_stage:after {
+    right: 20px;
+  }
 }
 .tlds_euro_widget[data-widget=scoreboard].s1 .m_stage span {
   display: none;
@@ -338,6 +340,10 @@
   .tlds_euro_widget[data-widget=scoreboard].s1 h6,
   .tlds_euro_widget[data-widget=match_stats].s1 h6 {
     padding: 10px 0 5px 5px;
+  }
+  .tlds_euro_widget[data-widget=scoreboard].s1 .m_game_no,
+  .tlds_euro_widget[data-widget=match_stats].s1 .m_game_no {
+    left: 20px;
   }
 }
 @media screen and (max-width: 1199px) {

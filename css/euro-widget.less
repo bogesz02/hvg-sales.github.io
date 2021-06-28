@@ -13,7 +13,10 @@
         &.s1 {
             .m_stage {
                 &:after {
-                    display: none;
+                    //display: none;
+                    @media screen and (max-width: 359px){
+                        right: 20px;
+                    }
                 }
                 span {
                     display: none;
@@ -242,6 +245,9 @@
 
                 h6 {
                     padding: 10px 0 5px 5px;
+                }
+                .m_game_no {
+                    left: 20px;
                 }
             }
         }
