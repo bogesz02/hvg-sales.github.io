@@ -9,6 +9,35 @@
 .tlds_euro_widget {
     padding: 0 15px;
 
+    &[data-widget=scoreboard]{
+        &.s1 {
+            .m_stage {
+                &:after {
+                    display: none;
+                }
+                span {
+                    display: none;
+                }
+            }
+        }
+        &.s4, &.s3, &.s2 {
+            .m_stage {
+                &:after {
+                    content: 'Nyolcaddöntő';
+                    position: absolute;
+                    right: 0;
+                    line-height: 14px;
+                    font-size: 12px;
+                    display: block !important;
+                    cursor: text;
+                }
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+
     @media screen and (min-width: 768px){
         padding: 0 30px;
     }

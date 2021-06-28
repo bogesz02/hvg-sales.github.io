@@ -68,6 +68,28 @@
 .tlds_euro_widget {
   padding: 0 15px;
 }
+.tlds_euro_widget[data-widget=scoreboard].s1 .m_stage:after {
+  display: none;
+}
+.tlds_euro_widget[data-widget=scoreboard].s1 .m_stage span {
+  display: none;
+}
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s2 .m_stage:after {
+  content: 'Nyolcaddöntő';
+  position: absolute;
+  right: 0;
+  line-height: 14px;
+  font-size: 12px;
+  display: block !important;
+  cursor: text;
+}
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_stage span,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_stage span,
+.tlds_euro_widget[data-widget=scoreboard].s2 .m_stage span {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .tlds_euro_widget {
     padding: 0 30px;
