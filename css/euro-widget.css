@@ -85,6 +85,13 @@
   display: block !important;
   cursor: text;
 }
+@media screen and (min-width: 800px) and (max-width: 991px) {
+  .tlds_euro_widget[data-widget=scoreboard].s4 .m_stage:after,
+  .tlds_euro_widget[data-widget=scoreboard].s3 .m_stage:after,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .m_stage:after {
+    top: -20px;
+  }
+}
 .tlds_euro_widget[data-widget=scoreboard].s4 .m_stage span,
 .tlds_euro_widget[data-widget=scoreboard].s3 .m_stage span,
 .tlds_euro_widget[data-widget=scoreboard].s2 .m_stage span {
