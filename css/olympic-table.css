@@ -126,10 +126,6 @@ body.settings-sepia .olympic-medal-editor table.table.table-striped tr th:nth-ch
 body.settings-sepia .olympic-medal-editor table.articleTable tr th:nth-child(1) {
   color: #222;
 }
-body.settings-sepia .olympic-medal-editor table.table.table-striped td,
-body.settings-sepia .olympic-medal-editor table.articleTable td {
-  color: #222;
-}
 body.settings-sepia .olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(odd),
 body.settings-sepia .olympic-medal-editor table.articleTable > tbody > tr:nth-of-type(odd) {
   background-color: #111111;
