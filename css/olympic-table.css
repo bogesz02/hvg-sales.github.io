@@ -60,6 +60,11 @@
 .olympic-medal-editor table.articleTable tbody tr td.articleTableBody:nth-child(n+3) {
   text-align: center;
 }
+.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader,
+.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader {
+  color: #fff;
+  background: #444444;
+}
 .olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(n+3),
 .olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(n+3) {
   text-align: center;
