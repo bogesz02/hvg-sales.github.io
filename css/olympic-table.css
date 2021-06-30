@@ -5,10 +5,7 @@
 }
 .olympic-medal-editor table.table.table-striped {
   margin: 20px 0;
-}
-.olympic-medal-editor table.table.table-striped thead {
-  background: #444444;
-  color: #fff;
+  /* egyedi sor szín a kiemeléshez */
 }
 .olympic-medal-editor table.table.table-striped th {
   padding: 10px 5px;
@@ -24,10 +21,11 @@
 .olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(even) {
   background-color: #fff;
 }
-.olympic-medal-editor table.table.table-striped thead tr th:nth-child(n+3) {
-  text-align: center;
+.olympic-medal-editor table.table.table-striped thead {
+  background: #444444;
+  color: #fff;
 }
-.olympic-medal-editor table.table.table-striped tbody tr td:nth-child(n+3) {
+.olympic-medal-editor table.table.table-striped thead tr th:nth-child(n+3) {
   text-align: center;
 }
 .olympic-medal-editor table.table.table-striped thead tr th:nth-child(3) {
@@ -39,7 +37,12 @@
 .olympic-medal-editor table.table.table-striped thead tr th:nth-child(5) {
   background: #a94231;
 }
-/* egyedi sor szín a kiemeléshez */
+.olympic-medal-editor table.table.table-striped tbody tr td:nth-child(1) {
+  text-align: center;
+}
+.olympic-medal-editor table.table.table-striped tbody tr td:nth-child(n+3) {
+  text-align: center;
+}
 .olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(12) {
   background-color: #f3ad77 !important;
 }
@@ -69,6 +72,9 @@
   background-size: 100%;
 }
 /* https://olympics.com/tokyo-2020/en/d3images/emblem/olympics/emblem-tokyo2020.svg */
+body.settings-sepia .olympic-medal-editor table.table.table-striped {
+  margin-top: 0;
+}
 body.settings-sepia .olympic-medal-editor table.table.table-striped tr th:nth-child(1) {
   color: #222;
 }
@@ -78,9 +84,6 @@ body.settings-sepia .olympic-medal-editor table.table.table-striped td {
 body.settings-sepia .olympic-medal-table-header {
   background: #efefef;
   padding: 10px 0;
-}
-body.settings-sepia .olympic-medal-editor table.table.table-striped {
-  margin-top: 0;
 }
 @media screen and (max-width: 1199px) {
   .olympic-medal-table-header {
