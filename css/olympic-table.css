@@ -28,50 +28,24 @@
   background-color: #fff;
 }
 .olympic-medal-editor table.table.table-striped thead,
-.olympic-medal-editor table.articleTable thead,
-.olympic-medal-editor table.table.table-striped tbody,
-.olympic-medal-editor table.articleTable tbody {
+.olympic-medal-editor table.articleTable thead {
   background: #444444;
   color: #fff;
 }
 .olympic-medal-editor table.table.table-striped thead tr th:nth-child(n+3),
-.olympic-medal-editor table.articleTable thead tr th:nth-child(n+3),
-.olympic-medal-editor table.table.table-striped tbody tr th:nth-child(n+3),
-.olympic-medal-editor table.articleTable tbody tr th:nth-child(n+3),
-.olympic-medal-editor table.table.table-striped thead tr td.articleTableHeader:nth-child(n+3),
-.olympic-medal-editor table.articleTable thead tr td.articleTableHeader:nth-child(n+3),
-.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(n+3),
-.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(n+3) {
+.olympic-medal-editor table.articleTable thead tr th:nth-child(n+3) {
   text-align: center;
 }
 .olympic-medal-editor table.table.table-striped thead tr th:nth-child(3),
-.olympic-medal-editor table.articleTable thead tr th:nth-child(3),
-.olympic-medal-editor table.table.table-striped tbody tr th:nth-child(3),
-.olympic-medal-editor table.articleTable tbody tr th:nth-child(3),
-.olympic-medal-editor table.table.table-striped thead tr td.articleTableHeader:nth-child(3),
-.olympic-medal-editor table.articleTable thead tr td.articleTableHeader:nth-child(3),
-.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(3),
-.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(3) {
+.olympic-medal-editor table.articleTable thead tr th:nth-child(3) {
   background: #d49400;
 }
 .olympic-medal-editor table.table.table-striped thead tr th:nth-child(4),
-.olympic-medal-editor table.articleTable thead tr th:nth-child(4),
-.olympic-medal-editor table.table.table-striped tbody tr th:nth-child(4),
-.olympic-medal-editor table.articleTable tbody tr th:nth-child(4),
-.olympic-medal-editor table.table.table-striped thead tr td.articleTableHeader:nth-child(4),
-.olympic-medal-editor table.articleTable thead tr td.articleTableHeader:nth-child(4),
-.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(4),
-.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(4) {
+.olympic-medal-editor table.articleTable thead tr th:nth-child(4) {
   background: #85858e;
 }
 .olympic-medal-editor table.table.table-striped thead tr th:nth-child(5),
-.olympic-medal-editor table.articleTable thead tr th:nth-child(5),
-.olympic-medal-editor table.table.table-striped tbody tr th:nth-child(5),
-.olympic-medal-editor table.articleTable tbody tr th:nth-child(5),
-.olympic-medal-editor table.table.table-striped thead tr td.articleTableHeader:nth-child(5),
-.olympic-medal-editor table.articleTable thead tr td.articleTableHeader:nth-child(5),
-.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(5),
-.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(5) {
+.olympic-medal-editor table.articleTable thead tr th:nth-child(5) {
   background: #a94231;
 }
 .olympic-medal-editor table.table.table-striped tbody tr td:nth-child(1),
@@ -85,6 +59,22 @@
 .olympic-medal-editor table.table.table-striped tbody tr td.articleTableBody:nth-child(n+3),
 .olympic-medal-editor table.articleTable tbody tr td.articleTableBody:nth-child(n+3) {
   text-align: center;
+}
+.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(n+3),
+.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(n+3) {
+  text-align: center;
+}
+.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(3),
+.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(3) {
+  background: #d49400;
+}
+.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(4),
+.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(4) {
+  background: #85858e;
+}
+.olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(5),
+.olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(5) {
+  background: #a94231;
 }
 .olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(12),
 .olympic-medal-editor table.articleTable > tbody > tr:nth-of-type(12) {

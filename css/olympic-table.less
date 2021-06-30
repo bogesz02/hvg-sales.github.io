@@ -27,12 +27,12 @@
             }
         }
 
-        thead, tbody {
+        thead {
             background: #444444;
             color: #fff;
             
             tr {
-                th, td.articleTableHeader {
+                th {
                     &:nth-child(n+3) {
                         text-align: center;
                     }
@@ -57,6 +57,20 @@
                 
                     &:nth-child(n+3) {
                         text-align: center;
+                    }
+                }
+                td.articleTableHeader {
+                    &:nth-child(n+3) {
+                        text-align: center;
+                    }
+                    &:nth-child(3) {
+                        background: #d49400;
+                    }
+                    &:nth-child(4) {
+                        background: #85858e;
+                    }
+                    &:nth-child(5) {
+                        background: #a94231;
                     }
                 }
             }
