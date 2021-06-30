@@ -16,7 +16,7 @@
                     //display: none;
                     @media screen and (max-width: 390px){
                         right: 15px;
-                        content: 'Nyolcaddöntő';
+                        content: 'Negyeddöntő';
                         position: absolute;
                     }
                 }
@@ -28,7 +28,7 @@
         &.s4, &.s3, &.s2 {
             .m_stage {
                 &:after {
-                    content: 'Nyolcaddöntő';
+                    content: 'Negyeddöntő';
                     position: absolute;
                     right: 0;
                     line-height: 14px;
@@ -42,6 +42,17 @@
                 }
                 span {
                     display: none;
+                }
+            }
+        }
+        .match {
+            &.result {
+                &.s4, &.s3, &.s2, &.s1 {
+                    .m_stage {
+                        &:after {
+                            content: 'Nyolcaddöntő';
+                        }
+                    }
                 }
             }
         }
