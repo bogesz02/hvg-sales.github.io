@@ -6,66 +6,72 @@
     width: 100%;
 }
 
-.olympic-medal-editor table.table.table-striped {
-    margin: 20px 0;
-    th {
-        padding: 10px 5px;
-        font-weight: normal;
-    }
-    td {
-        padding: 10px 5px;
-        font-weight: bold;
-    }
-    > tbody > tr {
-        &:nth-of-type(odd) {
-            background-color: #efefef;
+.olympic-medal-editor {
+    table.table.table-striped, table.articleTable {
+        margin: 20px 0;
+        th {
+            padding: 10px 5px;
+            font-weight: normal;
         }
-        &:nth-of-type(even) {
-            background-color: #fff;
+        td {
+            padding: 10px 5px;
+            font-weight: bold;
         }
-    }
+        > tbody > tr {
+            &:nth-of-type(odd) {
+                background-color: #efefef;
+            }
+            &:nth-of-type(even) {
+                background-color: #fff;
+            }
+        }
 
-    thead {
-        background: #444444;
-        color: #fff;
-        
-        tr th {
-            &:nth-child(n+3) {
-                text-align: center;
-            }
-            &:nth-child(3) {
-                background: #d49400;
-            }
-            &:nth-child(4) {
-                background: #85858e;
-            }
-            &:nth-child(5) {
-                background: #a94231;
-            }
-        }
-    }
-    tbody {
-        tr td {
-            &:nth-child(1) {
-                text-align: center;
-            }
-        
-            &:nth-child(n+3) {
-                text-align: center;
+        thead, tbody.articleTableHeader {
+            background: #444444;
+            color: #fff;
+            
+            tr {
+                th, td {
+                    &:nth-child(n+3) {
+                        text-align: center;
+                    }
+                    &:nth-child(3) {
+                        background: #d49400;
+                    }
+                    &:nth-child(4) {
+                        background: #85858e;
+                    }
+                    &:nth-child(5) {
+                        background: #a94231;
+                    }
+                }
             }
         }
-    }
+        tbody {
+            tr {
+                td, td.articleTableBody {
+                    &:nth-child(1) {
+                        text-align: center;
+                    }
+                
+                    &:nth-child(n+3) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
 
-    /* egyedi sor szín a kiemeléshez */
-    > tbody > tr:nth-of-type(12) {
-        background-color: #f3ad77 !important;
-    }
-    tr th:nth-child(1) {
-        font-weight: bold;
-        text-align: center;
-    }
-    tbody tr:last-child td {
-        border-bottom: 0;
+        /* egyedi sor szín a kiemeléshez */
+        > tbody > tr:nth-of-type(12) {
+            background-color: #f3ad77 !important;
+        }
+        tr th:nth-child(1) {
+            font-weight: bold;
+            text-align: center;
+        }
+        tbody tr:last-child td {
+            border-bottom: 0;
+        }
     }
 }
 
