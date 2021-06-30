@@ -17,6 +17,7 @@
 .olympic-medal-editor table.articleTable td {
   padding: 10px 5px;
   font-weight: bold;
+  border: 1px solid #ddd;
 }
 .olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(odd),
 .olympic-medal-editor table.articleTable > tbody > tr:nth-of-type(odd) {
