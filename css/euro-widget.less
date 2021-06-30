@@ -18,7 +18,7 @@
                             //display: none;
                             @media screen and (max-width: 390px){
                                 right: 15px;
-                                content: 'Negyeddöntő';
+                                //content: 'Negyeddöntő';
                                 position: absolute;
                             }
                         }
@@ -34,7 +34,7 @@
                 //&.fixture {
                     .m_stage {
                         &:after {
-                            content: 'Negyeddöntő';
+                            //content: 'Negyeddöntő';
                             position: absolute;
                             right: 0;
                             line-height: 14px;
@@ -51,6 +51,18 @@
                         }
                     }
                 //}
+            }
+        }
+
+        &.s4, &.s3, &.s2, &.s1 {
+            .match {
+                &.fixture {
+                    .m_stage {
+                        &:after {
+                            content: 'Negyeddöntő';
+                        }
+                    }
+                }
             }
         }
         
