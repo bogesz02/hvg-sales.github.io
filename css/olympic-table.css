@@ -1,0 +1,103 @@
+.olympic-medal-editor {
+  padding: 20px;
+  max-width: 580px;
+  width: 100%;
+}
+.olympic-medal-editor table.table.table-striped {
+  margin: 20px 0;
+}
+.olympic-medal-editor table.table.table-striped thead {
+  background: #444444;
+  color: #fff;
+}
+.olympic-medal-editor table.table.table-striped th {
+  padding: 10px 5px;
+  font-weight: normal;
+}
+.olympic-medal-editor table.table.table-striped td {
+  padding: 10px 5px;
+  font-weight: bold;
+}
+.olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #efefef;
+}
+.olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #fff;
+}
+.olympic-medal-editor table.table.table-striped thead tr th:nth-child(n+3) {
+  text-align: center;
+}
+.olympic-medal-editor table.table.table-striped tbody tr td:nth-child(n+3) {
+  text-align: center;
+}
+.olympic-medal-editor table.table.table-striped thead tr th:nth-child(3) {
+  background: #d49400;
+}
+.olympic-medal-editor table.table.table-striped thead tr th:nth-child(4) {
+  background: #85858e;
+}
+.olympic-medal-editor table.table.table-striped thead tr th:nth-child(5) {
+  background: #a94231;
+}
+/* egyedi sor szín a kiemeléshez */
+.olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(12) {
+  background-color: #f3ad77 !important;
+}
+.olympic-medal-editor table.table.table-striped tr th:nth-child(1) {
+  font-weight: bold;
+  text-align: center;
+}
+.olympic-medal-editor table.table.table-striped tbody tr:last-child td {
+  border-bottom: 0;
+}
+.olympic-medal-table-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.olympic-medal-table-header h2 {
+  margin: 0 0 0 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 27px;
+  color: #202b5f;
+}
+.olympic-medal-table-header span.olympic-logo {
+  background-image: url(https://olympics.com/tokyo-2020/en/d3images/emblem/olympics/emblem-tokyo2020.svg);
+  width: 70px;
+  height: 90px;
+  display: block;
+  background-size: 100%;
+}
+/* https://olympics.com/tokyo-2020/en/d3images/emblem/olympics/emblem-tokyo2020.svg */
+body.settings-sepia .olympic-medal-editor table.table.table-striped tr th:nth-child(1) {
+  color: #222;
+}
+body.settings-sepia .olympic-medal-editor table.table.table-striped td {
+  color: #222;
+}
+body.settings-sepia .olympic-medal-table-header {
+  background: #efefef;
+  padding: 10px 0;
+}
+body.settings-sepia .olympic-medal-editor table.table.table-striped {
+  margin-top: 0;
+}
+@media screen and (max-width: 1199px) {
+  .olympic-medal-table-header {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .olympic-medal-table-header h2 {
+    font-size: 20px;
+  }
+  .olympic-medal-table-header span.olympic-logo {
+    width: 60px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 359px) {
+  .olympic-medal-editor table.table.table-striped {
+    font-size: 14px;
+  }
+}
