@@ -8,7 +8,7 @@
 
 .olympic-medal-editor {
     table.table.table-striped, table.articleTable {
-        margin: 20px 0;
+        margin: 10px 0 20px;
         th {
             padding: 10px 5px;
             font-weight: normal;
@@ -102,29 +102,54 @@
     font-family: 'PT Sans',sans-serif;
     font-size: 27px;
     color: #202b5f;
-}
-.olympic-medal-table-header span.olympic-logo {
-    background-image: url(https://olympics.com/tokyo-2020/en/d3images/emblem/olympics/emblem-tokyo2020.svg);
-    width: 70px;
-    height: 90px;
-    display: block;
-    background-size: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    &:before {
+        content: '';
+        background-image: url(https://olympics.com/tokyo-2020/en/d3images/emblem/olympics/emblem-tokyo2020.svg);
+        width: 70px;
+        height: 90px;
+        display: block;
+        background-size: 100%;
+        margin-right: 15px;
+    }
 }
 /* https://olympics.com/tokyo-2020/en/d3images/emblem/olympics/emblem-tokyo2020.svg */
 
 body.settings-sepia {
-    .olympic-medal-editor table.table.table-striped {
-        margin-top: 0;
-        tr th:nth-child(1) {
-            color: #222;
+    .olympic-medal-editor {
+        table.table.table-striped, table.articleTable {
+            margin-top: 0;
+            tr {
+                th:nth-child(1) {
+                    color: #222;
+                }
+            }
+            td {
+                color: #222;
+            }
+            > tbody > tr {
+                &:nth-of-type(odd) {
+                    background-color: #111111;
+                }
+                &:nth-of-type(even) {
+                    background-color: #1a1a1a;
+                }
+            }
+            tbody tr td.articleTableHeader {
+                &:nth-child(2), &:nth-child(1) {
+                    color: #848484;
+                }
+            }
         }
-        td {
-            color: #222;
+        .olympic-medal-table-header {
+            background: #d7d7dc;
+            padding: 10px 0;
+            h2 {
+               color: #111111; 
+            }
         }
-    }
-    .olympic-medal-table-header {
-        background: #efefef;
-        padding: 10px 0;
     }
 }
 

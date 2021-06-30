@@ -5,7 +5,7 @@
 }
 .olympic-medal-editor table.table.table-striped,
 .olympic-medal-editor table.articleTable {
-  margin: 20px 0;
+  margin: 10px 0 20px;
   /* egyedi sor szín a kiemeléshez */
 }
 .olympic-medal-editor table.table.table-striped th,
@@ -104,27 +104,52 @@
   font-family: 'PT Sans', sans-serif;
   font-size: 27px;
   color: #202b5f;
+  display: flex;
+  position: relative;
+  align-items: center;
 }
-.olympic-medal-table-header span.olympic-logo {
+.olympic-medal-table-header h2:before {
+  content: '';
   background-image: url(https://olympics.com/tokyo-2020/en/d3images/emblem/olympics/emblem-tokyo2020.svg);
   width: 70px;
   height: 90px;
   display: block;
   background-size: 100%;
+  margin-right: 15px;
 }
 /* https://olympics.com/tokyo-2020/en/d3images/emblem/olympics/emblem-tokyo2020.svg */
-body.settings-sepia .olympic-medal-editor table.table.table-striped {
+body.settings-sepia .olympic-medal-editor table.table.table-striped,
+body.settings-sepia .olympic-medal-editor table.articleTable {
   margin-top: 0;
 }
-body.settings-sepia .olympic-medal-editor table.table.table-striped tr th:nth-child(1) {
+body.settings-sepia .olympic-medal-editor table.table.table-striped tr th:nth-child(1),
+body.settings-sepia .olympic-medal-editor table.articleTable tr th:nth-child(1) {
   color: #222;
 }
-body.settings-sepia .olympic-medal-editor table.table.table-striped td {
+body.settings-sepia .olympic-medal-editor table.table.table-striped td,
+body.settings-sepia .olympic-medal-editor table.articleTable td {
   color: #222;
 }
-body.settings-sepia .olympic-medal-table-header {
-  background: #efefef;
+body.settings-sepia .olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(odd),
+body.settings-sepia .olympic-medal-editor table.articleTable > tbody > tr:nth-of-type(odd) {
+  background-color: #111111;
+}
+body.settings-sepia .olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(even),
+body.settings-sepia .olympic-medal-editor table.articleTable > tbody > tr:nth-of-type(even) {
+  background-color: #1a1a1a;
+}
+body.settings-sepia .olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(2),
+body.settings-sepia .olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(2),
+body.settings-sepia .olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(1),
+body.settings-sepia .olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(1) {
+  color: #848484;
+}
+body.settings-sepia .olympic-medal-editor .olympic-medal-table-header {
+  background: #d7d7dc;
   padding: 10px 0;
+}
+body.settings-sepia .olympic-medal-editor .olympic-medal-table-header h2 {
+  color: #111111;
 }
 @media screen and (max-width: 1199px) {
   .olympic-medal-table-header {
