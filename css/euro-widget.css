@@ -69,18 +69,18 @@
   padding: 0 15px;
 }
 @media screen and (max-width: 390px) {
-  .tlds_euro_widget[data-widget=scoreboard].s1 .m_stage:after {
+  .tlds_euro_widget[data-widget=scoreboard].s1 .match.fixture .m_stage:after {
     right: 15px;
     content: 'Negyeddöntő';
     position: absolute;
   }
 }
-.tlds_euro_widget[data-widget=scoreboard].s1 .m_stage span {
+.tlds_euro_widget[data-widget=scoreboard].s1 .match.fixture .m_stage span {
   display: none;
 }
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_stage:after,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_stage:after,
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_stage:after {
+.tlds_euro_widget[data-widget=scoreboard].s4 .match.fixture .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s3 .match.fixture .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s2 .match.fixture .m_stage:after {
   content: 'Negyeddöntő';
   position: absolute;
   right: 0;
@@ -90,21 +90,21 @@
   cursor: text;
 }
 @media screen and (min-width: 800px) and (max-width: 991px) {
-  .tlds_euro_widget[data-widget=scoreboard].s4 .m_stage:after,
-  .tlds_euro_widget[data-widget=scoreboard].s3 .m_stage:after,
-  .tlds_euro_widget[data-widget=scoreboard].s2 .m_stage:after {
+  .tlds_euro_widget[data-widget=scoreboard].s4 .match.fixture .m_stage:after,
+  .tlds_euro_widget[data-widget=scoreboard].s3 .match.fixture .m_stage:after,
+  .tlds_euro_widget[data-widget=scoreboard].s2 .match.fixture .m_stage:after {
     top: -20px;
   }
 }
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_stage span,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_stage span,
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_stage span {
+.tlds_euro_widget[data-widget=scoreboard].s4 .match.fixture .m_stage span,
+.tlds_euro_widget[data-widget=scoreboard].s3 .match.fixture .m_stage span,
+.tlds_euro_widget[data-widget=scoreboard].s2 .match.fixture .m_stage span {
   display: none;
 }
-.tlds_euro_widget[data-widget=scoreboard] .match.result.s4 .m_stage:after,
-.tlds_euro_widget[data-widget=scoreboard] .match.result.s3 .m_stage:after,
-.tlds_euro_widget[data-widget=scoreboard] .match.result.s2 .m_stage:after,
-.tlds_euro_widget[data-widget=scoreboard] .match.result.s1 .m_stage:after {
+.tlds_euro_widget[data-widget=scoreboard].s4 .match.result .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s3 .match.result .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s2 .match.result .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s1 .match.result .m_stage:after {
   content: 'Nyolcaddöntő';
 }
 @media screen and (min-width: 768px) {

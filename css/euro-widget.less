@@ -11,43 +11,52 @@
 
     &[data-widget=scoreboard]{
         &.s1 {
-            .m_stage {
-                &:after {
-                    //display: none;
-                    @media screen and (max-width: 390px){
-                        right: 15px;
-                        content: 'Negyeddöntő';
-                        position: absolute;
+            .match {
+                &.fixture {
+                    .m_stage {
+                        &:after {
+                            //display: none;
+                            @media screen and (max-width: 390px){
+                                right: 15px;
+                                content: 'Negyeddöntő';
+                                position: absolute;
+                            }
+                        }
+                        span {
+                            display: none;
+                        }
                     }
-                }
-                span {
-                    display: none;
                 }
             }
         }
         &.s4, &.s3, &.s2 {
-            .m_stage {
-                &:after {
-                    content: 'Negyeddöntő';
-                    position: absolute;
-                    right: 0;
-                    line-height: 14px;
-                    font-size: 12px;
-                    display: block !important;
-                    cursor: text;
+            .match {
+                &.fixture {
+                    .m_stage {
+                        &:after {
+                            content: 'Negyeddöntő';
+                            position: absolute;
+                            right: 0;
+                            line-height: 14px;
+                            font-size: 12px;
+                            display: block !important;
+                            cursor: text;
 
-                    @media screen and (min-width: 800px) and (max-width: 991px){
-                        top: -20px;
+                            @media screen and (min-width: 800px) and (max-width: 991px){
+                                top: -20px;
+                            }
+                        }
+                        span {
+                            display: none;
+                        }
                     }
-                }
-                span {
-                    display: none;
                 }
             }
         }
-        .match {
-            &.result {
-                &.s4, &.s3, &.s2, &.s1 {
+        
+        &.s4, &.s3, &.s2, &.s1 {
+            .match {
+                &.result {
                     .m_stage {
                         &:after {
                             content: 'Nyolcaddöntő';
