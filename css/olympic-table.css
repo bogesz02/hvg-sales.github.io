@@ -3,6 +3,13 @@
   max-width: 580px;
   width: 100%;
 }
+@media screen and (max-width: 1199px) {
+  .olympic-medal-editor {
+    padding: 0;
+    max-width: 690px;
+    width: 100%;
+  }
+}
 .olympic-medal-editor table.table.table-striped,
 .olympic-medal-editor table.articleTable {
   margin: 10px 0 20px;
