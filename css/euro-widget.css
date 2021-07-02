@@ -102,7 +102,11 @@
 .tlds_euro_widget[data-widget=scoreboard].s4 .match.fixture .m_stage:after,
 .tlds_euro_widget[data-widget=scoreboard].s3 .match.fixture .m_stage:after,
 .tlds_euro_widget[data-widget=scoreboard].s2 .match.fixture .m_stage:after,
-.tlds_euro_widget[data-widget=scoreboard].s1 .match.fixture .m_stage:after {
+.tlds_euro_widget[data-widget=scoreboard].s1 .match.fixture .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s4 .match.live .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s3 .match.live .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s2 .match.live .m_stage:after,
+.tlds_euro_widget[data-widget=scoreboard].s1 .match.live .m_stage:after {
   content: 'Negyeddöntő';
 }
 .tlds_euro_widget[data-widget=scoreboard].s4 .match.result .m_stage:after,
