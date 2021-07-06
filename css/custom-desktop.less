@@ -708,16 +708,20 @@ body:not(.main-page) {
 // euro widget
 .tlds_euro_widget {
     &[data-widget=scoreboard] {
-        &.s4 {
+        &.s4, &.s3, &.s2, &.s1 {
             .m_away, .m_away span, .m_home, .m_home span {
                 font-weight: bold;
                 font-family: 'aleo',serif;
-                font-size: 20px !important;
             }
             .m_score span {
                 line-height: 36px !important;
                 font-size: 26px !important;
                 width: 36px !important;
+            }
+        }
+        &.s4, &.s3 {
+            .m_away, .m_away span, .m_home, .m_home span {
+                font-size: 20px !important;
             }
         }
     }

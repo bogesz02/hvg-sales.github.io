@@ -553,17 +553,41 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
   }
 }
 .tlds_euro_widget[data-widget=scoreboard].s4 .m_away,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_away,
+.tlds_euro_widget[data-widget=scoreboard].s2 .m_away,
+.tlds_euro_widget[data-widget=scoreboard].s1 .m_away,
 .tlds_euro_widget[data-widget=scoreboard].s4 .m_away span,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_away span,
+.tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
+.tlds_euro_widget[data-widget=scoreboard].s1 .m_away span,
 .tlds_euro_widget[data-widget=scoreboard].s4 .m_home,
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_home span {
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_home,
+.tlds_euro_widget[data-widget=scoreboard].s2 .m_home,
+.tlds_euro_widget[data-widget=scoreboard].s1 .m_home,
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_home span,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_home span,
+.tlds_euro_widget[data-widget=scoreboard].s2 .m_home span,
+.tlds_euro_widget[data-widget=scoreboard].s1 .m_home span {
   font-weight: bold;
   font-family: 'aleo', serif;
-  font-size: 20px !important;
 }
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_score span {
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_score span,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_score span,
+.tlds_euro_widget[data-widget=scoreboard].s2 .m_score span,
+.tlds_euro_widget[data-widget=scoreboard].s1 .m_score span {
   line-height: 36px !important;
   font-size: 26px !important;
   width: 36px !important;
+}
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_away,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_away,
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_away span,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_away span,
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_home,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_home,
+.tlds_euro_widget[data-widget=scoreboard].s4 .m_home span,
+.tlds_euro_widget[data-widget=scoreboard].s3 .m_home span {
+  font-size: 20px !important;
 }
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
