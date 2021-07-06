@@ -113,7 +113,7 @@
 .tlds_euro_widget[data-widget=scoreboard].s3 .match.result .m_stage:after,
 .tlds_euro_widget[data-widget=scoreboard].s2 .match.result .m_stage:after,
 .tlds_euro_widget[data-widget=scoreboard].s1 .match.result .m_stage:after {
-  content: 'Negyeddöntő';
+  content: 'Elődöntő';
 }
 @media screen and (min-width: 768px) {
   .tlds_euro_widget {
