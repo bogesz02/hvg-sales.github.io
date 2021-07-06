@@ -599,7 +599,7 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 .tlds_euro_widget[data-widget=scoreboard].s2 .m_home_img {
   margin-right: 3px;
 }
-.tlds_euro_widget[data-widget=scoreboard].s1 .m_status {
+body.column-page .tlds_euro_widget[data-widget=scoreboard].s1 .m_status {
   padding-top: 10px;
 }
 .cimlap-tematikus-blokk .content .boxheader-tipp {
