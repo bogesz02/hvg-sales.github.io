@@ -1,0 +1,103 @@
+
+/* custom quiz css*/
+#content {
+    width: 100% !important;
+}
+input[type="text"], input.text, textarea {
+    max-width: 90%;
+}
+#movesubmitbtn, button {
+    position: relative;
+    min-width: 130px;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 2px;
+    background: #ff6600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: none !important;
+    transition: none;
+}
+button.saveall{
+    padding: 5px;
+    background: #dadada;
+    cursor: pointer;
+    border: 2px solid #dadada;
+    color: #111;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin: 5px 5px 0 0;
+    display: block;
+    &:hover, &:active, &:focus {
+        padding: 5px;
+        background: #dadada;
+        cursor: pointer;
+        border: 2px solid #dadada;
+        color: #111;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 11px;
+        margin: 5px 5px 0 0;
+        display: block;
+    }
+}
+button#movenextbtn, input#savebutton, .tools a {
+    line-height: 1;
+    height: auto;
+    text-shadow: none;
+    margin: 0 auto;
+    border-radius: 2px;
+    background: #dadada;
+    padding: 5px;
+    color: #111;
+    font-size: 11px;
+    border: 2px solid #dadada;
+    &:hover, &:active, &:focus {
+        line-height: 1;
+        height: auto;
+        text-shadow: none;
+        margin: 0 auto;
+        border-radius: 2px;
+        background: #dadada;
+        padding: 5px;
+        color: #111;
+        font-size: 11px;
+        border: 2px solid #dadada;
+    }
+}
+.tools a {
+    display: inline-block;
+}
+
+table.question thead tr td {
+    width: 70%;
+}
+table.question thead tr th {
+    width: 15%;
+}
+@media screen and (max-width: 360px) {
+    table.question thead tr td {
+        width: 90%;
+    }
+	table.question thead tr th {
+        width: 5%;
+    }
+}
+.note, #tokenmessage, .quotamessage {
+    width: 90%;
+}
+h2#surveytitle {
+    margin: 10px auto;
+}
+.question-wrapper .question-text strong, .question-wrapper .question-text b {
+    font-weight: bold;
+    font-size: 16px;
+}

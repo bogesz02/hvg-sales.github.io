@@ -107,7 +107,7 @@
 .tlds_euro_widget[data-widget=scoreboard].s3 .match.live .m_stage:after,
 .tlds_euro_widget[data-widget=scoreboard].s2 .match.live .m_stage:after,
 .tlds_euro_widget[data-widget=scoreboard].s1 .match.live .m_stage:after {
-  content: 'Elődöntő';
+  content: 'Döntő';
 }
 .tlds_euro_widget[data-widget=scoreboard].s4 .match.result .m_stage:after,
 .tlds_euro_widget[data-widget=scoreboard].s3 .match.result .m_stage:after,
