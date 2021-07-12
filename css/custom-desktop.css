@@ -708,6 +708,9 @@ body.settings-sepia .cimlap-tematikus-szalag {
   height: 59px;
   overflow: hidden;
 }
+body.settings-sepia .cimlap-tematikus-szalag:empty {
+  height: 0;
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (orientation: portrait) {
   .site-header-nav .nav-categories .category-button {
     padding: 5px 4px;
