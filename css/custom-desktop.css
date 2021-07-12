@@ -602,6 +602,9 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 body.column-page .tlds_euro_widget[data-widget=scoreboard].s1 .m_status {
   padding-top: 10px;
 }
+.cimlap-tematikus-szalag {
+  display: flex;
+}
 .cimlap-tematikus-blokk .content .boxheader-tipp {
   display: none !important;
 }
