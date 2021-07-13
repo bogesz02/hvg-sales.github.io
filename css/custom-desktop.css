@@ -552,56 +552,6 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
     top: -10px;
   }
 }
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_away,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_away,
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_away,
-.tlds_euro_widget[data-widget=scoreboard].s1 .m_away,
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_away span,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_away span,
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_away span,
-.tlds_euro_widget[data-widget=scoreboard].s1 .m_away span,
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_home,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_home,
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_home,
-.tlds_euro_widget[data-widget=scoreboard].s1 .m_home,
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_home span,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_home span,
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_home span,
-.tlds_euro_widget[data-widget=scoreboard].s1 .m_home span {
-  font-weight: bold;
-  font-family: 'aleo', serif;
-}
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_score span,
-.tlds_euro_widget[data-widget=scoreboard].s1 .m_score span {
-  line-height: 30px !important;
-  font-size: 21px !important;
-  width: 30px !important;
-}
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_away,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_away,
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_away span,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_away span,
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_home,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_home,
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_home span,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_home span {
-  font-size: 20px !important;
-}
-.tlds_euro_widget[data-widget=scoreboard].s4 .m_score span,
-.tlds_euro_widget[data-widget=scoreboard].s3 .m_score span {
-  line-height: 36px !important;
-  font-size: 26px !important;
-  width: 36px !important;
-}
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_away_img {
-  margin-left: 3px;
-}
-.tlds_euro_widget[data-widget=scoreboard].s2 .m_home_img {
-  margin-right: 3px;
-}
-body.column-page .tlds_euro_widget[data-widget=scoreboard].s1 .m_status {
-  padding-top: 10px;
-}
 .cimlap-tematikus-szalag {
   display: flex;
 }
