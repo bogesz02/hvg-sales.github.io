@@ -342,13 +342,14 @@ body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .wrap {
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .block-title,
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .block-title {
-  float: left;
   width: 100%;
   max-width: 100%;
+  display: flex;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .block-title a,
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .block-title a {
   color: #fff;
+  width: 100%;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .boxheader:not(.blog-header),
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .boxheader:not(.blog-header) {
