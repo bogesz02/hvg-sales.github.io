@@ -9,9 +9,6 @@ input[type=button].accordion-mobile-aszf {
 .layer-holder .tab-content iframe#btn-dark-mode {
   display: none;
 }
-.adtype-tagbox .articlebox .goAdverticum a {
-  padding-bottom: 0;
-}
 .adtype-tagbox .articlebox .articlebox.tag-box .articleitem:after {
   display: none;
 }
