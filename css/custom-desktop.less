@@ -441,6 +441,7 @@ body:not(.main-page) {
         // cikksorozat 
         .article-series-box {
             .article-series__header {
+                min-height: 50px;
                 .text {
                     padding-right: 0;
                     max-width: 70%;
@@ -453,6 +454,13 @@ body:not(.main-page) {
                         position: absolute;
                         top: 6px;
                         left: 0;
+                        // ha vilagos a hatter >> sotetre venni a cs ikont
+                        filter: brightness(0.2);
+                    }
+                }
+                .logo {
+                    a {
+                        background: none;
                     }
                 }
             }
