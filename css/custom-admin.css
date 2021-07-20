@@ -295,20 +295,17 @@ body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .list-vi
   max-width: 100%;
   margin: 0;
 }
-body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list {
-  margin-top: 60px;
-}
-body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list {
-  padding: 20px;
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article.latest-list {
+  padding: 27px 20px 0 86px;
   margin: 0;
   width: 100%;
 }
-body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .info {
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article.latest-list .info {
   padding-left: 0;
-  padding-top: 22px;
+  padding-top: 0;
 }
-body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder {
-  padding-left: 60px;
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article.latest-list .text-holder {
+  padding-left: 0;
   padding-right: 0;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad,
@@ -382,17 +379,6 @@ body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-vi
   margin: 0;
   max-width: 100%;
   padding: 0;
-}
-body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view-latest-news-list .list-article .latest-list,
-body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list {
-  padding: 20px;
-  margin: 0;
-  width: 100%;
-}
-body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder,
-body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder {
-  padding-left: 60px;
-  padding-right: 0;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box,
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box {
