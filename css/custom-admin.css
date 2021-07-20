@@ -296,17 +296,21 @@ body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .list-vi
   margin: 0;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article.latest-list {
-  padding: 27px 20px 0 86px;
+  padding: 27px 0 0 80px;
   margin: 0;
   width: 100%;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article.latest-list .info {
   padding-left: 0;
   padding-top: 0;
+  padding-right: 50px;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article.latest-list .text-holder {
   padding-left: 0;
   padding-right: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article.latest-list .text-holder .avatar {
+  margin-right: 0;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad,
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout {
