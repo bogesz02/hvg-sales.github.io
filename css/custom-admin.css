@@ -157,7 +157,7 @@ body.cmsadmin:not(.hvg-360) .hvg .body .blog-icon:before {
   letter-spacing: 0.5px;
   font-size: 14px;
   line-height: 16px;
-  transform: translateY(-6px);
+  transform: translateY(-1px);
   font-weight: normal;
   font-family: 'PT sans';
 }
