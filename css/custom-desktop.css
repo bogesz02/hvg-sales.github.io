@@ -379,6 +379,12 @@ body:not(.main-page) .random-article-box-container .article-box-widget {
 .article-page.article-brandcontent .article-content .article-menu .author-img img {
   border-radius: 0;
 }
+.article-page .stickout .larger-header {
+  margin-bottom: 10px;
+}
+.article-page .stickout .larger-header + .G-pagination {
+  width: 100%;
+}
 .grid-item.articlebox .articlebox article.articleitem.emphasized.featured {
   border-bottom: 0;
 }
