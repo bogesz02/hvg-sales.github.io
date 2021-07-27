@@ -80,6 +80,12 @@
 .olympic-medal-editor table.articleTable tbody tr td.articleTableBody:nth-child(n+3) {
   text-align: center;
 }
+.olympic-medal-editor table.table.table-striped tbody tr td.td-hun,
+.olympic-medal-editor table.articleTable tbody tr td.td-hun,
+.olympic-medal-editor table.table.table-striped tbody tr td.articleTableBody.td-hun,
+.olympic-medal-editor table.articleTable tbody tr td.articleTableBody.td-hun {
+  font-weight: bold !important;
+}
 .olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader,
 .olympic-medal-editor table.articleTable tbody tr td.articleTableHeader {
   color: #fff;
