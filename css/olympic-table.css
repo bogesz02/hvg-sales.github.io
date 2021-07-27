@@ -80,12 +80,6 @@
 .olympic-medal-editor table.articleTable tbody tr td.articleTableBody:nth-child(n+3) {
   text-align: center;
 }
-.olympic-medal-editor table.table.table-striped tbody tr td.td-hun,
-.olympic-medal-editor table.articleTable tbody tr td.td-hun,
-.olympic-medal-editor table.table.table-striped tbody tr td.articleTableBody.td-hun,
-.olympic-medal-editor table.articleTable tbody tr td.articleTableBody.td-hun {
-  font-weight: bold !important;
-}
 .olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader,
 .olympic-medal-editor table.articleTable tbody tr td.articleTableHeader {
   color: #fff;
@@ -106,6 +100,10 @@
 .olympic-medal-editor table.table.table-striped tbody tr td.articleTableHeader:nth-child(5),
 .olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(5) {
   background: #a94231;
+}
+.olympic-medal-editor table.table.table-striped tbody tr.tr-hun td.articleTableBody,
+.olympic-medal-editor table.articleTable tbody tr.tr-hun td.articleTableBody {
+  font-weight: bold !important;
 }
 .olympic-medal-editor table.table.table-striped tr th:nth-child(1),
 .olympic-medal-editor table.articleTable tr th:nth-child(1) {
