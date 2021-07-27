@@ -101,10 +101,6 @@
 .olympic-medal-editor table.articleTable tbody tr td.articleTableHeader:nth-child(5) {
   background: #a94231;
 }
-.olympic-medal-editor table.table.table-striped > tbody > tr:nth-of-type(12),
-.olympic-medal-editor table.articleTable > tbody > tr:nth-of-type(12) {
-  background-color: #f3ad77 !important;
-}
 .olympic-medal-editor table.table.table-striped tr th:nth-child(1),
 .olympic-medal-editor table.articleTable tr th:nth-child(1) {
   font-weight: bold;
