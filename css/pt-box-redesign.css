@@ -97,9 +97,8 @@
   position: relative;
   padding: 0;
   width: 90px !important;
-  margin: 10px 0 0 22px;
+  margin: 10px 0 0 0;
   display: block;
-  height: auto;
   z-index: 1;
   background-size: cover;
   height: 90px !important;
@@ -141,6 +140,16 @@
   font-weight: normal;
   margin-top: -80px;
   line-height: 26px;
+}
+.pt-box.pt-redesign .btn-class3,
+.pt-box.pt-redesign .hvg .btn-class3 {
+  padding-top: 0;
+  max-width: 154px;
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  order: 2;
 }
 .pt-box.pt-redesign .block-ms-box-btn2 {
   background-color: #ffffff !important;
