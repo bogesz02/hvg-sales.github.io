@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CaracasPro-Book';
+  src: url('CaracasPro-Book.eot');
+  src: url('CaracasPro-Book.eot?#iefix') format('embedded-opentype'),
+       url('CaracasPro-Book.svg#CaracasPro-Book') format('svg'),
+       url('CaracasPro-Book.ttf') format('truetype'),
+       url('CaracasPro-Book.woff') format('woff'),
+       url('CaracasPro-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

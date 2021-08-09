@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'CaracasPro-Book';
+    src: url('https://static.hvgrt.hu/fonts/CaracasPro-Book/CaracasPro-Book.eot');
+    src: url('https://static.hvgrt.hu/fonts/CaracasPro-Book/CaracasPro-Book.eot?#iefix') format('embedded-opentype'),
+         url('https://static.hvgrt.hu/fonts/CaracasPro-Book/CaracasPro-Book.svg#CaracasPro-Book') format('svg'),
+         url('https://static.hvgrt.hu/fonts/CaracasPro-Book/CaracasPro-Book.ttf') format('truetype'),
+         url('https://static.hvgrt.hu/fonts/CaracasPro-Book/CaracasPro-Book.woff') format('woff'),
+         url('https://static.hvgrt.hu/fonts/CaracasPro-Book/CaracasPro-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'CaracasPro-Black';
+    src: url('https://static.hvgrt.hu/fonts/CaracasPro-Black/CaracasPro-Black.eot');
+    src: url('https://static.hvgrt.hu/fonts/CaracasPro-Black/CaracasPro-Black.eot?#iefix') format('embedded-opentype'),
+         url('https://static.hvgrt.hu/fonts/CaracasPro-Black/CaracasPro-Black.svg#CaracasPro-Black') format('svg'),
+         url('https://static.hvgrt.hu/fonts/CaracasPro-Black/CaracasPro-Black.ttf') format('truetype'),
+         url('https://static.hvgrt.hu/fonts/CaracasPro-Black/CaracasPro-Black.woff') format('woff'),
+         url('https://static.hvgrt.hu/fonts/CaracasPro-Black/CaracasPro-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.pt-box {
+    &.pt-redesign {
+        .block-ms-box2, .hvg .block-ms-box2 {
+            padding: 0px 15px 20px 15px;
+            border: 0;
+            position: relative;
+            margin: 20px 0 30px;
+            background: #ea5b0c !important;
+            box-shadow: none;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 640px;
+            transition: all 0.5s ease;
+            border-radius: 10px;
+        }
+        .block-ms-box-span {
+            display: block;
+            font-size: 16px;
+            margin: 10px 0 0;
+            line-height: 22px !important;
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 400;
+            color: #ffffff;
+            width: 75%;
+            padding: 15px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+        }
+
+        .p-box {
+            position: absolute;
+            top: 0;
+            left: 15px;
+            width: 300px;
+            height: 140px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            filter: drop-shadow(3px 2px 24px rgb(0 0 0 / 38%));
+            .p-shape {
+                position: absolute;
+                height: 140px;
+                width: 300px;
+                background-color: #ffffff;
+                border-radius: 0;
+                transform: rotate(0deg) skew(0deg) translateX(0px) translateY(0px);
+                clip-path: polygon(0 0, 80% 0, 100% 40%, 15% 100%);
+            }
+        }
+
+        .shape-text {
+            position: absolute;
+            z-index: 1;
+            font-size: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-left: 40px;
+            margin-top: -20px;
+            letter-spacing: 5px;
+            font-family: 'CaracasPro-Black';
+
+            span {
+                font-size: 20px;
+                font-weight: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                font-family: 'CaracasPro-Book';
+            }
+        }
+        
+
+        .partolo-tagsag-logo {
+            background-image: url(https://static.hvgrt.hu/kulcs/2019/partolo-logo-vektoros.png);
+            position: relative;
+            padding: 0;
+            width: 90px !important;
+            margin: 10px 0 0 4px;
+            display: block;
+            height: auto;
+            z-index: 1;
+            background-size: cover;
+            height: 90px !important;
+            right: auto;
+            top: auto;
+        }
+
+        .block-ms-box-btn2 {
+            background-color: #ffffff !important;
+            color: #ea5b0c !important;
+            padding: 0 5px;
+            text-decoration: none !important;
+            font: bold 14px/1 'PT Sans', sans-serif;
+            line-height: 38px;
+            border-radius: 5px;
+            box-shadow: none;
+            transition: all 0.5s ease;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+    }
+}

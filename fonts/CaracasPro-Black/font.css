@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CaracasPro-Black';
+  src: url('CaracasPro-Black.eot');
+  src: url('CaracasPro-Black.eot?#iefix') format('embedded-opentype'),
+       url('CaracasPro-Black.svg#CaracasPro-Black') format('svg'),
+       url('CaracasPro-Black.ttf') format('truetype'),
+       url('CaracasPro-Black.woff') format('woff'),
+       url('CaracasPro-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
