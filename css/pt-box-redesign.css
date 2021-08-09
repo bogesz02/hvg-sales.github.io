@@ -119,12 +119,12 @@
 }
 .pt-box.pt-redesign .block-ms-box-h1,
 .pt-box.pt-redesign .hvg h1.block-ms-box-h1 {
-  margin: -10px 0 0 0 !important;
+  margin: -15px 0 0 0 !important;
   font-family: 'CaracasPro-Black' !important;
   color: #ffffff;
   font-weight: bold;
   border: 0;
-  padding: 15px 0 0 25px;
+  padding: 0 0 0 25px;
   min-height: unset;
   display: flex;
   align-items: center;
