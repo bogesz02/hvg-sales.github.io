@@ -54,16 +54,16 @@
             position: absolute;
             top: 0;
             left: 15px;
-            width: 300px;
+            width: 60%;
             height: 140px;
             overflow: hidden;
             display: flex;
             align-items: center;
-            filter: drop-shadow(3px 2px 24px rgb(0 0 0 / 38%));
+            filter: drop-shadow(3px 2px 24px rgb(224 47 6 / 45%));
             .p-shape {
                 position: absolute;
-                height: 140px;
-                width: 300px;
+                height: 170px;
+                width: 100%;
                 background-color: #ffffff;
                 border-radius: 0;
                 transform: rotate(0deg) skew(0deg) translateX(0px) translateY(0px);
@@ -72,15 +72,16 @@
         }
 
         .shape-text {
-            position: absolute;
+            position: relative;
             z-index: 1;
-            font-size: 50px;
+            font-size: 70px;
             font-weight: bold;
             text-transform: uppercase;
-            padding-left: 40px;
-            margin-top: -20px;
-            letter-spacing: 5px;
+            padding-left: 53px;
+            margin-top: -22px;
+            letter-spacing: 0;
             font-family: 'CaracasPro-Black';
+            color: #ea5b0c;
 
             span {
                 font-size: 20px;
@@ -97,7 +98,7 @@
             position: relative;
             padding: 0;
             width: 90px !important;
-            margin: 10px 0 0 4px;
+            margin: 10px 0 0 22px;
             display: block;
             height: auto;
             z-index: 1;
@@ -105,6 +106,34 @@
             height: 90px !important;
             right: auto;
             top: auto;
+        }
+        .partolo-tagsag-cover-box {
+            border-left: 0;
+            padding-left: 15px;
+            width: 25%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-width: 190px;
+            min-width: 170px;
+        }
+
+        .block-ms-box-h1, .hvg h1.block-ms-box-h1 {
+            margin: 0 !important;
+            font-family: 'CaracasPro-Black';
+            color: #ffffff;
+            font-weight: bold;
+            border: 0;
+            padding: 0;
+            min-height: unset;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            text-transform: uppercase;
+            font-size: 70px !important;
+            line-height: 70px;
+            width: 40%;
         }
 
         .block-ms-box-btn2 {
