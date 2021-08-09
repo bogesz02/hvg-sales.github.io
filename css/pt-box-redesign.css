@@ -48,7 +48,7 @@
   overflow: hidden;
   display: flex;
   align-items: center;
-  filter: drop-shadow(3px 2px 24px rgba(224, 47, 6, 0.45));
+  filter: drop-shadow(3px 2px 24px rgba(200, 41, 4, 0.8));
 }
 .pt-box.pt-redesign .p-box .p-shape {
   position: absolute;
