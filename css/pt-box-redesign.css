@@ -84,11 +84,11 @@
   display: block;
 }
 .pt-box.pt-redesign .shape-text span {
-  font-size: 20px;
+  font-size: 27px;
   font-weight: normal;
   letter-spacing: normal;
   font-family: 'CaracasPro-Book';
-  line-height: 22px;
+  line-height: 27px;
   margin-top: 25px;
   display: block;
 }
@@ -136,11 +136,11 @@
 }
 .pt-box.pt-redesign .block-ms-box-h1 span,
 .pt-box.pt-redesign .hvg h1.block-ms-box-h1 span {
-  font-size: 20px;
+  font-size: 27px;
   font-family: 'CaracasPro-Book' !important;
   font-weight: normal;
   margin-top: -80px;
-  line-height: 22px;
+  line-height: 27px;
 }
 .pt-box.pt-redesign .block-ms-box-btn2 {
   background-color: #ffffff !important;
