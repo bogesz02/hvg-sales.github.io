@@ -35,6 +35,7 @@
             max-width: 640px;
             transition: all 0.5s ease;
             border-radius: 10px;
+            overflow: hidden;
         }
         .block-ms-box-span {
             display: block;
@@ -50,12 +51,18 @@
             border-radius: 10px;
         }
 
+        .partolo-tagsag-content-box {
+            padding: 0;
+            width: 100%;
+            display: flex;
+        }
+
         .p-box {
-            position: absolute;
+            position: relative;
             top: 0;
-            left: 15px;
+            left: 0;
             width: 60%;
-            height: 140px;
+            height: 170px;
             overflow: hidden;
             display: flex;
             align-items: center;
@@ -74,21 +81,24 @@
         .shape-text {
             position: relative;
             z-index: 1;
-            font-size: 70px;
+            font-size: 75px;
             font-weight: bold;
             text-transform: uppercase;
             padding-left: 53px;
-            margin-top: -22px;
+            margin-top: -20px;
             letter-spacing: 0;
             font-family: 'CaracasPro-Black';
             color: #ea5b0c;
+            display: block;
 
             span {
                 font-size: 20px;
                 font-weight: normal;
                 letter-spacing: normal;
-                line-height: normal;
                 font-family: 'CaracasPro-Book';
+                line-height: 22px;
+                margin-top: 25px;
+                display: block;
             }
         }
         
@@ -120,20 +130,27 @@
         }
 
         .block-ms-box-h1, .hvg h1.block-ms-box-h1 {
-            margin: 0 !important;
-            font-family: 'CaracasPro-Black';
+            margin: -10px 0 0 0 !important;
+            font-family: 'CaracasPro-Black' !important;
             color: #ffffff;
             font-weight: bold;
             border: 0;
-            padding: 0;
+            padding: 15px 0 0 25px;
             min-height: unset;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
             text-transform: uppercase;
-            font-size: 70px !important;
+            font-size: 75px !important;
             line-height: 70px;
             width: 40%;
+            span {
+                font-size: 20px;
+                font-family: 'CaracasPro-Book' !important;
+                font-weight: normal;
+                margin-top: -80px;
+                line-height: 22px;
+            }
         }
 
         .block-ms-box-btn2 {
