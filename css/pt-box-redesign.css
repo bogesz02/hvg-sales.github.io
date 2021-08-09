@@ -102,7 +102,7 @@
   z-index: 1;
   background-size: cover;
   height: 90px !important;
-  right: auto;
+  right: auto !important;
   top: auto;
 }
 .pt-box.pt-redesign .partolo-tagsag-cover-box {
@@ -171,6 +171,9 @@
   }
 }
 @media screen and (max-width: 640px) {
+  .pt-box.pt-redesign {
+    margin: 0 -20px;
+  }
   .pt-box.pt-redesign .partolo-tagsag-content-box {
     flex-wrap: wrap;
   }
