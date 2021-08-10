@@ -179,12 +179,14 @@
   margin-bottom: 10px;
   width: 100%;
 }
+@media screen and (max-width: 1199px) {
+  .pt-box.pt-redesign .shape-text {
+    padding-left: 40px;
+  }
+}
 @media screen and (max-width: 680px) {
   .pt-box.pt-redesign .block-ms-box-h1 {
     padding-left: 15px;
-  }
-  .pt-box.pt-redesign .shape-text {
-    padding-left: 40px;
   }
 }
 @media screen and (max-width: 640px) {
