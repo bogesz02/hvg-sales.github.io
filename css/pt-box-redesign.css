@@ -52,7 +52,7 @@
 }
 .pt-box.pt-redesign .p-box {
   position: relative;
-  top: 0;
+  top: -1px;
   left: 0;
   width: 60%;
   height: 170px;
