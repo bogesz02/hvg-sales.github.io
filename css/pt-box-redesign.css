@@ -49,6 +49,9 @@
   width: 100%;
   display: flex;
 }
+.hvg .pt-box.pt-redesign .partolo-tagsag-content-box {
+  min-height: 170px;
+}
 .pt-box.pt-redesign .p-box {
   position: relative;
   top: -1px;
