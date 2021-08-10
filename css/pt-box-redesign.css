@@ -74,6 +74,11 @@
   background-repeat: no-repeat;
   background-position: top center;
 }
+@media all and (-ms-high-contrast: none) {
+  .pt-box.pt-redesign .p-box .p-shape {
+    background-image: url(https://static.hvgrt.hu/img/polygon.png);
+  }
+}
 .pt-box.pt-redesign .shape-text {
   position: relative;
   z-index: 1;

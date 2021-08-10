@@ -88,6 +88,10 @@
                 background-image: url(https://static.hvgrt.hu/img/polygon.svg);
                 background-repeat: no-repeat;
                 background-position: top center;
+                //ie 11
+                @media all and (-ms-high-contrast:none){
+                    background-image: url(https://static.hvgrt.hu/img/polygon.png);
+                }
             }
         }
 
