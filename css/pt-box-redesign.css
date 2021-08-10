@@ -210,7 +210,7 @@
     font-size: 18px;
     font-family: 'CaracasPro-Book' !important;
     font-weight: normal;
-    margin-top: 0px;
+    margin-top: -45px;
     line-height: 20px;
   }
   .pt-box.pt-redesign .p-box {
@@ -286,5 +286,6 @@
   .pt-box.pt-redesign .block-ms-box-h1 span,
   .pt-box.pt-redesign .hvg h1.block-ms-box-h1 span {
     width: 100%;
+    margin-top: 0px;
   }
 }
