@@ -72,6 +72,7 @@
   transform: rotate(0deg) skew(0deg) translateX(0px) translateY(0px);
   background-image: url(https://static.hvgrt.hu/img/polygon.svg);
   background-repeat: no-repeat;
+  background-position: top center;
 }
 .pt-box.pt-redesign .shape-text {
   position: relative;
@@ -223,12 +224,9 @@
   }
   .pt-box.pt-redesign .p-box .p-shape {
     position: absolute;
-    height: 121px;
-    width: 90%;
-    background-color: #ffffff;
+    height: 120px;
+    width: 100%;
     border-radius: 0;
-    transform: rotate(0deg) skew(0deg) translateX(-50%) translateY(0px);
-    clip-path: polygon(0 0, 78% 0, 99% 61%, 22% 96%);
     margin: 0 auto;
     left: 50%;
   }
