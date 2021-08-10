@@ -170,6 +170,9 @@
   .pt-box.pt-redesign .hvg h1.block-ms-box-h1 {
     padding-left: 15px;
   }
+  .pt-box.pt-redesign .shape-text {
+    padding-left: 40px;
+  }
 }
 @media screen and (max-width: 640px) {
   .pt-box.pt-redesign {
