@@ -130,7 +130,7 @@
 .pt-box.pt-redesign .block-ms-box-h1 {
   margin: -15px 0 0 auto !important;
   font-family: 'CaracasPro-Black' !important;
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: bold;
   border: 0;
   padding: 0 0 0 25px;
