@@ -200,7 +200,7 @@
 }
 @media screen and (max-width: 640px) {
   .pt-box.pt-redesign {
-    margin: 0 -20px;
+    margin: -20px;
   }
   .pt-box.pt-redesign .block-ms-box-div {
     display: flex;
