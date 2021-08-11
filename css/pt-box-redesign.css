@@ -289,6 +289,15 @@
   .pt-box.pt-redesign .btn-class3 a:last-child {
     margin: 0;
   }
+  .pt-box.pt-redesign .partolo-tagsag-logo {
+    padding: 0;
+    width: 70px !important;
+    margin: 0;
+    display: block;
+    height: 70px !important;
+    right: auto !important;
+    top: auto;
+  }
 }
 @media screen and (max-width: 480px) {
   .pt-box.pt-redesign .shape-text {
@@ -348,15 +357,6 @@
   }
   .pt-box.pt-redesign .block-ms-box-span br:first-child {
     display: none;
-  }
-  .pt-box.pt-redesign .partolo-tagsag-logo {
-    padding: 0;
-    width: 70px !important;
-    margin: 0;
-    display: block;
-    height: 70px !important;
-    right: auto !important;
-    top: auto;
   }
   .pt-box.pt-redesign .block-ms-box-div {
     margin-top: 0;
