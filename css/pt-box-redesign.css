@@ -191,6 +191,9 @@
   .pt-box.pt-redesign .block-ms-box-h1 {
     padding-left: 15px;
   }
+  .pt-box.pt-redesign .block-ms-box-span br:first-child {
+    display: none;
+  }
 }
 @media screen and (max-width: 640px) {
   .pt-box.pt-redesign {
