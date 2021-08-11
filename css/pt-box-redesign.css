@@ -315,6 +315,7 @@
   }
   .pt-box.pt-redesign .p-box .p-shape {
     height: 80px;
+    transform: rotate(0deg) skew(0deg) translateX(-50%) translateY(-10px);
   }
   .pt-box.pt-redesign .block-ms-box-h1 {
     width: 40%;
