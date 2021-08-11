@@ -60,11 +60,14 @@
 
         .partolo-tagsag-content-box {
             padding: 0;
+            margin: 0;
             width: 100%;
             display: flex;
-            .hvg & {
-                min-height: 170px;
-            } 
+            img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
         }
 
         .p-box {
@@ -219,9 +222,6 @@
         }
         @media screen and (max-width: 640px){
             margin: 0 -20px;
-            .partolo-tagsag-content-box {
-                flex-wrap: wrap;
-            }
             .block-ms-box-div {
                 display: flex;
                 width: 100%;
