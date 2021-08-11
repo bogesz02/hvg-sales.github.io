@@ -287,19 +287,74 @@
     margin: 0;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) {
   .pt-box.pt-redesign .p-box {
-    width: 100%;
+    width: 60%;
+    height: 80px;
+  }
+  .pt-box.pt-redesign .p-box .p-shape {
+    height: 80px;
   }
   .pt-box.pt-redesign .block-ms-box-h1 {
-    width: 100%;
+    width: 40%;
+    margin-top: -9px !important;
+    font-size: 30px !important;
+    line-height: 34px;
   }
   .pt-box.pt-redesign .block-ms-box-h1 span {
     width: 100%;
-    margin-top: 0px;
+    margin-top: -47px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .pt-box.pt-redesign .shape-text {
+    font-size: 30px;
+    padding-left: 0px;
+    margin-top: -31px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    margin-left: -9px;
+  }
+  .pt-box.pt-redesign .shape-text span {
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: -10px;
+    display: block;
+    margin-left: -23px;
+  }
+  .pt-box.pt-redesign .block-ms-box-span {
+    padding-bottom: 50px;
+  }
+  .pt-box.pt-redesign .block-ms-box-span br:first-child {
+    display: none;
+  }
+  .pt-box.pt-redesign .partolo-tagsag-logo {
+    position: absolute !important;
+    padding: 0;
+    width: 70px !important;
+    margin: 0;
+    display: block;
+    height: 70px !important;
+    right: 10px !important;
+    top: auto;
+    bottom: 5px;
   }
 }
 @media screen and (max-width: 360px) {
+  .pt-box.pt-redesign .p-box {
+    height: 70px;
+  }
+  .pt-box.pt-redesign .p-box .p-shape {
+    height: 80px;
+  }
+  .pt-box.pt-redesign .shape-text {
+    margin-top: -24px;
+  }
+  .pt-box.pt-redesign .block-ms-box-h1 span {
+    margin-top: -40px;
+  }
   .pt-box.pt-redesign .partolo-tagsag-cover-box img {
     max-width: 30%;
   }
