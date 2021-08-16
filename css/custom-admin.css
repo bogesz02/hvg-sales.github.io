@@ -165,6 +165,9 @@ body.cmsadmin:not(.hvg-360) .hvg .body .bc-box img {
   max-width: 100%;
   height: auto;
 }
+body.cmsadmin:not(.hvg-360) .hvg .body .main-table .newsletter-item .newsletter-item-td .newsletter-item-header .newsletter-header-td .hvg360-icon {
+  display: inline-block;
+}
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view {
   margin: 0;
   max-width: 100%;
@@ -336,6 +339,10 @@ body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .body div[data-bind*="with"
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .body div[data-bind*="with"] {
   max-width: 768px;
   margin: 10px 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .body div[id*="2e9b5cec"] .descriptoroverlay,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .body div[id*="2e9b5cec"] .descriptoroverlay {
+  height: 585px !important;
 }
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .wrap,
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .wrap {
