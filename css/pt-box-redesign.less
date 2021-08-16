@@ -231,6 +231,11 @@
             }
             .block-ms-box-span {
                 width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                .ms-box-span-inner {
+                    width: calc(100% - 80px);
+                }
             }
 
             .block-ms-box-h1 {
@@ -324,6 +329,8 @@
                 height: 70px !important;
                 right: auto !important;
                 top: auto;
+                margin-left: auto;
+                margin-top: auto;
             }
         }
         @media screen and (max-width: 480px){

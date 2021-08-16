@@ -210,6 +210,11 @@
   }
   .pt-box.pt-redesign .block-ms-box-span {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pt-box.pt-redesign .block-ms-box-span .ms-box-span-inner {
+    width: calc(100% - 80px);
   }
   .pt-box.pt-redesign .block-ms-box-h1 {
     margin: 0px auto !important;
@@ -297,6 +302,8 @@
     height: 70px !important;
     right: auto !important;
     top: auto;
+    margin-left: auto;
+    margin-top: auto;
   }
 }
 @media screen and (max-width: 480px) {
