@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ptsans/v12/jizaRExUiTo99u79P0U.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ptsans/v12/jizfRExUiTo99u79B_mh4Ok.ttf) format('truetype');
+}
+iframe#ceginformacio-gold-rated-companies-widget-io0 {
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.ceginformacio-gold-rated-companies {
+  border-top: 1px solid #d8d8d8;
+}
+.ceginformacio-gold-rated-companies .title {
+  font-family: 'PT Sans', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  border-top: 2px solid #e25900;
+  margin: -1px 0 0 0;
+  position: relative;
+  font-weight: normal;
+  padding-top: 0;
+  color: #888;
+  line-height: 31px;
+  font-size: 11px;
+}
+.ceginformacio-gold-rated-companies .ul-companies {
+  list-style-type: none;
+  padding-left: 0;
+}
+.ceginformacio-gold-rated-companies .ul-companies li {
+  margin-bottom: 4px;
+}
+.ceginformacio-gold-rated-companies .ul-companies li img {
+  width: 25px;
+}
+.ceginformacio-gold-rated-companies .ul-companies li a {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+.ceginformacio-gold-rated-companies .ul-companies li a span {
+  margin-top: 2px;
+  padding-left: 10px;
+}
