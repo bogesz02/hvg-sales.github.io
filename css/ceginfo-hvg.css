@@ -36,9 +36,10 @@ body {
   .ceginformacio-gold-rated-companies .title {
     padding-top: 6px;
     color: #e25900;
-    font-size: 14px;
     font-weight: bold;
     line-height: 18px;
+    font-size: 14px !important;
+    border-bottom: 0 !important;
   }
 }
 .ceginformacio-gold-rated-companies .ul-companies {
