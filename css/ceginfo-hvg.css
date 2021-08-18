@@ -46,7 +46,7 @@ body {
 .ceginformacio-gold-rated-companies .ul-companies {
   list-style-type: none;
   padding-left: 0;
-  margin-top: 10px;
+  margin-top: 0;
 }
 .ceginformacio-gold-rated-companies .ul-companies li {
   margin-bottom: 4px;
