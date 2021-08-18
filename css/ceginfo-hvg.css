@@ -24,7 +24,7 @@ body {
   display: inline-block !important;
   text-transform: uppercase;
   border-top: 2px solid #e25900;
-  margin: -1px 0 0 0;
+  margin: -1px 0 0 0 !important;
   position: relative;
   font-weight: normal !important;
   padding-top: 0;
