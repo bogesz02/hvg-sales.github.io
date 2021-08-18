@@ -33,16 +33,6 @@ body {
   font-size: 11px !important;
   border-bottom: 0 !important;
 }
-@media screen and (max-width: 768px) {
-  .ceginformacio-gold-rated-companies .title {
-    padding-top: 6px;
-    color: #e25900;
-    font-weight: bold;
-    line-height: 18px;
-    font-size: 14px !important;
-    border-bottom: 0 !important;
-  }
-}
 .ceginformacio-gold-rated-companies .ul-companies {
   list-style-type: none;
   padding-left: 0;
