@@ -57,4 +57,7 @@ body {
 .ceginformacio-gold-rated-companies .ul-companies li a span {
   margin-top: 2px;
   padding-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
