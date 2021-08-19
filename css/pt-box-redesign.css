@@ -185,6 +185,35 @@
   margin-bottom: 10px;
   width: 100%;
 }
+@media screen and (min-width: 1200px) {
+  .pt-box.pt-redesign .partolo-tagsag-content-box {
+    width: 72%;
+  }
+  .pt-box.pt-redesign .block-ms-box-div {
+    margin-top: 0px;
+  }
+  .pt-box.pt-redesign .block-ms-box-span {
+    display: flex;
+    margin: 0;
+    width: 72%;
+    flex-wrap: wrap;
+  }
+  .pt-box.pt-redesign .block-ms-box-span .ms-box-span-inner {
+    width: calc(100% - 100px);
+  }
+  .pt-box.pt-redesign .partolo-tagsag-logo {
+    margin: 0 0 0 auto;
+  }
+  .pt-box.pt-redesign .partolo-tagsag-cover-box {
+    position: absolute;
+    right: 15px;
+    top: auto;
+    bottom: 20px;
+  }
+  .pt-box.pt-redesign .btn-class3 a:last-child {
+    margin: 0;
+  }
+}
 @media screen and (max-width: 1199px) {
   .pt-box.pt-redesign .shape-text {
     padding-left: 40px;
