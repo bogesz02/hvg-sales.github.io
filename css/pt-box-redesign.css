@@ -187,7 +187,7 @@
 }
 @media screen and (min-width: 1200px) {
   .pt-box.pt-redesign .partolo-tagsag-content-box {
-    width: 74%;
+    width: 75%;
   }
   .pt-box.pt-redesign .block-ms-box-div {
     margin-top: 0px;
@@ -209,6 +209,9 @@
     right: 15px;
     top: auto;
     bottom: 20px;
+  }
+  .pt-box.pt-redesign .btn-class3 {
+    margin: 23px 0 0;
   }
   .pt-box.pt-redesign .btn-class3 a:last-child {
     margin: 0;
