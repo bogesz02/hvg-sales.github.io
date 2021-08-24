@@ -54,6 +54,7 @@
   max-width: 100%;
   height: auto;
   width: auto;
+  box-shadow: none;
 }
 .pt-box.pt-redesign .p-box {
   position: relative;
