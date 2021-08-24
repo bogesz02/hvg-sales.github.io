@@ -1,0 +1,6 @@
+body.promotion .row {
+  flex-wrap: unset;
+}
+body.promotion .footer .row {
+  flex-wrap: wrap;
+}
