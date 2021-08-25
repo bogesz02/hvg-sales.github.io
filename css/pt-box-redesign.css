@@ -186,7 +186,7 @@
   margin-bottom: 10px;
   width: 100%;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .pt-box.pt-redesign .partolo-tagsag-content-box {
     width: 75%;
   }
