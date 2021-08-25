@@ -186,7 +186,7 @@
   margin-bottom: 10px;
   width: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .pt-box.pt-redesign .partolo-tagsag-content-box {
     width: 75%;
   }
@@ -196,7 +196,7 @@
   .pt-box.pt-redesign .block-ms-box-span {
     display: flex;
     margin: 0;
-    width: 72%;
+    width: 70%;
     flex-wrap: wrap;
   }
   .pt-box.pt-redesign .block-ms-box-span .ms-box-span-inner {
@@ -207,12 +207,21 @@
   }
   .pt-box.pt-redesign .partolo-tagsag-cover-box {
     position: absolute;
-    right: 15px;
-    top: auto;
-    bottom: 20px;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    width: 30%;
+    flex-wrap: unset;
+    padding: 20px 0;
+    max-width: 201px;
+    min-width: 200px;
+  }
+  .pt-box.pt-redesign .partolo-tagsag-cover-box img {
+    width: 160px;
   }
   .pt-box.pt-redesign .btn-class3 {
-    margin: 23px 0 0;
+    margin: 15px 0 0;
+    max-width: 160px;
   }
   .pt-box.pt-redesign .btn-class3 a:last-child {
     margin: 0;

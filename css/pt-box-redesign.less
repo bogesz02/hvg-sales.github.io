@@ -209,7 +209,7 @@
         }
 
         //tablet, desktop atrendezes
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 1200px){
             .partolo-tagsag-content-box {
                 width: 75%;
             }
@@ -219,7 +219,7 @@
             .block-ms-box-span {
                 display: flex;
                 margin: 0;
-                width: 72%;
+                width: 70%;
                 flex-wrap: wrap;
                 .ms-box-span-inner {
                     width: calc(~'100% - 100px');
@@ -230,12 +230,21 @@
             }
             .partolo-tagsag-cover-box {
                 position: absolute;
-                right: 15px;
-                top: auto;
-                bottom: 20px;
+                right: 0px;
+                top: 0;
+                bottom: 0;
+                width: 30%;
+                flex-wrap: unset;
+                padding: 20px 0;
+                max-width: 201px;
+                min-width: 200px;
+                img {
+                    width: 160px;
+                }
             }
             .btn-class3 {
-                margin: 23px 0 0;
+                margin: 15px 0 0;
+                max-width: 160px;
                 a:last-child {
                     margin: 0;
                 }
