@@ -497,20 +497,6 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .weekly-recommendation .cont
   height: 125px;
   overflow: hidden;
 }
-.hvg .partolo-tagsag-logo {
-  background-image: url(https://static.hvgrt.hu/kulcs/2019/partolo-logo-vektoros.png);
-  position: absolute;
-  padding: 0;
-  width: 90px !important;
-  margin: 10px 0 0 4px;
-  display: block;
-  height: auto;
-  z-index: 1;
-  background-size: cover;
-  height: 90px !important;
-  right: 24px !important;
-  top: 0px !important;
-}
 .hvg .p-shape {
   position: absolute;
   height: 121px;
@@ -536,32 +522,6 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .weekly-recommendation .cont
   display: flex;
   align-items: center;
 }
-.hvg .block-ms-box-div {
-  display: flex;
-  width: 100%;
-}
-.hvg .block-ms-box-span {
-  display: block;
-  font-size: 16px;
-  margin: 10px 0 0;
-  line-height: 22px !important;
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
-  color: #222222;
-  width: 75%;
-  padding: 0 15px 0 0;
-}
-.hvg .partolo-tagsag-cover-box {
-  border-left: 1px solid #fff;
-  padding-left: 15px;
-  width: 25%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 190px;
-  min-width: 170px;
-}
 @media screen and (max-width: 640px) {
   .hvg .partolo-tagsag-cover-box {
     border-left: 0;
@@ -574,14 +534,6 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .weekly-recommendation .cont
     min-width: 170px;
     align-items: center;
   }
-}
-.hvg .partolo-tagsag-cover-box img {
-  width: 154px;
-  max-width: 100%;
-  display: block;
-  height: auto;
-  margin-bottom: 0;
-  order: 1;
 }
 @media screen and (max-width: 640px) {
   .hvg .partolo-tagsag-cover-box img {
@@ -597,43 +549,6 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .weekly-recommendation .cont
   .hvg .partolo-tagsag-cover-box img {
     max-width: 40%;
   }
-}
-.hvg .btn-class3 {
-  padding-top: 0;
-  max-width: 154px;
-  margin: 20px 0 0;
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  order: 2;
-}
-.hvg .btn-class3 a:nth-child(2) {
-  margin: 0 0 10px 0;
-}
-.hvg .btn-class3 a:last-child {
-  margin: 0;
-}
-.hvg .block-ms-box-btn2 {
-  background-color: #5b5b5b !important;
-  color: #fff !important;
-  padding: 0 5px;
-  text-decoration: none !important;
-  font: bold 14px/1 'PT Sans', sans-serif;
-  line-height: 38px;
-  border-radius: 5px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.15);
-  transition: all 0.5s ease;
-  margin-bottom: 10px;
-  width: 100%;
-}
-.hvg .p-box,
-.hvg .p-shape,
-.hvg .partolo-tagsag-logo {
-  position: absolute !important;
-}
-.hvg .p-shape {
-  top: 0;
-  left: 0;
 }
 @media screen and (max-width: 1024px) {
   .hvg .block-ms-box-h1 {
