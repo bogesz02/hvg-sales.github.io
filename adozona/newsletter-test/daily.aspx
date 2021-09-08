@@ -19,19 +19,17 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Adózóna napi értesítő</title>
-	<%--	<meta name="Keywords" content="{@sid}"/>
-	--%>
 </head>
 <body style="margin: 0; padding: 0; background: #F0F0F0;">
 	<table cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; width: 100%; font: 14px Arial; color: #343434;">
 		<tr>
 			<td width="570" align="center" style="padding: 10px 0; background: #484848; font-size: 0; border-bottom: 5px solid #C10000;">
 
-				<%--	<center>--%>
+					<center>
 				<table cellspacing="0" cellpadding="0" style="margin: 0 auto; width: 570px; font-family: 'Arial'; font-size: 14px;">
 					<tr>
 						<td valign="bottom" style="padding: 0;">
-							<a href="<%=FullLink("/") %>" target="_blank" style="border: none; text-decoration: none">
+							<a href="#" target="_blank" style="border: none; text-decoration: none">
 								<img src="<%=DomainLink %>/skins/default/images/adozonalogo.jpg" alt="" style="border: none" /></a>
 						</td>
 						<td valign="bottom" style="padding: 0;">
@@ -39,12 +37,12 @@
 						</td>
 					</tr>
 				</table>
-				<%--	</center>--%>
+					</center>
 			</td>
 		</tr>
 		<tr>
 			<td width="600" align="center">
-				<%--	<center>--%>
+					<center>
 
 				<table cellspacing="0" cellpadding="0" style="margin: 0 auto; width: 598px; font: 14px Arial; color: #343434; background: #ffffff; border-left: 1px solid #C0C0C0; border-right: 1px solid #C0C0C0;">
 					<tr>
@@ -85,7 +83,7 @@
 												<tr>
 													<td style="border: 1px solid #DADADA; padding: 5px 0; color: #004276; text-decoration: none; font-size: 18px; font-weight: bold;">
 														<%# ((ArticleEventInfoEntity)Container.DataItem).EventDate.Day%>
-														<%--</a>--%>
+														</a>
 													</td>
 												</tr>
 											</table>
