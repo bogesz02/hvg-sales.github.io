@@ -1,0 +1,144 @@
+/* hvg belepes - hvg pass modal a hvg.hu oldalon */
+#hvg_login_app .hvg-pass-modal.v--modal-overlay {
+  overflow: hidden;
+}
+#hvg_login_app .hvg-pass-modal.v--modal-overlay .v--modal-box.v--modal {
+  height: 100vh !important;
+  width: 100% !important;
+  border-radius: 0;
+}
+#hvg_login_app .hvg-pass-modal .position-relative {
+  position: relative !important;
+}
+#hvg_login_app .hvg-pass-modal .d-flex {
+  display: flex !important;
+}
+#hvg_login_app .hvg-pass-modal .text-left {
+  text-align: left !important;
+}
+#hvg_login_app .hvg-pass-modal input[type=text] {
+  margin-bottom: 0;
+  background: #fff;
+}
+#hvg_login_app .hvg-pass-modal .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 !important;
+}
+#hvg_login_app .hvg-pass-modal .col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+#hvg_login_app .hvg-pass-modal .container-error {
+  width: 100%;
+  margin-top: 20px;
+}
+#hvg_login_app .hvg-pass-modal .container-error .icon-info {
+  text-align: center;
+  font-family: Roboto !important;
+  align-self: start;
+  margin-right: 10px;
+}
+#hvg_login_app .hvg-pass-modal .align-items-center {
+  align-items: center !important;
+}
+#hvg_login_app .hvg-pass-modal .col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  padding-right: 15px;
+}
+#hvg_login_app .hvg-pass-modal .pl-4,
+#hvg_login_app .hvg-pass-modal .px-4 {
+  padding-left: 1.5rem !important;
+}
+#hvg_login_app .hvg-pass-modal .p-0 {
+  padding: 0 !important;
+}
+#hvg_login_app .hvg-pass-modal .mb-2,
+#hvg_login_app .hvg-pass-modal .my-2 {
+  margin-bottom: 20px;
+}
+#hvg_login_app .hvg-pass-modal .mb-3,
+#hvg_login_app .hvg-pass-modal .my-3 {
+  margin-bottom: 1rem !important;
+}
+#hvg_login_app .hvg-pass-modal .mb-4,
+#hvg_login_app .hvg-pass-modal .my-4 {
+  margin-bottom: 1.5rem !important;
+}
+#hvg_login_app .hvg-pass-modal .h-100 {
+  height: 100% !important;
+}
+#hvg_login_app .hvg-pass-modal .h-auto {
+  height: auto !important;
+}
+#hvg_login_app .hvg-pass-modal .w-100 {
+  width: 100% !important;
+}
+#hvg_login_app .hvg-pass-modal .text-center {
+  text-align: center !important;
+}
+#hvg_login_app .hvg-pass-modal .login-buttons {
+  margin-bottom: 10px;
+}
+#hvg_login_app .hvg-pass-modal button {
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+#hvg_login_app .hvg-pass-modal button .social-icon-container-reg {
+  margin: 11px 15px;
+}
+#hvg_login_app .hvg-pass-modal button.button-light {
+  background: #E5E5E5;
+  color: black;
+}
+#hvg_login_app .hvg-pass-modal button.button-dark {
+  background: #414040;
+  color: white;
+}
+#hvg_login_app .hvg-pass-modal button:active {
+  background: transparent;
+  box-shadow: none;
+}
+#hvg_login_app .hvg-pass-modal button.custom-toggler .navbar-toggler-icon {
+  background: transparent url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDk1LjkgOTUuOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTUuOSA5NS45OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojRkZGRkZGO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNjIuOCw0OGwzMi41LTMyLjVjMC44LTAuOCwwLjgtMiwwLTIuOGwtMTItMTJDODMsMC4yLDgyLjQsMCw4MS45LDBjLTAuNSwwLTEsMC4yLTEuNCwwLjZMNDgsMzMuMUwxNS40LDAuNg0KCWMtMC44LTAuOC0yLjEtMC44LTIuOCwwbC0xMiwxMmMtMC44LDAuOC0wLjgsMiwwLDIuOEwzMy4xLDQ4TDAuNiw4MC41Yy0wLjgsMC44LTAuOCwyLDAsMi44bDEyLDEyYzAuNCwwLjQsMC45LDAuNiwxLjQsMC42DQoJczEtMC4yLDEuNC0wLjZMNDgsNjIuOGwzMi41LDMyLjVjMC40LDAuNCwwLjksMC42LDEuNCwwLjZjMC41LDAsMS0wLjIsMS40LTAuNmwxMi0xMmMwLjgtMC44LDAuOC0yLDAtMi44TDYyLjgsNDh6Ii8+DQo8L3N2Zz4NCg==") center center no-repeat;
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal.v--modal-overlay .v--modal-box.v--modal {
+  background: #1a1a1a;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .box-hvg-modal .page-title {
+  color: #fff;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .box-hvg-modal .help {
+  color: #fff;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .box-hvg-modal .link {
+  color: #fff;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .box-hvg-modal .custom-control-label {
+  color: #fff;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .box-hvg-modal .color-explanation {
+  color: #ffffff;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .box-hvg-modal .label {
+  color: #ffffff;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .container-error {
+  background: #a7676d;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .container-error .icon-info {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+body.settings-sepia #hvg_login_app .hvg-pass-modal .container-info .col-message[data-v-ccdd3880] {
+  color: #fff;
+}
