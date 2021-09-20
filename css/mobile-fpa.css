@@ -308,7 +308,7 @@ body.read-mode .grid-article.home-video-article {
   }
 }
 /*end 767*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .article-content p + .placeholder-ad {
     margin: 0 0 0 -20px;
     width: 100vw;
