@@ -511,6 +511,7 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 }
 .panelgap.leaderboard-1a {
   overflow: hidden;
+  margin: 0;
 }
 .boxheader-tipp .boxheader {
   background: #e1e1e1;
