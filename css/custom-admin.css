@@ -172,6 +172,13 @@ body.cmsadmin:not(.hvg-360) .hvg .body .ad-poc-admin {
   margin-left: 20px;
   margin-right: 20px;
 }
+body.cmsadmin:not(.hvg-360) .hvg .cimlap-konyvajanlo {
+  margin: 0 !important;
+}
+body.cmsadmin:not(.hvg-360) .hvg .ad-poc-admin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view {
   margin: 0;
   max-width: 100%;
