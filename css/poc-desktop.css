@@ -84,6 +84,9 @@ a.ad-poc-link {
   background: #fff;
   line-height: 20px;
 }
+body.settings-sepia .ad-poc {
+  background: #111;
+}
 body.settings-sepia .ad-poc a.caption {
   background: #111;
 }
