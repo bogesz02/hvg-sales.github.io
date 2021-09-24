@@ -8,6 +8,9 @@
   display: flex;
   flex-direction: column;
 }
+.ad-poc-admin {
+  margin-bottom: 20px;
+}
 .ad-poc-content {
   position: relative;
   padding: 20px;
