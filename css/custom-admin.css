@@ -168,10 +168,6 @@ body.cmsadmin:not(.hvg-360) .hvg .body .bc-box img {
 body.cmsadmin:not(.hvg-360) .hvg .body .main-table .newsletter-item .newsletter-item-td .newsletter-item-header .newsletter-header-td .hvg360-icon {
   display: inline-block;
 }
-body.cmsadmin:not(.hvg-360) .hvg .body .ad-poc-admin {
-  margin-left: 20px;
-  margin-right: 20px;
-}
 body.cmsadmin:not(.hvg-360) .hvg .cimlap-konyvajanlo {
   margin: 0 !important;
 }
