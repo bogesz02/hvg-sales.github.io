@@ -407,6 +407,19 @@ body:not(.main-page) .random-article-box-container .article-box-widget {
 .hirdetesfelho-wrapper .articlebox.hirdetesfelho-lista .articleitem:last-of-type {
   padding-bottom: 20px;
 }
+.cimlap-videok {
+  margin-left: 0;
+  margin-right: 0;
+}
+.cimlap-videok .cimlap-videok-article.big {
+  height: 510px;
+  width: 800px;
+  padding: 40px 0px 40px 40px;
+}
+.cimlap-videok .cimlap-videok-more {
+  width: 380px;
+  padding: 40px 40px 0px 0px;
+}
 .grid-layout .grid-item .articleitem {
   border-bottom: 1px solid #d8d8d8;
 }
