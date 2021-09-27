@@ -567,6 +567,9 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
   z-index: 2;
   margin: 0;
 }
+.boxheader-tipp .boxheader a.info:after {
+  display: none;
+}
 .boxheader-tipp .boxheader:before {
   position: absolute;
   content: '';
