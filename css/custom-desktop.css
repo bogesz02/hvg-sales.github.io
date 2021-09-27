@@ -398,6 +398,9 @@ body:not(.main-page) .random-article-box-container .article-box-widget {
 .articleitem + .boxheader .topborder {
   border-top: 0;
 }
+.articlebox article + .boxheader {
+  margin-top: -1px;
+}
 .hirdetesfelho-wrapper + .articlebox {
   margin-top: 20px;
 }
