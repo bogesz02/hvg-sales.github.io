@@ -396,11 +396,6 @@ body:not(.main-page) .random-article-box-container .article-box-widget {
 .grid-item.articlebox .articlebox article.articleitem.emphasized.featured {
   border-bottom: 0;
 }
-.articleitem + .boxheader {
-  margin-top: -1px;
-  z-index: 1;
-  position: relative;
-}
 .articleitem + .boxheader .topborder {
   border-top: 0;
 }
