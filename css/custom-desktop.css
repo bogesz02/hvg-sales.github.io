@@ -738,6 +738,9 @@ body.settings-sepia .cimlap-tematikus-szalag:empty {
 .articlelist-element img[src*="data:image/gif;base64"] {
   min-height: 110px;
 }
+.articlelist-element-wrap .big-pictured-article {
+  border-bottom: 0;
+}
 .articlelist-element-wrap .big-pictured-article img[src*="data:image/gif;base64"] {
   min-height: 230px;
 }
