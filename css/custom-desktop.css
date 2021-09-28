@@ -407,6 +407,16 @@ body:not(.main-page) .random-article-box-container .article-box-widget {
 .articlebox article + .boxheader {
   margin-top: -1px;
 }
+article.articleitem.big-pictured-article + .boxheader {
+  margin-top: 20px;
+}
+article.articleitem.big-pictured-article + .boxheader .topborder {
+  border-top: 1px solid #d8d8d8;
+}
+.grid-layout .grid-item .articleitem.big-pictured-article {
+  border-bottom: 0;
+  margin-top: -1px;
+}
 .hirdetesfelho-wrapper + .articlebox {
   margin-top: 20px;
 }
