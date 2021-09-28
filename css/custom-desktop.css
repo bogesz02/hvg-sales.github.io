@@ -255,6 +255,12 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .b
 .cimlap-grid.cimlap-grid-blog .cimlap-grid-elem.elem-580 .cimlap-big_square_article:hover a.img {
   transform: scale(1.1);
 }
+.cimlap-grid.home-pr-cikk-grid {
+  background: #f7f6f1;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 20px;
+}
 .cimlap-grid-elem.articlelist-element-wrap.articlebox.cimlap-tematikus-blokk-right article.articlelist-element:last-of-type {
   padding-bottom: 0;
 }
