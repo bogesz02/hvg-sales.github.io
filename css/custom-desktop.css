@@ -182,9 +182,6 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-375 .boxheader:first-of-
 body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-505 .boxheader:first-of-type {
   border-bottom: 1px solid #444;
 }
-.cimlap-grid .cimlap-grid-elem.elem-1180.articlebox {
-  margin-bottom: 0;
-}
 .cimlap-grid .cimlap-grid-elem.elem-380 .articlelist-element-wrap .articlelist-element:last-of-type {
   padding-bottom: 0;
 }
@@ -254,12 +251,6 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .b
 }
 .cimlap-grid.cimlap-grid-blog .cimlap-grid-elem.elem-580 .cimlap-big_square_article:hover a.img {
   transform: scale(1.1);
-}
-.cimlap-grid.home-pr-cikk-grid {
-  background: #ffffff;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0 20px;
 }
 .adtype-interstellar .goAdverticum img {
   position: relative;
