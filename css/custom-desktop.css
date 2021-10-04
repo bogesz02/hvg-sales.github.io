@@ -261,6 +261,9 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .b
   margin-right: 0;
   padding: 0 20px;
 }
+.adtype-interstellar .goAdverticum img {
+  position: relative;
+}
 .cimlap-grid-elem.articlelist-element-wrap.articlebox.cimlap-tematikus-blokk-right article.articlelist-element:last-of-type {
   padding-bottom: 0;
 }
