@@ -7,6 +7,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 .ad-poc-admin {
   margin-bottom: 20px;
@@ -83,6 +85,14 @@ a.ad-poc-link {
   margin-top: auto;
   background: #fff;
   line-height: 20px;
+  font-size: 8px;
+  font-family: Arial;
+  color: #8f8f8f !important;
+  display: block;
+  text-align: center;
+}
+.ad-poc .caption:after {
+  content: "hirdetés";
 }
 body.settings-sepia .ad-poc {
   background: #111;
