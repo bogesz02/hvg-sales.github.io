@@ -85,6 +85,7 @@ a.ad-poc-link {
   margin: 5px 0 0;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: 'Arial', sans-serif;
 }
 .ad-poc .caption:after {
   content: "Hirdetés";
