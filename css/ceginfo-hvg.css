@@ -61,3 +61,6 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+body.settings-sepia .ceginformacio-gold-rated-companies .ul-companies li a {
+  color: #fff;
+}
