@@ -64,3 +64,6 @@ body {
 body.settings-sepia .ceginformacio-gold-rated-companies .ul-companies li a {
   color: #fff;
 }
+body.settings-sepia .ceginformacio-gold-rated-companies {
+  border-top: 1px solid #444444;
+}
