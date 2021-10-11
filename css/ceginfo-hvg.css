@@ -61,9 +61,9 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-body.settings-sepia .ceginformacio-gold-rated-companies .ul-companies li a {
+body.settings-sepia .ceginformacio-gold-rated-companies-widget-io iframe .ceginformacio-gold-rated-companies .ul-companies li a {
   color: #fff;
 }
-body.settings-sepia .ceginformacio-gold-rated-companies {
+body.settings-sepia .ceginformacio-gold-rated-companies-widget-io iframe .ceginformacio-gold-rated-companies {
   border-top: 1px solid #444444;
 }
