@@ -803,3 +803,10 @@ body.settings-sepia .cimlap-tematikus-szalag:empty {
     animation-fill-mode: none;
   }
 }
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance:none) {
+    .main-tag-container .main-tag .main-tag-follow {
+      padding-top: 4px;
+    }
+  }
+}

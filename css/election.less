@@ -1,0 +1,229 @@
+.ov-election .row {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.ov-election .col-xs-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.party-box {
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0;
+    background-color: #f1f1f1; /*#ebd0ba;  green: #3aa490  orange: #f4971d  #f68f09 default: #f2d6cc*/
+    box-shadow: inset 0px -11px 8px -10px rgb(0 0 0 / 10%);
+}
+.party-box h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f1f1f;
+    padding: 20px 10px 0 10px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: -10px;
+}
+.party-box h4 {
+    font-size: 20px;
+}
+
+.party-box img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.party-box .article-header {
+    display: flex;
+    align-items: center;
+    margin: 0 0 60px 0;
+}
+
+.party-box .article-header h2 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 20px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #e7e5db;
+    font-size: 24px;
+}
+
+
+
+.party-rounded {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) -3px 2px 6px;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border: 4px solid #fff;
+    position: relative;
+    background-color: #bfbebe;
+    background-image: url(https://hvg.hu/Content/redesign/i/hvg-hu-logo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.article-party-content p {
+    text-align: center;
+    color: #1f1f1f;
+    margin: 6px 0px 0 0;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.article-party-content p span {
+    font-weight: bold;
+
+}
+
+.article-party-content ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.article-party-content ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 15px;
+    align-items: center;
+    min-height: 100px;
+    flex: 1 0 50%;
+    max-width: 50%;
+    width: 50%;
+}
+.article-party-content ul li:first-child{
+    text-align:right;
+    justify-content: flex-end;
+}
+
+.article-party-content ul li:first-child .party-rounded {
+    order: 2;
+}
+
+.article-party-content ul li:before {
+    display: none;
+}
+
+.article-party-content ul li h4 {
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-weight: normal;
+    color: #1f1f1f;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 22px;
+}
+
+.article-party-content ul li h4 span {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 28px;
+}
+
+.article-party-content ul li h4.left {
+    padding: 0 20px 0 0;
+    font-weight: normal;
+}
+
+.article-party-content .party-candidates {
+    order: 1;
+    margin: 15px 0;
+    max-width: 100%;
+    .party-rounded {
+        width: 80px;
+        height: 80px;
+        border: 4px solid #fff;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .article-party-content .party-program {
+        padding: 0 0 0 15px;
+    }
+
+    .article-party-content ul li h4 {
+        margin: 10px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .party-box {
+        margin: 0;
+        box-shadow: 0 0 8px rgba(0,0,0,0.3) inset;
+    }
+    .party-box h3 {
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .article-party-content ul {
+        display: flex;
+        text-align: center;
+    }
+
+    .article-party-content ul li {
+        display: inline-block;
+    }
+    .article-party-content ul li{
+        flex: unset;
+        max-width: unset;
+        width: unset;
+    }
+    .article-party-content p {
+        margin: 10px 0 0 0;
+    }
+    .party-box {
+        margin: 0;
+        box-shadow: 0 0 8px rgba(0,0,0,0.3) inset;
+    }
+    .party-box h4 {
+        font-size: 16px;
+    }
+    .party-box h2 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .party-rounded {
+        display: block;
+        margin: 0 auto 8px;
+    }
+
+    .article-party-content ul li h4 {
+        padding: 0;
+        text-align: center;
+    }
+    .article-party-content ul li h4 span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .article-party-content ul li h4.left {
+        padding: 0;
+    }
+}
+
+.read-mode .party-box .article-header h2 {
+    background-color: #585856;
+}
+body.settings-sepia, body.read-mode {
+    .party-box {
+        background-color: #111111;
+        box-shadow: none;
+    }
+    .party-box h2, .article-party-content ul li h4, .article-party-content p {
+        color: #fff;
+    }
+}

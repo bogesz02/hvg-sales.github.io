@@ -1079,3 +1079,19 @@ body.settings-sepia {
         }
     }
 }
+
+//safari 10+ only css
+// @media not all and (min-resolution:.001dpcm) { @media {
+//         .main-tag-container .main-tag .main-tag-follow { 
+//             padding-top: 4px;
+//         }
+//     } 
+// }
+
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) { 
+        .main-tag-container .main-tag .main-tag-follow { 
+            padding-top: 4px;
+        }
+    } 
+}
