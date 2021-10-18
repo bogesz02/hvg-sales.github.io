@@ -610,6 +610,9 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 .cimlap-tematikus-blokk .content .boxheader-tipp {
   display: none !important;
 }
+.site-cimlap .articlebox .content + .boxheader {
+  margin-top: 20px;
+}
 body.settings-sepia .site-header-nav .nav-categories .category-sub {
   background-color: #333;
 }
