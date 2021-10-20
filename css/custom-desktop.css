@@ -811,5 +811,11 @@ body.settings-sepia .cimlap-tematikus-szalag:empty {
     .main-tag-container .main-tag .main-tag-follow {
       padding-top: 4px;
     }
+    .user-profile-page label.button-filter {
+      padding: 9px 10px;
+    }
+    .user-profile-page .button-filter.button-profile-mod {
+      padding: 9px 10px;
+    }
   }
 }
