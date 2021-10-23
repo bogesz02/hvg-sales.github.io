@@ -51,7 +51,7 @@ body {
   text-overflow: ellipsis;
   font-size: 16px;
   font-family: 'PT Sans', sans-serif;
-  color: #000;
+  color: #666;
   text-decoration: none;
 }
 .ceginformacio-gold-rated-companies .ul-companies li a span {
@@ -60,10 +60,4 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-body.settings-sepia .ceginformacio-gold-rated-companies-widget-io iframe#ceginformacio-gold-rated-companies-widget-io0 .ceginformacio-gold-rated-companies .ul-companies li a {
-  color: #fff;
-}
-body.settings-sepia .ceginformacio-gold-rated-companies-widget-io iframe#ceginformacio-gold-rated-companies-widget-io0 .ceginformacio-gold-rated-companies {
-  border-top: 1px solid #444444;
 }
