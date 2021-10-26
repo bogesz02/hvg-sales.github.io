@@ -27,22 +27,23 @@
 }
 .ad-poc-logo {
   width: auto;
-  height: 50px;
+  height: 50;
   background: transparent;
   z-index: 2;
   display: block;
-  margin-top: 20px;
+  margin-top: 0;
   position: relative;
+  padding-bottom: 22.6666%;
 }
 .ad-poc-logo img {
   width: auto;
-  height: 50px;
-  display: block;
+  height: 0;
   margin: 0 auto;
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .ad-poc-logo {
-    margin-top: 20px;
+    margin-top: 0;
   }
 }
 .ad-poc-video {
@@ -50,7 +51,7 @@
   position: relative;
   z-index: 4;
   height: 0;
-  margin-top: 20px;
+  margin-top: 0;
 }
 .ad-poc-bg {
   /* 768x768*/
