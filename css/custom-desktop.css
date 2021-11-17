@@ -390,6 +390,9 @@ body:not(.main-page) .random-article-box-container .article-box-widget {
 .grid-item.articlebox .articlebox article.articleitem.emphasized.featured {
   border-bottom: 0;
 }
+.articlelist-element-wrap .articlelist-element + .boxheader {
+  margin-top: -1px;
+}
 article.articleitem.big-pictured-article + .boxheader {
   margin-top: 20px;
 }
