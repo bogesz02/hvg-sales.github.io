@@ -136,6 +136,13 @@ body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper 
 body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .articlebox .articleitem.big-pictured-article {
   padding-bottom: 0;
 }
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid .cimlap-grid-elem.elem-805 .container-droppzone-empty.container-droppzone-flagged,
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid .cimlap-grid-elem.elem-675 .container-droppzone-empty.container-droppzone-flagged,
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid .cimlap-grid-elem.elem-375 .container-droppzone-empty.container-droppzone-flagged,
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid .cimlap-grid-elem.elem-505 .container-droppzone-empty.container-droppzone-flagged {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
 body.cmsadmin:not(.hvg-360) .hvg .body .blog-icon {
   border-radius: 0;
   background: #e25900 !important;
