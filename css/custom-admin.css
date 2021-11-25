@@ -135,6 +135,7 @@ body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper 
 }
 body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .articlebox .articleitem.big-pictured-article {
   padding-bottom: 0 !important;
+  padding-top: 0;
 }
 body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid .cimlap-grid-elem.elem-805 .container-droppzone-empty.container-droppzone-flagged,
 body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid .cimlap-grid-elem.elem-675 .container-droppzone-empty.container-droppzone-flagged,
