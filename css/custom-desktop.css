@@ -69,6 +69,8 @@ body:not(.main-page) .container .column-articlelist .adsbygoogle ins[id*="aswift
 body:not(.main-page) .container .column-articlelist .adsbygoogle,
 body:not(.main-page) .container .column-articlelist div[data-google-query-id] {
   padding-right: 0;
+  padding-left: 0;
+  margin-left: 40px;
 }
 body:not(.main-page) .container .cimlap-grid .dark {
   padding-bottom: 0;
