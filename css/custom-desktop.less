@@ -70,8 +70,15 @@ body:not(.main-page) {
     section.cimlap-dhvg {
         display: none !important;
     }
-    .container .column-articlelist .adsbygoogle ins[id*="aswift"] ins[id*="aswift"] iframe[id*="aswift"] {
-        width: 720px !important;
+    .container .column-articlelist {
+        .adsbygoogle ins[id*="aswift"] ins[id*="aswift"] iframe[id*="aswift"] {
+            width: 720px !important;
+        }
+    
+        .adsbygoogle, div[data-google-query-id] {
+            padding-right: 0;
+            padding-left: 0;
+        }
     }
 }
 
