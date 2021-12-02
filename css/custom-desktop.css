@@ -602,9 +602,14 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
 }
 .cimlap-tematikus-szalag {
   display: flex;
+  position: relative;
+  margin-bottom: 0;
 }
 .cimlap-tematikus-szalag:empty {
   margin-bottom: 0;
+}
+.cimlap-grid.panelgap.cimlap-tematikus-blokk {
+  padding-top: 20px;
 }
 .cimlap-tematikus-blokk .content .boxheader-tipp {
   display: none !important;
