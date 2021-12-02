@@ -320,6 +320,11 @@ body:not(.main-page) .cimlap-tematikus-box .articlelist-element-wrap .articlelis
 body:not(.main-page) .cimlap-tematikus-box {
   position: relative;
 }
+.article-page .footer,
+.column-page .footer,
+body:not(.main-page) .footer {
+  position: relative;
+}
 .article-page .random-article-page-box,
 .column-page .random-article-page-box,
 body:not(.main-page) .random-article-page-box {
