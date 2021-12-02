@@ -449,6 +449,29 @@ body {
     }
 }
 
+// ad cikkek
+.grid-view .placeholder-ad {
+    padding: 20px 0;
+    + .placeholder-ad {
+        padding: 0;
+    }
+}
+.mobile-pr-article .grid-article {
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .article-content .mobile-pr-article {
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .article-content .mobile-pr-article {
+        margin: 0;
+    }
+}
+//
+
 @media screen and (max-width: 359px) {
     .adsense-dfp {
         margin: 20px 0 5px -20px;
