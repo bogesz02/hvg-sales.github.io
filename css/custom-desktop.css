@@ -63,11 +63,13 @@
 body:not(.main-page) section.cimlap-dhvg {
   display: none !important;
 }
+body:not(.main-page) .container .column-articlelist article {
+  padding: 20px 0;
+}
 body:not(.main-page) .container .column-articlelist .adsbygoogle,
 body:not(.main-page) .container .column-articlelist div[data-google-query-id] {
   padding-right: 0;
   padding-left: 0;
-  margin-left: 40px;
 }
 body:not(.main-page) .container .cimlap-grid .dark {
   padding-bottom: 0;
