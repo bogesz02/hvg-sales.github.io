@@ -38,7 +38,10 @@
   margin-right: 0;
 }
 .article-content .article-share_badges {
-  margin-left: 20px;
+  margin-left: 0;
+}
+.article-content .article-otherelements-container {
+  margin-left: 120px;
 }
 .article-content .article-body {
   margin-right: 0;
