@@ -1,3 +1,7 @@
+header.header .hvg-pass-modal .loader {
+  height: calc(100% - 50px);
+  margin-top: 50px;
+}
 .sidebar .profile-more-btn {
   float: left;
   width: 100%;

@@ -1,3 +1,7 @@
+header.site-header-holder .hvg-pass-modal .loader {
+  height: calc(100% - 60px);
+  margin-top: 60px;
+}
 .stretch-tv-wrapper {
   z-index: 11;
 }
