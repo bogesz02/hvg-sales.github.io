@@ -38,6 +38,11 @@ input[type=button].accordion-mobile-aszf {
     width: calc(100% - 60px);
   }
 }
+@media screen and (max-width: 767px) {
+  .article-content .placeholder-ad:first-child {
+    margin: 0 auto;
+  }
+}
 @media screen and (min-width: 992px) {
   body.article-page .main-tag-container {
     padding: 20px 0;
