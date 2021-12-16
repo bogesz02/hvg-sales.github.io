@@ -6,13 +6,13 @@ header.site-header-holder .hvg-pass-modal .loader {
     margin-top: 60px; 
 }
 
-.stretch-tv-wrapper { // solutionben >> sitebuild/HVGHU-5607-pt-doboz-automatikus-frissitese
+.stretch-tv-wrapper { // master
     z-index: 11;
     &.expand {
         z-index: 11;
     }
 }
-.scarab_banner_category {
+.scarab_banner_category { //master
     width: auto !important;
     height: auto !important;
 }
@@ -22,14 +22,14 @@ header.site-header-holder .hvg-pass-modal .loader {
 .mainpage-weatherbox {
     display: none;
 }
-.L-color_button:hover, .L-color_button:focus { // solutionben >> sitebuild/HVGHU-5607-pt-doboz-automatikus-frissitese
+.L-color_button:hover, .L-color_button:focus { // master
     background: #e25900;
     box-shadow: none;
 }
-.article-series__column-box { // solutionben >> sitebuild/HVGHU-5607-pt-doboz-automatikus-frissitese
+.article-series__column-box { // master
     border: 0;
 }
-.adtype-l-ribbon { // solutionben >> sitebuild/HVGHU-5607-pt-doboz-automatikus-frissitese
+.adtype-l-ribbon { // master
     max-height: 250px;
 }
 /* dark mode sponsor */
@@ -71,15 +71,15 @@ header.site-header-holder .hvg-pass-modal .loader {
     }
 }
 
-body:not(.main-page) {
-    section.cimlap-dhvg {
+body:not(.main-page) { //masterben
+    section.cimlap-dhvg { 
         display: none !important;
     }
     // rovatoldal lista
-    .container .column-articlelist article {
+    .container .column-articlelist article { 
         padding: 20px 0;
     }
-    .container .column-articlelist {
+    .container .column-articlelist { 
         .adsbygoogle, div[data-google-query-id] {
             padding-right: 0;
             padding-left: 0;
@@ -291,15 +291,9 @@ body:not(.main-page) {
             }
         }
     }
-    // &.home-pr-cikk-grid {
-    //     background: #ffffff;
-    //     margin-left: 0;
-    //     margin-right: 0;
-    //     padding: 0 20px;
-    // }
 }
 
-.adtype-interstellar.activated + .placeholder-ad {
+.adtype-interstellar.activated + .placeholder-ad { // masterben
     position: relative;
 }
 
@@ -480,22 +474,10 @@ body:not(.main-page) {
     margin-top: -1px;
 }
 
-// .articleitem + .boxheader {
-//     .topborder {
-//         border-top: 0;
-//     }
-// }
-// .articlebox article + .boxheader {
-//     margin-top: -1px;
-// }
-
 article {
     &.articleitem {
         &.big-pictured-article + .boxheader {
             margin-top: 20px;
-            // .topborder {
-            //     border-top: 1px solid #d8d8d8;
-            // }
         }
     }
 }
@@ -536,10 +518,6 @@ article {
 body.settings-sepia .cimlap-videok .cimlap-videok-more {
     padding: 0;
 }
-
-// aside .icon-article-series {
-//     color: #999;
-// }
 
 .grid-layout .grid-item .articleitem {
     border-bottom: 1px solid #d8d8d8;
@@ -809,9 +787,6 @@ body.settings-sepia .cimlap-videok .cimlap-videok-more {
 // }
 
 .cimlap-tematikus-szalag {
-    display: flex;
-    position: relative;
-    margin-bottom: 0;
     &:empty {
         margin-bottom: 0;
     }
@@ -946,8 +921,6 @@ body.settings-sepia {
     }
 
     .cimlap-tematikus-szalag {
-        height: 59px;
-        overflow: hidden;
         &:empty {
             height: 0;
         }

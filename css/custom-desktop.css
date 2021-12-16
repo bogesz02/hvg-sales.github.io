@@ -614,11 +614,6 @@ body.settings-sepia .grid-layout .grid-item .articleitem:last-of-type {
     top: -10px;
   }
 }
-.cimlap-tematikus-szalag {
-  display: flex;
-  position: relative;
-  margin-bottom: 0;
-}
 .cimlap-tematikus-szalag:empty {
   margin-bottom: 0;
 }
@@ -723,10 +718,6 @@ body.settings-sepia .boxheader-tipp .boxheader {
 }
 body.settings-sepia .boxheader-tipp .boxheader:before {
   background: #1a1a1a;
-}
-body.settings-sepia .cimlap-tematikus-szalag {
-  height: 59px;
-  overflow: hidden;
 }
 body.settings-sepia .cimlap-tematikus-szalag:empty {
   height: 0;
