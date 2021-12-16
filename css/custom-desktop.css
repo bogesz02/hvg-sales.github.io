@@ -1,3 +1,13 @@
+.alt-blck {
+  background: #fff;
+  padding: 5px 7px 0;
+}
+.alt-blck .jcfe {
+  display: none !important;
+}
+body.settings-sepia .alt-blck {
+  background: transparent;
+}
 header.site-header-holder .hvg-pass-modal .loader {
   height: calc(100% - 60px);
   margin-top: 60px;
