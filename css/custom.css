@@ -11,6 +11,10 @@
 body.read-mode .alt-blck div[class*="_title"] {
   color: #fff;
 }
+body.read-mode div[class*="_title"] {
+  font: bold 16px/22px Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+}
 header.header .hvg-pass-modal .loader {
   height: calc(100% - 50px);
   margin-top: 50px;
