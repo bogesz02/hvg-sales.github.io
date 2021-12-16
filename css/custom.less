@@ -1,5 +1,25 @@
 // customcss mobile
 
+.alt-blck {
+    .jcfe {
+        display: none !important;
+    }
+    div[class*="_title"] {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    div[class*="-ad-"] {
+        img {
+            display: none;
+        }
+    }
+    body.read-mode & {
+        div[class*="_title"] {
+            color: #fff;
+
+        }
+    }
+}
 //login modal mobile
 header.header .hvg-pass-modal .loader {
     height: calc(100% - 50px);

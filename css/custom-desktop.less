@@ -11,6 +11,33 @@
     body.settings-sepia & {
         background: transparent;
     }
+    div[class*="item_container"] a {
+        text-decoration: none !important;
+        overflow: hidden;
+
+        &:hover {
+            text-decoration: none !important;
+            border: 0;
+
+            // span[class*="_image"] {
+            //     transform: scale(1.1);
+            // }
+        }
+    }
+    // span[class*="_image"] {
+    //     transition: transform 1s linear,filter 1s linear;
+    // }
+
+    body.article-page .article-content & {
+        padding: 0;
+        div[class*="_list"] {
+            // div[class*="_item_container"] {
+            //     padding: 0;
+            //     width: 200px;
+            //     margin: 0 10px 10px;
+            // }
+        }
+    }
 }
 
 

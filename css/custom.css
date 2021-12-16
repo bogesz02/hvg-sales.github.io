@@ -1,3 +1,16 @@
+.alt-blck .jcfe {
+  display: none !important;
+}
+.alt-blck div[class*="_title"] {
+  font-size: 16px;
+  line-height: 22px;
+}
+.alt-blck div[class*="-ad-"] img {
+  display: none;
+}
+body.read-mode .alt-blck div[class*="_title"] {
+  color: #fff;
+}
 header.header .hvg-pass-modal .loader {
   height: calc(100% - 50px);
   margin-top: 50px;

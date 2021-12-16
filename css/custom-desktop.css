@@ -8,6 +8,17 @@
 body.settings-sepia .alt-blck {
   background: transparent;
 }
+.alt-blck div[class*="item_container"] a {
+  text-decoration: none !important;
+  overflow: hidden;
+}
+.alt-blck div[class*="item_container"] a:hover {
+  text-decoration: none !important;
+  border: 0;
+}
+body.article-page .article-content .alt-blck {
+  padding: 0;
+}
 header.site-header-holder .hvg-pass-modal .loader {
   height: calc(100% - 60px);
   margin-top: 60px;
