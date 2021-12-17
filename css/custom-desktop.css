@@ -20,7 +20,7 @@ body.settings-sepia .alt-blck {
 .alt-blck div[class*="_item_container"]:hover span[class*="_image"] {
   background-size: 110%;
 }
-.alt-blck div[class*="_item_container"] div[class*="_item"]:hover span[class*="_title_outer"] span[class*="_title"] {
+.alt-blck div[class*="_item_container"]:hover span[class*="_title_outer"] span[class*="_title"] {
   text-decoration: none !important;
 }
 body.article-page .article-content .alt-blck {
