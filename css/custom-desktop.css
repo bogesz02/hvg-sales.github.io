@@ -25,6 +25,7 @@ body.settings-sepia .alt-blck {
 }
 body.article-page .article-content .alt-blck {
   padding: 0;
+  margin-bottom: 20px;
 }
 body.article-page .article-content .alt-blck div[class*="_list"] {
   margin: 0;
