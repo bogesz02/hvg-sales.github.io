@@ -704,4 +704,15 @@
 <Photo></Photo>
 <IsActive>1</IsActive>
 </Expert>
+  <Expert>
+<Id>f6c32568-6ea8-4416-b2cf-42184ce3fe9d</Id>
+<Sid>99kGQuS2</Sid>
+<Name>Greff Magdolna</Name>
+<Title>okleveles adószakértő</Title>
+<ArticleId>c76211f4-4005-4135-8241-254cf6402ac7</ArticleId>
+<Company>Finacont Kft</Company>
+<Description></Description>
+<Photo></Photo>
+<IsActive>1</IsActive>
+</Expert>
 </root>
