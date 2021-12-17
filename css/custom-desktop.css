@@ -12,24 +12,27 @@ body.settings-sepia .alt-blck {
   background: transparent;
 }
 .alt-blck div[class*="item_container"] a {
-  text-decoration: none !important;
   overflow: hidden;
 }
-.alt-blck div[class*="item_container"] a:hover {
+.alt-blck div[class*="item_container"] a:hover div[class*="_title"] {
   text-decoration: none !important;
-  border: 0;
 }
 body.article-page .article-content .alt-blck {
   padding: 0;
 }
+body.article-page .article-content .alt-blck div[class*="_list"] {
+  margin: 0;
+}
 body.article-page .article-content .alt-blck div[class*="_item_container"] {
-  padding: 0 10px;
+  padding: 0;
+  margin: 0 10px;
+  width: 200px;
 }
 body.article-page .article-content .alt-blck div[class*="_item_container"]:nth-child(3n-2) {
-  padding-left: 0;
+  margin-left: 0;
 }
 body.article-page .article-content .alt-blck div[class*="_item_container"]:nth-child(3n) {
-  padding-right: 0;
+  margin-right: 0;
 }
 header.site-header-holder .hvg-pass-modal .loader {
   height: calc(100% - 60px);
@@ -749,6 +752,9 @@ body.settings-sepia .boxheader-tipp .boxheader:before {
 }
 body.settings-sepia .cimlap-tematikus-szalag:empty {
   height: 0;
+}
+body.settings-sepia .random-article-page-box .article-page-widget .bch .bch-title {
+  color: #fff;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (orientation: portrait) {
   .site-header-nav .nav-categories .category-button {
