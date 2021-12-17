@@ -715,4 +715,15 @@
 <Photo></Photo>
 <IsActive>1</IsActive>
 </Expert>
+  <Expert>
+<Id>47fb7680-5cee-4995-a50d-8d0a54bb965a</Id>
+<Sid>4DA6FDB2</Sid>
+<Name>Kis Gábor</Name>
+<Title>számviteli és adótanácsadás</Title>
+<ArticleId>87f7714a-5ad6-463b-88a3-03616b08f08c</ArticleId>
+<Company>Finacont Kft</Company>
+<Description></Description>
+<Photo></Photo>
+<IsActive>1</IsActive>
+</Expert>
 </root>
