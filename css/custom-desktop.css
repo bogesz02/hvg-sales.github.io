@@ -2,22 +2,25 @@
   background: #fff;
   padding: 5px 7px 0;
 }
+body.settings-sepia .alt-blck {
+  background: transparent;
+}
 .alt-blck .jcfe {
   display: none !important;
 }
 .alt-blck div[class*="-ad-"] {
   display: none;
 }
-body.settings-sepia .alt-blck {
-  background: transparent;
-}
-.alt-blck div[class*="item_container"] div[class*="_item"]:hover span[class*="_title_outer"] span[class*="_title"] {
-  text-decoration: none !important;
-}
-.alt-blck div[class*="item_container"] a {
+.alt-blck div[class*="_item_container"] span[class*="_image"] {
+  padding-top: 147px;
+  background-size: 100%;
   overflow: hidden;
+  transition: background-size 1s linear;
 }
-.alt-blck div[class*="item_container"] a:hover span[class*="_title_outer"] span[class*="_title"] {
+.alt-blck div[class*="_item_container"]:hover span[class*="_image"] {
+  background-size: 110%;
+}
+.alt-blck div[class*="_item_container"] div[class*="_item"]:hover span[class*="_title_outer"] span[class*="_title"] {
   text-decoration: none !important;
 }
 body.article-page .article-content .alt-blck {
