@@ -15,7 +15,7 @@ body.settings-sepia .alt-blck {
   padding-top: 147px;
   background-size: 100%;
   overflow: hidden;
-  transition: background-size 1s linear;
+  transition: all 1s linear;
 }
 .alt-blck div[class*="_item_container"]:hover span[class*="_image"] {
   background-size: 110%;
