@@ -14,19 +14,33 @@
     body.settings-sepia & {
         background: transparent;
     }
-    div[class*="item_container"] a {
-        overflow: hidden;
-
-        &:hover {
-            div[class*="_title"] {
-                text-decoration: none !important;
+    div[class*="item_container"] {
+        div[class*="_item"] {
+            &:hover {
+                div[class*="_title_outer"] {
+                    div[class*="_title"] {
+                        text-decoration: none !important;
+                    }
+                }
             }
+        }
+        a {
+            overflow: hidden;
+            &:hover {
+                div[class*="_title_outer"] {
+                    div[class*="_title"] {
+                        text-decoration: none !important;
+                    }
+                }
 
-            // span[class*="_image"] {
-            //     transform: scale(1.1);
-            // }
+                // span[class*="_image"] {
+                //     transform: scale(1.1);
+                // }
+            }
         }
     }
+
+
 
     // span[class*="_image"] {
     //     transition: transform 1s linear,filter 1s linear;

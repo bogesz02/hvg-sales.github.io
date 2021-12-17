@@ -11,10 +11,13 @@
 body.settings-sepia .alt-blck {
   background: transparent;
 }
+.alt-blck div[class*="item_container"] div[class*="_item"]:hover div[class*="_title_outer"] div[class*="_title"] {
+  text-decoration: none !important;
+}
 .alt-blck div[class*="item_container"] a {
   overflow: hidden;
 }
-.alt-blck div[class*="item_container"] a:hover div[class*="_title"] {
+.alt-blck div[class*="item_container"] a:hover div[class*="_title_outer"] div[class*="_title"] {
   text-decoration: none !important;
 }
 body.article-page .article-content .alt-blck {
