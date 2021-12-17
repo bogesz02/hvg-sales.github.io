@@ -5,9 +5,6 @@
 body.settings-sepia .alt-blck {
   background: transparent;
 }
-.alt-blck .jcfe {
-  display: none !important;
-}
 .alt-blck div[class*="-ad-"] {
   display: none;
 }
