@@ -5,6 +5,9 @@
 .alt-blck .jcfe {
   display: none !important;
 }
+.alt-blck div[class*="-ad-"] {
+  display: none;
+}
 body.settings-sepia .alt-blck {
   background: transparent;
 }
@@ -18,6 +21,9 @@ body.settings-sepia .alt-blck {
 }
 body.article-page .article-content .alt-blck {
   padding: 0;
+}
+body.article-page .article-content .alt-blck div[class*="_item_container"] {
+  padding: 0 10px;
 }
 header.site-header-holder .hvg-pass-modal .loader {
   height: calc(100% - 60px);

@@ -7,6 +7,9 @@
     .jcfe {
         display: none !important;
     }
+    div[class*="-ad-"] {
+        display: none;
+    }
 
     body.settings-sepia & {
         background: transparent;
@@ -36,6 +39,12 @@
             //     width: 200px;
             //     margin: 0 10px 10px;
             // }
+        }
+        div[class*="_item_container"] {
+            padding: 0 10px;
+        }
+        div[class*="_item_container"]:nth-child(2n-1) {
+
         }
     }
 }

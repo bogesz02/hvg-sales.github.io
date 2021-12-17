@@ -5,11 +5,8 @@
   font-size: 16px;
   line-height: 22px;
 }
-.alt-blck div[class*="-ad-"] img {
+.alt-blck div[class*="-ad-"] {
   display: none;
-}
-body.read-mode .alt-blck div[class*="_title"] {
-  color: #fff;
 }
 body.read-mode .alt-blck div[class*="_title"] {
   font: bold 16px/22px Arial, "Helvetica Neue", Helvetica, sans-serif;
