@@ -4,9 +4,13 @@
     .jcfe {
         display: none !important;
     }
-    div[class*="_title"] {
-        font-size: 16px;
-        line-height: 22px;
+    div[class*="item_container"] {
+        div[class*="_title_outer"] { 
+            div[class*="_title"] {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
     }
     div[class*="-ad-"] {
         display: none;
