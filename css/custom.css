@@ -17,6 +17,24 @@
 body.read-mode .alt-blck div[class*="item_container"] span[class*="_title_outer"] span[class*="_title"] {
   color: #fff;
 }
+.article-view-wrap .tags {
+  margin: 0 0 10px 0;
+}
+.article-view-wrap .article-content a.more.js-more-tag {
+  align-items: center;
+  background-position-y: 1060px;
+  height: 32px;
+  opacity: 1;
+}
+.article-view-wrap .article-content a.more.js-more-tag:before {
+  content: 'további cimkék';
+  color: #888;
+  font-size: 14px;
+  opacity: 0;
+}
+.article-view-wrap .article-content a.more.js-more-tag.active {
+  opacity: 0.6;
+}
 header.header .hvg-pass-modal .loader {
   height: calc(100% - 50px);
   margin-top: 50px;
